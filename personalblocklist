@@ -1,0 +1,175 @@
+! Title: Mateo Grgic's Personal Filterlist 
+! Description: Personal strict filterlist
+! Expires: 1 Day 
+! Last modified: November 18, 2024 @ 5:25 PM 
+
+
+! duckduckgo visual annoyances filter list
+duckduckgo.com##.has-two-items.grid-2-cols.has-grid.bing.has-main-source.js-module--autoads.module--carousel-autoads.module--carousel.module
+duckduckgo.com##.js-feedback-start.feedback-btn__send
+duckduckgo.com##.js-feedback-btn-wrap
+duckduckgo.com##.footer
+duckduckgo.com##.NCwWYRkAos7ntUjEoEWk.wbUB0U7KMDyukXtzMd8Y > span > .feedback-prompt > .js-feedback-prompt-generic.feedback-prompt__link
+duckduckgo.com##.ofDl_1VxUG_EKc3b9E3x.XvPRmQVeIoCP5lQhICTv
+duckduckgo.com##.yjuFYcjOI844d3KiuLhz.nOpYdHAdSD_d47TfU1p8.KE_4ibtn0WI3iUo6lJw9 > .UWzy821Y58lvrLxQ7fnz
+duckduckgo.com##li:nth-of-type(6) > .d26Geqs1C__RaCO7MUs2.wZ4JdaHxSAhGy1HoNVja.kFFXe30DOpq5j1hbWU1q
+duckduckgo.com##li:nth-of-type(5) > .d26Geqs1C__RaCO7MUs2.wZ4JdaHxSAhGy1HoNVja.kFFXe30DOpq5j1hbWU1q
+duckduckgo.com##li:nth-of-type(4) > .d26Geqs1C__RaCO7MUs2.wZ4JdaHxSAhGy1HoNVja.kFFXe30DOpq5j1hbWU1q
+duckduckgo.com##li:nth-of-type(3) > .d26Geqs1C__RaCO7MUs2.wZ4JdaHxSAhGy1HoNVja.kFFXe30DOpq5j1hbWU1q
+duckduckgo.com###links > .results--ads
+duckduckgo.com##.kYheVVecSlvJdWHcWzJs.hF7w5TROgutbYQwHzEf_.MQCbz04ET5EljRmK3YpQ.ffON2NH02oMAcqyoh2UU.YZxymVMEkIDA0nZSt_Pm.uuIDnYC4qmyFk5dsXOhr.cxQwADb9kt3UnKwcXKat
+duckduckgo.com##.js-side-menu-open.header__button--menu
+duckduckgo.com##body > [href^="https://www.google.com/search"]
+duckduckgo.com##li:nth-of-type(7) > .d26Geqs1C__RaCO7MUs2.wZ4JdaHxSAhGy1HoNVja.kFFXe30DOpq5j1hbWU1q
+duckduckgo.com##.t-m.related-searches
+duckduckgo.com##.has-content-height.ia-module--definitions.module > .feedback-prompt > .js-feedback-prompt-generic.feedback-prompt__link
+duckduckgo.com##li.L6fj2A3X2mfJl5kE8caF:nth-of-type(6)
+duckduckgo.com##.has-preview.js-module--news.module--carousel-news.module--carousel.module
+duckduckgo.com##.js-text-promo-link.header--text_promo--link.text_promo--link
+duckduckgo.com##.hoUWqHNnn8Kv_pLhPzPQ.wbUB0U7KMDyukXtzMd8Y > .AlPVsxUsFt3bnuOvg6hI.wZ4JdaHxSAhGy1HoNVja.ZvcE0ToM7Sfi6iwk7KiJ > .QLnrpZotv4aJbXfgALkx > span > .jEtSIrH8lHNhHno1Glvn
+
+! discord visual annoyances filter list
+discord.com##.scrollerBase_c49869.none_c49869.scroller_fea3ef > div.listItem_c96c45 > .listItemWrapper_dfb2f8
+discord.com##.footer_aa1bff > .listItem_c96c45 > .listItemWrapper_dfb2f8
+discord.com##.guildSeparator_d0c57e
+
+! amazon.ca visual annoyances filter list
+amazon.ca###nav-subnav
+amazon.ca###navbar > .nav-sprite
+amazon.ca##.navFooterDescLine.navFooterLinkLine.navFooterLine
+amazon.ca##.nav-sprite-v1.navLeftFooter
+
+! Some youtube.com things to hide
+youtube.com##.ytd-comment-view-model.style-scope > .ytd-menu-renderer.style-scope.dropdown-trigger
+youtube.com###button-shape > .yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
+youtube.com##.yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--text.yt-spec-button-shape-next > yt-touch-feedback-shape > .yt-spec-touch-feedback-shape--touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__fill
+youtube.com##.yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--text.yt-spec-button-shape-next > yt-touch-feedback-shape > .yt-spec-touch-feedback-shape--touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__stroke
+youtube.com##.yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--text.yt-spec-button-shape-next > yt-touch-feedback-shape > .yt-spec-touch-feedback-shape--touch-response.yt-spec-touch-feedback-shape
+youtube.com##.ytp-cairo-refresh-signature-moments .ytp-play-progress:style(background: #FF0000 !important;)
+youtube.com##ytd-thumbnail-overlay-resume-playback-renderer[enable-refresh-signature-moments-web] #progress.ytd-thumbnail-overlay-resume-playback-renderer:style(background: #FF0000 !important;)
+youtube.com##yt-page-navigation-progress[enable-refresh-signature-moments-web] #progress.yt-page-navigation-progress:style(background: #FF0000 !important;)
+www.youtube.com##.yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next > yt-touch-feedback-shape > .yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__fill
+www.youtube.com###voice-search-button > .ytd-masthead.style-scope
+www.youtube.com###flexible-item-buttons
+www.youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
+www.youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
+www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
+www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
+www.youtube.com##.ytd-mini-guide-entry-renderer.style-scope.yt-simple-endpoint
+www.youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
+
+! strict reading rules
+fanfiction.net###top
+fanfiction.net##.zmenu
+fanfiction.net##.icon-heart.pull-right.btn
+fanfiction.net###pre_story_links
+fanfiction.net##.h1.zone-name-title
+fanfiction.net##.spacer-top.spacer.core-msg
+
+! some reddit ease of use things
+reddit.com##[bundlename="nsfw_blocking_modal"]:remove()
+reddit.com##body:has(> shreddit-app > shreddit-async-loader[bundlename="app_selector"]):style(overflow: auto !important; pointer-events: auto !important;)
+reddit.com##shreddit-async-loader[bundlename="app_selector"]
+
+! make darkreader.org less ugly
+darkreader.org##darkreader-mobile-side
+darkreader.org##.page-grid-left > .ios__scroll-down.ios__show-up
+darkreader.org##.page-grid-side--visible.page-grid-side > .c-h
+darkreader.org##.page-grid-left > .ios__scroll-up.ios__show-up
+darkreader.org##.page-grid-content > darkreader-pay-tiers
+darkreader.org##.page-grid-inside > darkreader-pay-tiers
+darkreader.org##.v2-help-banners
+darkreader.org##.page-grid-left > .ios__show-up
+
+! Adblocker nags on random chemestry website
+www.webqc.org##.center > div:nth-of-type(2)
+www.webqc.org##body > .noprint
+
+! Sketcher.ca block thing
+www.skechers.ca##.banner-interrumpter.px-lg-3.mb-lg-4.mb-md-1.mb-2.col-12
+
+!list of 'important' ads and trackers to block
+google-analytics.com$important
+googlesyndication.com$important
+doubleclick.net$important
+truehits.net$important
+truehits.in.th$important
+tripadvisor.com$important
+taboola.com$important
+imprezzer.com$important
+ufabet678.com$important
+magsrv.com$important
+$removeparam=si
+menrealitycalc.com$important
+free4u.nurul-huda.or.id$important
+rotator.nurul-huda.sch.id$important
+advertising.apple.com$important
+iadsdk.apple.com$important
+metrics.icloud.com$important
+metrics.mzstatic.com$important
+api-adservices.apple.com$important
+books-analytics-events.apple.com$important
+weather-analytics-events.apple.com$important
+fingerprint.com$important
+notes-analytics-events.apple.com$important
+api.ad.xiaomi.com$important
+data.mistat.xiaomi.com$important
+data.mistat.india.xiaomi.com$important
+data.mistat.rus.xiaomi.com$important
+sdkconfig.ad.xiaomi.com$important
+sdkconfig.ad.intl.xiaomi.com$important
+tracking.rus.miui.com$important
+auction.unityads.unity3d.com$important
+webview.unityads.unity3d.com$important
+config.unityads.unity3d.com$important
+adserver.unityads.unity3d.com$important
+events.reddit.com$important
+events.redditmedia.com$important
+ads-api.tiktok.com$important
+analytics.tiktok.com$important
+ads-sg.tiktok.com$important
+analytics-sg.tiktok.com$important
+business-api.tiktok.com$important
+ads.tiktok.com$important
+log.byteoversea.com$important
+ads.youtube.com$important
+notify.bugsnag.com$important
+sessions.bugsnag.com$important
+api.bugsnag.com$important
+app.bugsnag.com$important
+adtago.s3.amazonaws.com$important
+analyticsengine.s3.amazonaws.com$important
+analytics.s3.amazonaws.com$important
+advice-ads.s3.amazonaws.com$important
+advertising-api-eu.amazon.com$important
+ads.js$important
+pagead.js$important
+ree4u.nurul-huda.or.id$important
+rotator.nurul-huda.sch.id$important
+mail-ads.google.com$important
+smetrics.samsung.com$important
+log.fc.yahoo.com$important
+http://ads-api.twitter.com/$important
+metrika.yandex.ru$important
+analytics.google.com$important
+stats.wp.com$important
+ads.pinterest.com$important
+trk.pinterest.com$important
+analytics.pinterest.com$important
+log.pinterest.com$important
+adfstat.yandex.ru$important
+appmetrica.yandex.ru$important
+udc.yahoo.com$important
+udcm.yahoo.com$important
+analytics.query.yahoo.com$important
+geo.yahoo.com$important
+log.fc.yahoo.com$important
+bugsnag.com$important
+fonts.googleapis.com/$important
+vf.startpage.com$important
+/pagead.js$domain=d3ward.github.io
+/widget/ads.$important
+ads-api.twitter.com#$important
+x.com$important
+twitter.com$important
+
