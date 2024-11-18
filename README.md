@@ -1,2 +1,2 @@
-# firefox.settings
-This is all of my firefox settings 
+# personal filter lists
+these are my personal ublock origin filter lists 
