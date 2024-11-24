@@ -3,7 +3,6 @@
 ! Expires: 1 Day 
 ! Last modified: November 18, 2024 @ 5:25 PM 
 
-
 ! duckduckgo visual annoyances filter list
 duckduckgo.com##.has-two-items.grid-2-cols.has-grid.bing.has-main-source.js-module--autoads.module--carousel-autoads.module--carousel.module
 duckduckgo.com##.js-feedback-start.feedback-btn__send
@@ -27,11 +26,14 @@ duckduckgo.com##li.L6fj2A3X2mfJl5kE8caF:nth-of-type(6)
 duckduckgo.com##.has-preview.js-module--news.module--carousel-news.module--carousel.module
 duckduckgo.com##.js-text-promo-link.header--text_promo--link.text_promo--link
 duckduckgo.com##.hoUWqHNnn8Kv_pLhPzPQ.wbUB0U7KMDyukXtzMd8Y > .AlPVsxUsFt3bnuOvg6hI.wZ4JdaHxSAhGy1HoNVja.ZvcE0ToM7Sfi6iwk7KiJ > .QLnrpZotv4aJbXfgALkx > span > .jEtSIrH8lHNhHno1Glvn
+duckduckgo.com##.AlPVsxUsFt3bnuOvg6hI.wZ4JdaHxSAhGy1HoNVja.ZvcE0ToM7Sfi6iwk7KiJ
+duckduckgo.com##.react-feedback-prompt-mvc-wrapper--news.react-feedback-prompt-mvc-wrapper > .AlPVsxUsFt3bnuOvg6hI.wZ4JdaHxSAhGy1HoNVja.ZvcE0ToM7Sfi6iwk7KiJ
 
 ! discord visual annoyances filter list
 discord.com##.scrollerBase_c49869.none_c49869.scroller_fea3ef > div.listItem_c96c45 > .listItemWrapper_dfb2f8
 discord.com##.footer_aa1bff > .listItem_c96c45 > .listItemWrapper_dfb2f8
 discord.com##.guildSeparator_d0c57e
+discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad > .linkButton_c91bad.interactive_c91bad.interactive_f5eb4b > .link_c91bad > .layout_ec8679.avatarWithText_c91bad
 
 ! amazon.ca visual annoyances filter list
 amazon.ca###nav-subnav
