@@ -2,7 +2,6 @@
 ! Description: Personal strict filterlist
 ! Expires: 1 Day 
 ! Last modified: November 18, 2024 @ 5:25 PM 
-
 ! My personal filterlist, rather strict, don't recomend using.
 
 ! duckduckgo visual annoyances filter list
@@ -30,6 +29,8 @@ duckduckgo.com##.js-text-promo-link.header--text_promo--link.text_promo--link
 duckduckgo.com##.hoUWqHNnn8Kv_pLhPzPQ.wbUB0U7KMDyukXtzMd8Y > .AlPVsxUsFt3bnuOvg6hI.wZ4JdaHxSAhGy1HoNVja.ZvcE0ToM7Sfi6iwk7KiJ > .QLnrpZotv4aJbXfgALkx > span > .jEtSIrH8lHNhHno1Glvn
 duckduckgo.com##.AlPVsxUsFt3bnuOvg6hI.wZ4JdaHxSAhGy1HoNVja.ZvcE0ToM7Sfi6iwk7KiJ
 duckduckgo.com##.react-feedback-prompt-mvc-wrapper--news.react-feedback-prompt-mvc-wrapper > .AlPVsxUsFt3bnuOvg6hI.wZ4JdaHxSAhGy1HoNVja.ZvcE0ToM7Sfi6iwk7KiJ
+duckduckgo.com##.d26Geqs1C__RaCO7MUs2.wZ4JdaHxSAhGy1HoNVja.ai-chat-pill-btn-in-header.xngNsKs5JnfVuVQQiOUs.VssOcyhy47YNtTsYTdr0.FjSJqhByQmoYMVscUoQe.Pd_jmhkZzftl0UtTaw0u
+duckduckgo.com##.AgRvhDZlpjWsRz4nVQDb.O9Ipab51rBntYb0pwOQn
 
 ! discord visual annoyances filter list
 discord.com##.scrollerBase_c49869.none_c49869.scroller_fea3ef > div.listItem_c96c45 > .listItemWrapper_dfb2f8
