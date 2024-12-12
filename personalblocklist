@@ -61,6 +61,8 @@ www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
 www.youtube.com##.ytd-mini-guide-entry-renderer.style-scope.yt-simple-endpoint
 www.youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
 www.youtube.com###content-wrapper
+www.youtube.com##.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next > yt-touch-feedback-shape > .yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__fill
+www.youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope > yt-button-shape
 
 ! strict reading rules
 fanfiction.net###top
@@ -112,6 +114,11 @@ mensa.ca##.fadeIn.animated.elementor-widget-text-editor.elementor-widget.animate
 
 ! remove siye banner
 www.siye.co.uk##body > table > tbody > tr:nth-of-type(1) > td > center
+
+
+! remove dontate banner on top of page (you should donate though)
+www.blender.org###dfrdb-container
+docs.blender.org###dfrdb-container
 
 !list of 'important' ads and trackers to block
 /widget/ads.$important
@@ -197,3 +204,5 @@ vf.startpage.com$important
 weather-analytics-events.apple.com$important
 webview.unityads.unity3d.com$important
 x.com$important
+
+
