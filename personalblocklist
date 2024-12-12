@@ -1,8 +1,6 @@
 ! Title: Mateo Grgic's Personal Filterlist 
-! Description: Personal strict filterlist
+! Description: My personal filterlist, rather strict, don't recomend using.
 ! Expires: 1 Day 
-! Last modified: November 18, 2024 @ 5:25 PM 
-! My personal filterlist, rather strict, don't recomend using.
 
 ! duckduckgo visual annoyances filter list
 duckduckgo.com##.has-two-items.grid-2-cols.has-grid.bing.has-main-source.js-module--autoads.module--carousel-autoads.module--carousel.module
@@ -86,6 +84,10 @@ darkreader.org##.page-grid-content > darkreader-pay-tiers
 darkreader.org##.page-grid-inside > darkreader-pay-tiers
 darkreader.org##.v2-help-banners
 darkreader.org##.page-grid-left > .ios__show-up
+darkreader.org##.page-grid-ios > .ios__scroll-down.ios__show-up
+darkreader.org##.page-grid-side
+darkreader.org##.page-grid-ios > .ios__scroll-up.ios__show-up
+darkreader.org##.ios__show-up
 
 ! Adblocker nags on random chemestry website
 www.webqc.org##.center > div:nth-of-type(2)
@@ -98,6 +100,18 @@ www.skechers.ca##.banner-interrumpter.px-lg-3.mb-lg-4.mb-md-1.mb-2.col-12
 fictionhorizon.com##.slick-dcm > .cls-inserted.slick-inline-search-panel
 fictionhorizon.com##.slick-dcm
 fictionhorizon.com##.entry-content-wrap > .cls-inserted.slick-inline-search-panel
+
+! annoying element blocker on cycling website
+velo.outsideonline.com##.tm-c-tooltip
+
+! Some wikipeida misc element blocking
+en.wikipedia.org##.survey-content.message
+
+! remove stupid overlay that breaks the website
+mensa.ca##.fadeIn.animated.elementor-widget-text-editor.elementor-widget.animated-fast.elementor-element-88d4acb.elementor-element > .elementor-widget-container
+
+! remove siye banner
+www.siye.co.uk##body > table > tbody > tr:nth-of-type(1) > td > center
 
 !list of 'important' ads and trackers to block
 /widget/ads.$important
@@ -183,4 +197,3 @@ vf.startpage.com$important
 weather-analytics-events.apple.com$important
 webview.unityads.unity3d.com$important
 x.com$important
-
