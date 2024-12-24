@@ -31,6 +31,7 @@ duckduckgo.com##.d26Geqs1C__RaCO7MUs2.wZ4JdaHxSAhGy1HoNVja.ai-chat-pill-btn-in-h
 duckduckgo.com##.AgRvhDZlpjWsRz4nVQDb.O9Ipab51rBntYb0pwOQn
 duckduckgo.com##.WktWJWUFfihMbuzAEqk2.hUUdRtuaOUx7mcSwc56s.ffON2NH02oMAcqyoh2UU
 duckduckgo.com##.Eg9ZFCRxMWqHRzkCtewa.zBanFIEymeySULdnPIUg.O9Ipab51rBntYb0pwOQn
+duckduckgo.com##li.L6fj2A3X2mfJl5kE8caF:nth-of-type(3)
 
 ! discord visual annoyances filter list
 discord.com##.scrollerBase_c49869.none_c49869.scroller_fea3ef > div.listItem_c96c45 > .listItemWrapper_dfb2f8
@@ -66,7 +67,8 @@ www.youtube.com###content-wrapper
 www.youtube.com##.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next > yt-touch-feedback-shape > .yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__fill
 www.youtube.com##.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next > yt-touch-feedback-shape > .yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__stroke
 www.youtube.com##.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
-
+www.youtube.com###top-level-buttons-computed > yt-button-view-model.ytd-menu-renderer
+www.youtube.com###button-shape > .yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
 
 ! strict reading rules
 fanfiction.net###top
@@ -207,5 +209,4 @@ vf.startpage.com$important
 weather-analytics-events.apple.com$important
 webview.unityads.unity3d.com$important
 x.com$important
-
 
