@@ -69,6 +69,7 @@ www.youtube.com##.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-n
 www.youtube.com##.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
 www.youtube.com###top-level-buttons-computed > yt-button-view-model.ytd-menu-renderer
 www.youtube.com###button-shape > .yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
+www.youtube.com##.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled.yt-spec-button-shape-next
 
 ! strict reading rules
 fanfiction.net###top
@@ -209,4 +210,3 @@ vf.startpage.com$important
 weather-analytics-events.apple.com$important
 webview.unityads.unity3d.com$important
 x.com$important
-
