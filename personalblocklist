@@ -126,6 +126,22 @@ www.siye.co.uk##body > table > tbody > tr:nth-of-type(1) > td > center
 www.blender.org###dfrdb-container
 docs.blender.org###dfrdb-container
 
+! removes erroneous 'delay' to Canada that's been there since launch, and is false
+store.steampowered.com##.cart_item_desc_ext.orderdetails_shippingdelay
+
+! cleans up the merriam-webster website
+www.merriam-webster.com##.non-sticky.fixed-wrapper
+www.merriam-webster.com##.d-flex.flex-nowrap.flex-md-row.flex-xl-column.sidebar-padder
+www.merriam-webster.com##.p-0.order-lg-1.align-items-lg-center.justify-content-start.flex-lg-row.flex-column.d-flex.navigation-second-half
+www.merriam-webster.com##.additional-content-area
+www.merriam-webster.com##.footer-menu
+www.merriam-webster.com###left-content > .clearfix
+www.merriam-webster.com##.cafemedia-footer-foot.footer-oa.clearfix.footer-foot
+www.merriam-webster.com###definition-fixed-wrapper
+www.merriam-webster.com##.text-center.rounded.font-logo.est
+www.merriam-webster.com##.flex-shrink-0.flex-column.d-flex.sidebar-container
+www.merriam-webster.com##.position-relative.left-sidebar-col.g-0.col-2
+
 !list of 'important' ads and trackers to block
 /widget/ads.$important
 ads.js$important
