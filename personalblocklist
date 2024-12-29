@@ -2,7 +2,7 @@
 ! Description: My personal filterlist, rather strict, don't recomend using.
 ! Expires: 1 Day 
 
-! duckduckgo visual annoyances filter list
+! duckduckgo visual annoyances filter list. Cleans up the website, and removes ads and stuff. Removes things I don't want to see every time I search
 duckduckgo.com##.has-two-items.grid-2-cols.has-grid.bing.has-main-source.js-module--autoads.module--carousel-autoads.module--carousel.module
 duckduckgo.com##.js-feedback-start.feedback-btn__send
 duckduckgo.com##.js-feedback-btn-wrap
@@ -33,19 +33,19 @@ duckduckgo.com##.WktWJWUFfihMbuzAEqk2.hUUdRtuaOUx7mcSwc56s.ffON2NH02oMAcqyoh2UU
 duckduckgo.com##.Eg9ZFCRxMWqHRzkCtewa.zBanFIEymeySULdnPIUg.O9Ipab51rBntYb0pwOQn
 duckduckgo.com##li.L6fj2A3X2mfJl5kE8caF:nth-of-type(3)
 
-! discord visual annoyances filter list
+! discord visual annoyances filter list, these are probably out of date and don't really do anything anymore
 discord.com##.scrollerBase_c49869.none_c49869.scroller_fea3ef > div.listItem_c96c45 > .listItemWrapper_dfb2f8
 discord.com##.footer_aa1bff > .listItem_c96c45 > .listItemWrapper_dfb2f8
 discord.com##.guildSeparator_d0c57e
 discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad > .linkButton_c91bad.interactive_c91bad.interactive_f5eb4b > .link_c91bad > .layout_ec8679.avatarWithText_c91bad
 
-! amazon.ca visual annoyances filter list
+! amazon.ca visual annoyances filter list, to make the site look slightly nicer. It's still ugly, but there is only so much I can do.
 amazon.ca###nav-subnav
 amazon.ca###navbar > .nav-sprite
 amazon.ca##.navFooterDescLine.navFooterLinkLine.navFooterLine
 amazon.ca##.nav-sprite-v1.navLeftFooter
 
-! Some youtube.com things to hide
+! Some youtube.com things to hide, to make the website more usable. I use in conjuncture with yt-neuter nomusic, noshorts, and premium exclusion. 
 youtube.com##.ytd-comment-view-model.style-scope > .ytd-menu-renderer.style-scope.dropdown-trigger
 youtube.com###button-shape > .yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
 youtube.com##.yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--text.yt-spec-button-shape-next > yt-touch-feedback-shape > .yt-spec-touch-feedback-shape--touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__fill
@@ -71,7 +71,7 @@ www.youtube.com###top-level-buttons-computed > yt-button-view-model.ytd-menu-ren
 www.youtube.com###button-shape > .yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
 www.youtube.com##.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled.yt-spec-button-shape-next
 
-! strict reading rules
+! strict reading rules to make the website less obviously a fanfiction website 
 fanfiction.net###top
 fanfiction.net##.zmenu
 fanfiction.net##.icon-heart.pull-right.btn
@@ -98,28 +98,28 @@ darkreader.org##.page-grid-side
 darkreader.org##.page-grid-ios > .ios__scroll-up.ios__show-up
 darkreader.org##.ios__show-up
 
-! Adblocker nags on random chemestry website
+! Adblocker nags on random chemestry website, I will not be disabling my adblocker
 www.webqc.org##.center > div:nth-of-type(2)
 www.webqc.org##body > .noprint
 
-! Sketcher.ca block thing
+! shoe website block thing
 www.skechers.ca##.banner-interrumpter.px-lg-3.mb-lg-4.mb-md-1.mb-2.col-12
 
-! removing blank space on a random news website
+! removing blank space on a random news website. I never use this website, I only visited it once and decided to make it a little prettier
 fictionhorizon.com##.slick-dcm > .cls-inserted.slick-inline-search-panel
 fictionhorizon.com##.slick-dcm
 fictionhorizon.com##.entry-content-wrap > .cls-inserted.slick-inline-search-panel
 
-! annoying element blocker on cycling website
+! annoying element blocker on cycling website, I don't think this filter actually does anything though
 velo.outsideonline.com##.tm-c-tooltip
 
-! Some wikipeida misc element blocking
+! Some wikipeida misc element blocking (I do the survey)
 en.wikipedia.org##.survey-content.message
 
-! remove stupid overlay that breaks the website
+! remove stupid overlay that breaks the website. How smart are these people?
 mensa.ca##.fadeIn.animated.elementor-widget-text-editor.elementor-widget.animated-fast.elementor-element-88d4acb.elementor-element > .elementor-widget-container
 
-! remove siye banner
+! remove siye banner, to make reading the website in public less embarassing
 www.siye.co.uk##body > table > tbody > tr:nth-of-type(1) > td > center
 
 ! remove dontate banner on top of page (you should donate though)
@@ -129,7 +129,7 @@ docs.blender.org###dfrdb-container
 ! removes erroneous 'delay' to Canada that's been there since launch, and is false
 store.steampowered.com##.cart_item_desc_ext.orderdetails_shippingdelay
 
-! cleans up the merriam-webster website
+! cleans up the merriam-webster website, make it less ugly. Does remove some 'useful' things, but I generally like this look
 www.merriam-webster.com##.non-sticky.fixed-wrapper
 www.merriam-webster.com##.d-flex.flex-nowrap.flex-md-row.flex-xl-column.sidebar-padder
 www.merriam-webster.com##.p-0.order-lg-1.align-items-lg-center.justify-content-start.flex-lg-row.flex-column.d-flex.navigation-second-half
@@ -141,6 +141,14 @@ www.merriam-webster.com###definition-fixed-wrapper
 www.merriam-webster.com##.text-center.rounded.font-logo.est
 www.merriam-webster.com##.flex-shrink-0.flex-column.d-flex.sidebar-container
 www.merriam-webster.com##.position-relative.left-sidebar-col.g-0.col-2
+www.merriam-webster.com###related-articles > .content-section-with-header
+www.merriam-webster.com###related-articles
+www.merriam-webster.com###nearby-entries
+www.merriam-webster.com###citations
+www.merriam-webster.com##.more_defs.widget > .content-section-with-header.widget
+www.merriam-webster.com##.content-section-with-header.more-from.widget
+www.merriam-webster.com###anchor-seporator
+www.merriam-webster.com##.on-web
 
 !list of 'important' ads and trackers to block
 /widget/ads.$important
