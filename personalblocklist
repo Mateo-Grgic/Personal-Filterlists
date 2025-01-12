@@ -150,6 +150,9 @@ www.merriam-webster.com##.content-section-with-header.more-from.widget
 www.merriam-webster.com###anchor-seporator
 www.merriam-webster.com##.on-web
 
+! removes donation banner at top of page
+tcec-chess.com##.fastart.fbetween
+
 !list of 'important' ads and trackers to block
 /widget/ads.$important
 ads.js$important
@@ -234,3 +237,4 @@ vf.startpage.com$important
 weather-analytics-events.apple.com$important
 webview.unityads.unity3d.com$important
 x.com$important
+
