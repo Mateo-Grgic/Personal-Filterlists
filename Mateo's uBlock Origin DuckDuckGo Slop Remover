@@ -3,7 +3,6 @@
 ! ~~ ~~ ~~ ~~ !
 ! Source Links:
 ! raw.githubusercontent.com/HerXayah/ublacklist-ai/refs/heads/main/ublacklist-ai.txt
-! raw.githubusercontent.com/NotaInutilis/Super-SEO-Spam-Suppressor/main/ublacklist.txt
 ! raw.githubusercontent.com/elliotwutingfeng/SpamdexingSites/refs/heads/main/blocklist_UBL.txt
 ! aw.githubusercontent.com/ngoomie/uBlacklist-suspicious-downloads/main/list.txt
 ! raw.githubusercontent.com/arosh/ublacklist-github-translation/master/uBlacklist.txt 
@@ -16,3 +15,58 @@
 ! raw.githubusercontent.com/popcar2/BadWebsiteBlocklist/refs/heads/main/uBlacklist.txt
 ! ~~ ~~ ~~ ~~ !
 ! Example template: duckduckgo.com##[data-domain$=“example.com”]
+
+! From "raw.githubusercontent.com/HerXayah/ublacklist-ai/refs/heads/main/ublacklist-ai.txt"
+duckduckgo.com##[data-domain$="prompthunt.com"]
+duckduckgo.com##[data-domain$="tensor.art"]
+duckduckgo.com##[data-domain$="freepik.com"]
+duckduckgo.com##[data-domain$="craiyon.com"]
+duckduckgo.com##[data-domain$="pixai.art"]
+duckduckgo.com##[data-domain$="opendream.ai"]
+duckduckgo.com##[data-domain$="openart.ai"]
+duckduckgo.com##[data-domain$="creator.nightcafe.studio"]
+duckduckgo.com##[data-domain$="creativefabrica.com"]
+duckduckgo.com##[data-domain$="search.krea.ai"]
+duckduckgo.com##[data-domain$="wallpapers.ai"]
+duckduckgo.com##[data-domain$="vecteezy.com"]
+duckduckgo.com##[data-domain$="dreamstime.com"]
+duckduckgo.com##[data-domain$="shutterstock.com"]
+duckduckgo.com##[data-domain$="midjourney.com"]
+duckduckgo.com##[data-domain$="jasper.ai"]
+duckduckgo.com##[data-domain$="craiyon.com"]
+duckduckgo.com##[data-domain$="letsenhance.io"]
+duckduckgo.com##[data-domain$="shutterstock.com"]
+duckduckgo.com##[data-domain$="designs.ai"]
+duckduckgo.com##[data-domain$="runwayml.com"]
+duckduckgo.com##[data-domain$="getimg.ai"]
+duckduckgo.com##[data-domain$="starryai.com"]
+duckduckgo.com##[data-domain$="replicate.com"]
+duckduckgo.com##[data-domain$="deepai.org"]
+duckduckgo.com##[data-domain$="creator.nightcafe.studio"]
+duckduckgo.com##[data-domain$="beta.dreamstudio.ai"]
+duckduckgo.com##[data-domain$="stablecog.com"]
+duckduckgo.com##[data-domain$="deepfloyd.ai"]
+duckduckgo.com##[data-domain$="deepdreamgenerator.com"]
+duckduckgo.com##[data-domain$="live3d.io"]
+duckduckgo.com##[data-domain$="soulgen.ai"]
+duckduckgo.com##[data-domain$="zmo.ai"]
+duckduckgo.com##[data-domain$="picso.ai"]
+duckduckgo.com##[data-domain$="fotor.com"]
+duckduckgo.com##[data-domain$="getimg.ai"]
+duckduckgo.com##[data-domain$="pixai.art"]
+duckduckgo.com##[data-domain$="waifulabs.com"]
+duckduckgo.com##[data-domain$="simplified.com"]
+duckduckgo.com##[data-domain$="veed.io"]
+duckduckgo.com##[data-domain$="pfpmaker.com"]
+duckduckgo.com##[data-domain$="depositphotos.com"]
+duckduckgo.com##[data-domain$="timesnownews.com"]
+duckduckgo.com##[data-domain$="softonic.com"]
+duckduckgo.com##[data-domain$="prompthero.com"]
+duckduckgo.com##[data-domain$="artmajeur.com"]
+duckduckgo.com##[data-domain$="pixers.de"]
+duckduckgo.com##[data-domain$="pixers.com"]
+duckduckgo.com##[data-domain$="civitai.com"]
+duckduckgo.com##[data-domain$="2moonsai.com"]
+duckduckgo.com##[data-domain$="photoai.com"]
+duckduckgo.com##[data-domain$="seaart.ai"]
+
