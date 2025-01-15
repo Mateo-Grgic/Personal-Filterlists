@@ -1,0 +1,4 @@
+! Title: Mateo's uBlock Origin DuckDuckGo Slop Remover
+! These rules are mostly sourced from existing uBlacklist filters
+! Source Links:
+! Example template: duckduckgo.com##[data-domain$=“example.com”]
