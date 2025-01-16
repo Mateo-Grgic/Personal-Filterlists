@@ -38,6 +38,7 @@ discord.com##.scrollerBase_c49869.none_c49869.scroller_fea3ef > div.listItem_c96
 discord.com##.footer_aa1bff > .listItem_c96c45 > .listItemWrapper_dfb2f8
 discord.com##.guildSeparator_d0c57e
 discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad > .linkButton_c91bad.interactive_c91bad.interactive_f5eb4b > .link_c91bad > .layout_ec8679.avatarWithText_c91bad
+discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad > .linkButton_c91bad.interactive_c91bad.interactive_f5eb4b > .link_c91bad
 
 ! amazon.ca visual annoyances filter list, to make the site look slightly nicer. It's still ugly, but there is only so much I can do.
 amazon.ca###nav-subnav
@@ -153,6 +154,9 @@ www.merriam-webster.com##.on-web
 ! removes donation banner at top of page
 tcec-chess.com##.fastart.fbetween
 
+! template for removing links from apperaing in duckduckgo results
+! duckduckgo.*##li:has(a[href*="example.com"])
+
 !list of 'important' ads and trackers to block
 /widget/ads.$important
 ads.js$important
@@ -237,4 +241,3 @@ vf.startpage.com$important
 weather-analytics-events.apple.com$important
 webview.unityads.unity3d.com$important
 x.com$important
-
