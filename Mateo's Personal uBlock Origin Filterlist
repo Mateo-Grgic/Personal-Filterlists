@@ -1,6 +1,8 @@
 ! Title: Mateo Grgic's Personal Filterlist 
 ! Description: My personal filterlist, rather strict, don't recomend using.
 ! Expires: 1 Day 
+! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Mateo's%20Personal%20uBlock%20Origin%20Filterlist
+! Home: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
 
 ! duckduckgo visual annoyances filter list. Cleans up the website, and removes ads and stuff. Removes things I don't want to see every time I search
 duckduckgo.com##.has-two-items.grid-2-cols.has-grid.bing.has-main-source.js-module--autoads.module--carousel-autoads.module--carousel.module
