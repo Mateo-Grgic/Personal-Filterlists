@@ -37,6 +37,11 @@ duckduckgo.com##li.L6fj2A3X2mfJl5kE8caF:nth-of-type(3)
 duckduckgo.com##.module__content
 duckduckgo.com##.spread-cta--has-top-margin.ia-module--spread-cta.module
 duckduckgo.com##li.L6fj2A3X2mfJl5kE8caF:nth-of-type(1)
+duckduckgo.com##.gyDT4qronqJu4BgQBq2F
+duckduckgo.com##.dxX8MoSEf9ja3nCPB3bG
+duckduckgo.com##.qGu74QSLFYQRfeLvJRRc.yfJq_efWTV0OnUvNRg1f.nYs5EPJFwdhisN0E7MCB
+duckduckgo.com##.FTrf7TqAcfxxEQ_3nfUg
+duckduckgo.com##li.L6fj2A3X2mfJl5kE8caF:nth-of-type(2)
 
 ! discord visual annoyances filter list, these are probably out of date and don't really do anything anymore
 discord.com##.scrollerBase_c49869.none_c49869.scroller_fea3ef > div.listItem_c96c45 > .listItemWrapper_dfb2f8
@@ -242,3 +247,4 @@ ufabet678.com$important
 vf.startpage.com$important
 weather-analytics-events.apple.com$important
 webview.unityads.unity3d.com$important
+
