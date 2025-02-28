@@ -1,6 +1,6 @@
 ! Title: Mateo Grgic's Personal Filterlist 
-! Description: My personal filterlist, rather strict, don't recomend using.
-! Expires: 1 Day 
+! Description: My personal filterlist, rather strict, don't recomend using. I 'clean up' most websites I daily/regularaly visit.
+! Expires: 1 Day
 ! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Mateo's%20Personal%20uBlock%20Origin%20Filterlist
 ! Home: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
 
@@ -18,7 +18,6 @@ duckduckgo.com##li:nth-of-type(4) > .d26Geqs1C__RaCO7MUs2.wZ4JdaHxSAhGy1HoNVja.k
 duckduckgo.com##li:nth-of-type(3) > .d26Geqs1C__RaCO7MUs2.wZ4JdaHxSAhGy1HoNVja.kFFXe30DOpq5j1hbWU1q
 duckduckgo.com###links > .results--ads
 duckduckgo.com##.kYheVVecSlvJdWHcWzJs.hF7w5TROgutbYQwHzEf_.MQCbz04ET5EljRmK3YpQ.ffON2NH02oMAcqyoh2UU.YZxymVMEkIDA0nZSt_Pm.uuIDnYC4qmyFk5dsXOhr.cxQwADb9kt3UnKwcXKat
-duckduckgo.com##.js-side-menu-open.header__button--menu
 duckduckgo.com##body > [href^="https://www.google.com/search"]
 duckduckgo.com##li:nth-of-type(7) > .d26Geqs1C__RaCO7MUs2.wZ4JdaHxSAhGy1HoNVja.kFFXe30DOpq5j1hbWU1q
 duckduckgo.com##.t-m.related-searches
@@ -42,6 +41,29 @@ duckduckgo.com##.dxX8MoSEf9ja3nCPB3bG
 duckduckgo.com##.qGu74QSLFYQRfeLvJRRc.yfJq_efWTV0OnUvNRg1f.nYs5EPJFwdhisN0E7MCB
 duckduckgo.com##.FTrf7TqAcfxxEQ_3nfUg
 duckduckgo.com##li.L6fj2A3X2mfJl5kE8caF:nth-of-type(2)
+duckduckgo.com##ul:nth-of-type(4)
+duckduckgo.com##.nav-menu--feedback
+duckduckgo.com##li.nav-menu__item:nth-of-type(7)
+duckduckgo.com##ul:nth-of-type(5)
+duckduckgo.com##ul:nth-of-type(6)
+duckduckgo.com##ul:nth-of-type(3)
+
+! Clean up the apperance of kagi
+kagi.com##.n_vi._0_query_link_item.nav_item
+kagi.com##a.n_ne._0_query_link_item.nav_item:nth-of-type(4)
+kagi.com##a.n_ne._0_query_link_item.nav_item:nth-of-type(5)
+kagi.com##.n_ma._0_query_link_item.nav_item
+kagi.com##.copyToClipLink._0_k_ui_dropdown_li
+kagi.com##.tabindex\=._0_more_search_dropdown.k_ui_dropdown._0_k_ui_dropdown > .k_ui_dropdown_first_item._0_k_ui_dropdown_first_item
+kagi.com##.widgetContent
+kagi.com##.app_nav_dropdown.k_ui_dropdown._0_k_ui_dropdown > .k_ui_dropdown_first_item._0_k_ui_dropdown_first_item
+kagi.com##.k_ui_dropdown._0_k_ui_dropdown.__sri_more_menu
+kagi.com##._0_summarize_link
+kagi.com##.clipboardCopy._0_share_url_footer
+kagi.com##.end.widgetFooter
+kagi.com###top-parent
+kagi.com##._0_provider-content.background.widget
+kagi.com##.__srgi
 
 ! discord visual annoyances filter list, these are probably out of date and don't really do anything anymore
 discord.com##.scrollerBase_c49869.none_c49869.scroller_fea3ef > div.listItem_c96c45 > .listItemWrapper_dfb2f8
@@ -137,7 +159,7 @@ www.siye.co.uk##body > table > tbody > tr:nth-of-type(1) > td > center
 www.blender.org###dfrdb-container
 docs.blender.org###dfrdb-container
 
-! removes erroneous 'delay' to Canada that's been there since launch, and is false
+! removes erroneous steam deck shipping 'delay' to Canada that's been there since launch, and is false
 store.steampowered.com##.cart_item_desc_ext.orderdetails_shippingdelay
 
 ! cleans up the merriam-webster website, make it less ugly. Does remove some 'useful' things, but I generally like this look
@@ -164,6 +186,9 @@ www.merriam-webster.com##.on-web
 ! removes donation banner at top of page and random ad thing
 tcec-chess.com##.fastart.fbetween
 tcec-chess.com###body > .fastart.fcenter
+
+! Hide grades in myblueprint.ca when on courses view
+app.myblueprint.ca##.bold.contrastSuccess
 
 !list of 'important' ads and trackers to block
 /widget/ads.$important
@@ -247,4 +272,3 @@ ufabet678.com$important
 vf.startpage.com$important
 weather-analytics-events.apple.com$important
 webview.unityads.unity3d.com$important
-
