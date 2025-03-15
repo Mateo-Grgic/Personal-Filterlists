@@ -64,6 +64,7 @@ kagi.com##.end.widgetFooter
 kagi.com###top-parent
 kagi.com##._0_provider-content.background.widget
 kagi.com##.__srgi
+kagi.com##.__dl.sr-group
 
 ! discord visual annoyances filter list, these are probably out of date and don't really do anything anymore
 discord.com##.scrollerBase_c49869.none_c49869.scroller_fea3ef > div.listItem_c96c45 > .listItemWrapper_dfb2f8
@@ -103,6 +104,9 @@ www.youtube.com##.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-n
 www.youtube.com###top-level-buttons-computed > yt-button-view-model.ytd-menu-renderer
 www.youtube.com###button-shape > .yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
 www.youtube.com##.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled.yt-spec-button-shape-next
+www.youtube.com##.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next > yt-touch-feedback-shape > .yt-spec-touch-feedback-shape--touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__fill
+www.youtube.com##.ytd-watch-next-secondary-results-renderer.style-scope
+www.youtube.com###secondary
 
 ! strict reading rules to make the website less obviously a fanfiction website 
 fanfiction.net###top
@@ -190,6 +194,9 @@ tcec-chess.com###body > .fastart.fcenter
 ! Hide grades in myblueprint.ca when on courses view
 app.myblueprint.ca##.bold.contrastSuccess
 
+! Ads on random website
+www.eatyourbytes.com##div.eyb-amazon-3image
+
 !list of 'important' ads and trackers to block
 /widget/ads.$important
 ads.js$important
@@ -260,6 +267,7 @@ sdkconfig.ad.xiaomi.com$important
 sessions.bugsnag.com$important
 smetrics.samsung.com$important
 stats.wp.com$important
+statcounter.com$important
 taboola.com$important
 tracking.rus.miui.com$important
 tripadvisor.com$important
