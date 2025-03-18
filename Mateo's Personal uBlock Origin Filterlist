@@ -72,6 +72,7 @@ discord.com##.footer_aa1bff > .listItem_c96c45 > .listItemWrapper_dfb2f8
 discord.com##.guildSeparator_d0c57e
 discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad > .linkButton_c91bad.interactive_c91bad.interactive_f5eb4b > .link_c91bad > .layout_ec8679.avatarWithText_c91bad
 discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad > .linkButton_c91bad.interactive_c91bad.interactive_f5eb4b > .link_c91bad
+discord.com##.content__99f8c > li.container_e45859.channel__972a0 > .linkButton__972a0.interactive__972a0.interactive_bf202d
 
 ! amazon.ca visual annoyances filter list, to make the site look slightly nicer. It's still ugly, but there is only so much I can do.
 amazon.ca###nav-subnav
@@ -108,6 +109,11 @@ www.youtube.com##.ytd-watch-next-secondary-results-renderer.style-scope
 www.youtube.com###secondary
 www.youtube.com##.ytd-video-owner-renderer.style-scope.ytwTimedAnimationButtonRendererHost
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:nth-of-type(1)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+www.youtube.com###copyright
+www.youtube.com###guide-links-primary
+www.youtube.com###guide-links-secondary
 
 ! strict reading rules to make the website less obviously a fanfiction website 
 fanfiction.net###top
@@ -121,6 +127,7 @@ fanfiction.net##.spacer-top.spacer.core-msg
 reddit.com##[bundlename="nsfw_blocking_modal"]:remove()
 reddit.com##body:has(> shreddit-app > shreddit-async-loader[bundlename="app_selector"]):style(overflow: auto !important; pointer-events: auto !important;)
 reddit.com##shreddit-async-loader[bundlename="app_selector"]
+reddit.com##.promotedlink
 
 ! make darkreader.org less ugly
 darkreader.org##darkreader-mobile-side
@@ -199,6 +206,8 @@ app.myblueprint.ca##.bold.contrastSuccess
 www.eatyourbytes.com##div.eyb-amazon-3image
 
 !list of 'important' ads and trackers to block
+/partner.ads.js
+/ads.js
 /widget/ads.$important
 ads.js$important
 pagead.js$important
