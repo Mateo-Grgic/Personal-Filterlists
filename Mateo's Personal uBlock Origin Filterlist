@@ -47,6 +47,7 @@ duckduckgo.com##li.nav-menu__item:nth-of-type(7)
 duckduckgo.com##ul:nth-of-type(5)
 duckduckgo.com##ul:nth-of-type(6)
 duckduckgo.com##ul:nth-of-type(3)
+duckduckgo.com##.react-module
 
 ! Clean up the apperance of kagi
 kagi.com##.n_vi._0_query_link_item.nav_item
@@ -81,39 +82,14 @@ amazon.ca##.navFooterDescLine.navFooterLinkLine.navFooterLine
 amazon.ca##.nav-sprite-v1.navLeftFooter
 
 ! Some youtube.com things to hide, to make the website more usable. I use in conjuncture with yt-neuter nomusic, noshorts, and premium exclusion. 
-youtube.com##.ytd-comment-view-model.style-scope > .ytd-menu-renderer.style-scope.dropdown-trigger
-youtube.com###button-shape > .yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
-youtube.com##.yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--text.yt-spec-button-shape-next > yt-touch-feedback-shape > .yt-spec-touch-feedback-shape--touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__fill
-youtube.com##.yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--text.yt-spec-button-shape-next > yt-touch-feedback-shape > .yt-spec-touch-feedback-shape--touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__stroke
-youtube.com##.yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--text.yt-spec-button-shape-next > yt-touch-feedback-shape > .yt-spec-touch-feedback-shape--touch-response.yt-spec-touch-feedback-shape
-youtube.com##.ytp-cairo-refresh-signature-moments .ytp-play-progress:style(background: #FF0000 !important;)
-youtube.com##ytd-thumbnail-overlay-resume-playback-renderer[enable-refresh-signature-moments-web] #progress.ytd-thumbnail-overlay-resume-playback-renderer:style(background: #FF0000 !important;)
-youtube.com##yt-page-navigation-progress[enable-refresh-signature-moments-web] #progress.yt-page-navigation-progress:style(background: #FF0000 !important;)
-www.youtube.com##.yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next > yt-touch-feedback-shape > .yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__fill
-www.youtube.com###voice-search-button > .ytd-masthead.style-scope
-www.youtube.com###flexible-item-buttons
-www.youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
-www.youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
 www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
 www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
-www.youtube.com##.ytd-mini-guide-entry-renderer.style-scope.yt-simple-endpoint
-www.youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
-www.youtube.com###content-wrapper
-www.youtube.com##.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next > yt-touch-feedback-shape > .yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__fill
-www.youtube.com##.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next > yt-touch-feedback-shape > .yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__stroke
 www.youtube.com##.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
 www.youtube.com###top-level-buttons-computed > yt-button-view-model.ytd-menu-renderer
-www.youtube.com###button-shape > .yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
-www.youtube.com##.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next > yt-touch-feedback-shape > .yt-spec-touch-feedback-shape--touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__fill
-www.youtube.com##.ytd-watch-next-secondary-results-renderer.style-scope
-www.youtube.com###secondary
-www.youtube.com##.ytd-video-owner-renderer.style-scope.ytwTimedAnimationButtonRendererHost
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:nth-of-type(1)
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
-www.youtube.com###copyright
-www.youtube.com###guide-links-primary
-www.youtube.com###guide-links-secondary
+www.youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer > .ytd-menu-renderer.style-scope.yt-spec-button-view-model > .yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
+www.youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
+www.youtube.com###expandable-metadata > .ytd-watch-flexy.style-scope
+www.youtube.com##.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled.yt-spec-button-shape-next
 
 ! strict reading rules to make the website less obviously a fanfiction website 
 fanfiction.net###top
@@ -128,6 +104,10 @@ reddit.com##[bundlename="nsfw_blocking_modal"]:remove()
 reddit.com##body:has(> shreddit-app > shreddit-async-loader[bundlename="app_selector"]):style(overflow: auto !important; pointer-events: auto !important;)
 reddit.com##shreddit-async-loader[bundlename="app_selector"]
 reddit.com##.promotedlink
+www.reddit.com##+js(trusted-set, HTMLElement.prototype.__blurred, { value: "false" })
+www.reddit.com##+js(trusted-suppress-native-method, Element.prototype.querySelector, '"div[slot="revealed"]"', prevent)
+www.reddit.com##.prompt, .bg-scrim, .overlay, .viewInApp, #blocking-modal, #nsfw-qr-dialog, body > [style*="blur(4px)"]
+www.reddit.com##body:style(pointer-events: auto !important; overflow: auto !important;)
 
 ! make darkreader.org less ugly
 darkreader.org##darkreader-mobile-side
