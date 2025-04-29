@@ -48,6 +48,9 @@ duckduckgo.com##ul:nth-of-type(5)
 duckduckgo.com##ul:nth-of-type(6)
 duckduckgo.com##ul:nth-of-type(3)
 duckduckgo.com##.react-module
+duckduckgo.com##li.L6fj2A3X2mfJl5kE8caF:nth-of-type(5)
+||external-content.duckduckgo.com/iu/
+duckduckgo.com##.CmD9eLgF85aKeuW7KwSP
 
 ! Clean up the apperance of kagi
 kagi.com##.n_vi._0_query_link_item.nav_item
@@ -66,6 +69,45 @@ kagi.com###top-parent
 kagi.com##._0_provider-content.background.widget
 kagi.com##.__srgi
 kagi.com##.__dl.sr-group
+
+! quick & dirty slight clean up of QWANT, not great, needs improvement
+www.qwant.com##._2p-Ie._396aK.amHBC._23lip._2loWJ
+www.qwant.com##._3DLzt._23lip._2loWJ._3DyM_
+www.qwant.com##._3K80b.cvtUd._1mij1._1hmsG
+www.qwant.com##a._396aK._2loWJ._4JiNE:nth-of-type(4)
+www.qwant.com##a._396aK._2loWJ._4JiNE:nth-of-type(3)
+www.qwant.com##._3K80b._1H2Td > ._1o6fl > ._2_jNz > ._2loWJ
+www.qwant.com##._3K80b._1H2Td
+www.qwant.com##.UzhzG.external > .p9uUc
+www.qwant.com##._2mGN8
+www.qwant.com##._134ES
+
+! clean up brave search a bit
+search.brave.com##li.svelte-1y1ijlx.tab-item:nth-of-type(3)
+search.brave.com##li.svelte-1y1ijlx.tab-item:nth-of-type(4)
+search.brave.com##li.svelte-1y1ijlx.tab-item:nth-of-type(5)
+search.brave.com##.svelte-18xgeuj.result-cluster
+search.brave.com##div.svelte-1o29vmf.standalone.snippet:nth-of-type(5)
+search.brave.com###discussions
+search.brave.com###search-elsewhere
+search.brave.com##.overflowing.inline-qa--top-answer.svelte-i59cct.inline-qa
+search.brave.com##.svelte-6afvde
+search.brave.com##.svelte-42fn05.related-queries-wrapper
+search.brave.com##.svelte-1yt5tdo.primary
+search.brave.com##.svelte-c3bjae.subutton
+
+! Slightly clean up searx.org
+searx.org##button.category_button.category:nth-of-type(3)
+searx.org##button.category_button.category:nth-of-type(4)
+searx.org##button.category_button.category:nth-of-type(10)
+searx.org##button.category_button.category:nth-of-type(9)
+searx.org##button.category_button.category:nth-of-type(8)
+searx.org##button.category_button.category:nth-of-type(5)
+searx.org##button.category_button.category:nth-of-type(6)
+searx.org##button.category_button.category:nth-of-type(7)
+searx.org##.link_on_top_about
+searx.org###sidebar
+searx.org##.language
 
 ! discord visual annoyances filter list, these are probably out of date and don't really do anything anymore
 discord.com##.scrollerBase_c49869.none_c49869.scroller_fea3ef > div.listItem_c96c45 > .listItemWrapper_dfb2f8
@@ -95,6 +137,12 @@ www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope
 www.youtube.com###button-shape > .yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
 www.youtube.com###flexible-item-buttons
 www.youtube.com###chat-container
+www.youtube.com###voice-search-button
+www.youtube.com###sponsor-button
+www.youtube.com###content > .ytd-rich-section-renderer.style-scope
+www.youtube.com###offer-module
+www.youtube.com##div.yt-content-metadata-view-model-wiz__metadata-row:nth-of-type(3)
+www.youtube.com###action-menu > .ytd-comment-view-model.style-scope
 
 ! strict reading rules to make the website less obviously a fanfiction website 
 fanfiction.net###top
@@ -190,6 +238,17 @@ app.myblueprint.ca##.bold.contrastSuccess
 ! Ads on random website
 www.eatyourbytes.com##div.eyb-amazon-3image
 
+! Clean up open-webui
+localhost##.shrink-0.mr-1.space-x-1.flex.self-end > div.flex:nth-of-type(1)
+localhost###d1NztM1oqP > .flex
+
+! clean up random financial site I don't use
+finviz.com##td:nth-of-type(11)
+finviz.com##td:nth-of-type(12)
+finviz.com##td:nth-of-type(6)
+finviz.com##th.text-left:nth-of-type(6)
+finviz.com##.modal-elite-ad
+
 !list of 'important' ads and trackers to block
 /partner.ads.js
 /ads.js
@@ -260,6 +319,7 @@ rotator.nurul-huda.sch.id$important
 sdkconfig.ad.intl.xiaomi.com$important
 sdkconfig.ad.xiaomi.com$important
 sessions.bugsnag.com$important
+sl1bas.blogspot.com$important
 smetrics.samsung.com$important
 stats.wp.com$important
 statcounter.com$important
