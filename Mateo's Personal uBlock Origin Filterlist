@@ -108,6 +108,8 @@ searx.org##button.category_button.category:nth-of-type(7)
 searx.org##.link_on_top_about
 searx.org###sidebar
 searx.org##.language
+searx.org##.engines
+searx.org##.link_on_top_preferences
 searx.tiekoetter.com##button.category_button.category:nth-of-type(3)
 searx.tiekoetter.com##button.category_button.category:nth-of-type(4)
 searx.tiekoetter.com##button.category_button.category:nth-of-type(10)
@@ -119,6 +121,8 @@ searx.tiekoetter.com##button.category_button.category:nth-of-type(7)
 searx.tiekoetter.com##.link_on_top_about
 searx.tiekoetter.com###sidebar
 searx.tiekoetter.com##.language
+searx.tiekoetter.com##.engines
+searx.tiekoetter.com##.link_on_top_preferences
 
 ! discord visual annoyances filter list, these are probably out of date and don't really do anything anymore
 discord.com##.scrollerBase_c49869.none_c49869.scroller_fea3ef > div.listItem_c96c45 > .listItemWrapper_dfb2f8
