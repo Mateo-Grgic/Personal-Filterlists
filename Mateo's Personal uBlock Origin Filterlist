@@ -96,7 +96,7 @@ search.brave.com##.svelte-42fn05.related-queries-wrapper
 search.brave.com##.svelte-1yt5tdo.primary
 search.brave.com##.svelte-c3bjae.subutton
 
-! Slightly clean up searx.org
+! Slightly clean up searx.org, and some other searx instances
 searx.org##button.category_button.category:nth-of-type(3)
 searx.org##button.category_button.category:nth-of-type(4)
 searx.org##button.category_button.category:nth-of-type(10)
@@ -108,6 +108,17 @@ searx.org##button.category_button.category:nth-of-type(7)
 searx.org##.link_on_top_about
 searx.org###sidebar
 searx.org##.language
+searx.tiekoetter.com##button.category_button.category:nth-of-type(3)
+searx.tiekoetter.com##button.category_button.category:nth-of-type(4)
+searx.tiekoetter.com##button.category_button.category:nth-of-type(10)
+searx.tiekoetter.com##button.category_button.category:nth-of-type(9)
+searx.tiekoetter.com##button.category_button.category:nth-of-type(8)
+searx.tiekoetter.com##button.category_button.category:nth-of-type(5)
+searx.tiekoetter.com##button.category_button.category:nth-of-type(6)
+searx.tiekoetter.com##button.category_button.category:nth-of-type(7)
+searx.tiekoetter.com##.link_on_top_about
+searx.tiekoetter.com###sidebar
+searx.tiekoetter.com##.language
 
 ! discord visual annoyances filter list, these are probably out of date and don't really do anything anymore
 discord.com##.scrollerBase_c49869.none_c49869.scroller_fea3ef > div.listItem_c96c45 > .listItemWrapper_dfb2f8
