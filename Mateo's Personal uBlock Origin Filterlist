@@ -163,7 +163,7 @@ fanfiction.net###pre_story_links
 fanfiction.net##.h1.zone-name-title
 fanfiction.net##.spacer-top.spacer.core-msg
 
-! some reddit ease of use things
+! some reddit ease of use things, allows viewing nsfw posts without logging in (experimental)
 reddit.com##[bundlename="nsfw_blocking_modal"]:remove()
 reddit.com##body:has(> shreddit-app > shreddit-async-loader[bundlename="app_selector"]):style(overflow: auto !important; pointer-events: auto !important;)
 reddit.com##shreddit-async-loader[bundlename="app_selector"]
