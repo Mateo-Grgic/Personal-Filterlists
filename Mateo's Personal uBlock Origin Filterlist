@@ -1,10 +1,11 @@
 ! Title: Mateo Grgic's Personal Filterlist 
-! Description: My personal filterlist, rather strict, don't recomend using. I 'clean up' most websites I daily/regularaly visit.
+! Description: Strict list, do not reccomend use without knowledge of the list and its contents.
 ! Expires: 1 Day
 ! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Mateo's%20Personal%20uBlock%20Origin%20Filterlist
 ! Home: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
 
 ! duckduckgo visual annoyances filter list. Cleans up the website, and removes ads and stuff. Removes things I don't want to see every time I search
+||external-content.duckduckgo.com/iu/
 duckduckgo.com##.has-two-items.grid-2-cols.has-grid.bing.has-main-source.js-module--autoads.module--carousel-autoads.module--carousel.module
 duckduckgo.com##.js-feedback-start.feedback-btn__send
 duckduckgo.com##.js-feedback-btn-wrap
@@ -49,10 +50,13 @@ duckduckgo.com##ul:nth-of-type(6)
 duckduckgo.com##ul:nth-of-type(3)
 duckduckgo.com##.react-module
 duckduckgo.com##li.L6fj2A3X2mfJl5kE8caF:nth-of-type(5)
-||external-content.duckduckgo.com/iu/
 duckduckgo.com##.CmD9eLgF85aKeuW7KwSP
+duckduckgo.com##.desktop-homepage_ctaCards__L6Zai.cta-cards_cards__ApWvd
+duckduckgo.com##.button_size-xs__kck8r.button_ghost___IPIW.button_button__GGtY1.header_aiChatButton__e_9yJ
+duckduckgo.com##.desktop-homepage_belowTheFoldWrapper__rTcUd
+duckduckgo.com##.center_andText__q9Qi5.center_intrinsic__Gt_PZ.center_root___q8wn.homepage-cta-section_scrollCta__Wmixn
 
-! Clean up the apperance of kagi
+! Clean up the apperance of kagi (also removes ai stuff for the most part), one of the nicer looking sites by default
 kagi.com##.n_vi._0_query_link_item.nav_item
 kagi.com##a.n_ne._0_query_link_item.nav_item:nth-of-type(4)
 kagi.com##a.n_ne._0_query_link_item.nav_item:nth-of-type(5)
@@ -96,7 +100,7 @@ search.brave.com##.svelte-42fn05.related-queries-wrapper
 search.brave.com##.svelte-1yt5tdo.primary
 search.brave.com##.svelte-c3bjae.subutton
 
-! Slightly clean up searx.org, and some other searx instances
+! Slightly clean up searx.org, and some other searx instance(s), only tested on searx.org, may not work on other instance(s)
 searx.org##button.category_button.category:nth-of-type(3)
 searx.org##button.category_button.category:nth-of-type(4)
 searx.org##button.category_button.category:nth-of-type(10)
@@ -122,7 +126,7 @@ searx.tiekoetter.com##.link_on_top_about
 searx.tiekoetter.com###sidebar
 searx.tiekoetter.com##.language
 searx.tiekoetter.com##.engines
-searx.tiekoetter.com##.link_on_top_preferences
+searx.tiekoetter.com##.link_on_top_preferences 
 
 ! discord visual annoyances filter list, these are probably out of date and don't really do anything anymore
 discord.com##.scrollerBase_c49869.none_c49869.scroller_fea3ef > div.listItem_c96c45 > .listItemWrapper_dfb2f8
@@ -132,13 +136,14 @@ discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad > .linkButton_
 discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad > .linkButton_c91bad.interactive_c91bad.interactive_f5eb4b > .link_c91bad
 discord.com##.content__99f8c > li.container_e45859.channel__972a0 > .linkButton__972a0.interactive__972a0.interactive_bf202d
 
-! amazon.ca visual annoyances filter list, to make the site look slightly nicer. It's still ugly, but there is only so much I can do.
+! amazon.ca visual annoyances filter list, to make the site look slightly nicer. It's still ugly, but there is only so much I can do (rather, am willing to do).
 amazon.ca###nav-subnav
 amazon.ca###navbar > .nav-sprite
 amazon.ca##.navFooterDescLine.navFooterLinkLine.navFooterLine
 amazon.ca##.nav-sprite-v1.navLeftFooter
 
-! Some youtube.com things to hide, to make the website more usable. I use in conjuncture with yt-neuter nomusic, noshorts, and premium exclusion. 
+! Some youtube.com things to hide, to make the website more usable. I use in conjuncture with yt-neuter nomusic, noshorts, and premium exclusion. Designed to look good when logged in. Does break some things.
+! note: you must disable cosmetic filtering TEMPORARALY to subscribe to any channel. I reccomend going to the channel page, to avoid exessive advertisments.
 www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
 www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
 www.youtube.com##.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
@@ -158,8 +163,12 @@ www.youtube.com###content > .ytd-rich-section-renderer.style-scope
 www.youtube.com###offer-module
 www.youtube.com##div.yt-content-metadata-view-model-wiz__metadata-row:nth-of-type(3)
 www.youtube.com###action-menu > .ytd-comment-view-model.style-scope
+www.youtube.com##.ytd-app.style-scope.with-chipbar
+www.youtube.com##ytd-button-renderer.ytd-masthead.style-scope
+www.youtube.com###bottom-row
+www.youtube.com##.yt-dropdown-menu.style-scope.dropdown-trigger
 
-! strict reading rules to make the website less obviously a fanfiction website 
+! strict reading rules to make the website less obviously a fanfiction website, used in conjuncture with violentmonkey script to make text body wider.
 fanfiction.net###top
 fanfiction.net##.zmenu
 fanfiction.net##.icon-heart.pull-right.btn
@@ -167,7 +176,7 @@ fanfiction.net###pre_story_links
 fanfiction.net##.h1.zone-name-title
 fanfiction.net##.spacer-top.spacer.core-msg
 
-! some reddit ease of use things, allows viewing nsfw posts without logging in (experimental)
+! some reddit ease of use things, allows viewing nsfw posts without loggin in, blocks some ads
 reddit.com##[bundlename="nsfw_blocking_modal"]:remove()
 reddit.com##body:has(> shreddit-app > shreddit-async-loader[bundlename="app_selector"]):style(overflow: auto !important; pointer-events: auto !important;)
 reddit.com##shreddit-async-loader[bundlename="app_selector"]
@@ -206,14 +215,16 @@ fictionhorizon.com##.entry-content-wrap > .cls-inserted.slick-inline-search-pane
 ! annoying element blocker on cycling website, I don't think this filter actually does anything though
 velo.outsideonline.com##.tm-c-tooltip
 
-! Some wikipeida misc element blocking (I do the survey)
+! Some wikipeida misc element blocking (I do the survey typically)
 en.wikipedia.org##.survey-content.message
 
 ! remove stupid overlay that breaks the website. How smart are these people?
 mensa.ca##.fadeIn.animated.elementor-widget-text-editor.elementor-widget.animated-fast.elementor-element-88d4acb.elementor-element > .elementor-widget-container
 
-! remove siye banner, to make reading the website in public less embarassing
+! remove siye banner, to make reading the website in public less embarassing, make site not as fanfictoin looking
+||siye.co.uk/skins/HarryGinny/top.jpg$image
 www.siye.co.uk##body > table > tbody > tr:nth-of-type(1) > td > center
+siye.co.uk##[src="skins/HarryGinny/top.jpg"]
 
 ! remove dontate banner on top of page (you should donate though)
 www.blender.org###dfrdb-container
@@ -242,6 +253,11 @@ www.merriam-webster.com##.more_defs.widget > .content-section-with-header.widget
 www.merriam-webster.com##.content-section-with-header.more-from.widget
 www.merriam-webster.com###anchor-seporator
 www.merriam-webster.com##.on-web
+www.merriam-webster.com##.home-redesign-layout
+www.merriam-webster.com##.fw-bold.home-btn-blue.btn.text-decoration-none.w-100
+www.merriam-webster.com##.flex-nowrap.container-xxl.navbar
+www.merriam-webster.com##.g-0.col-12.col-md-3.col-lg-3.col-xl-3.right-rail.position-relative.fixed-wrapper
+www.merriam-webster.com##.header-placeholder
 
 ! removes donation banner at top of page and random ad thing
 tcec-chess.com##.fastart.fbetween
@@ -253,101 +269,49 @@ app.myblueprint.ca##.bold.contrastSuccess
 ! Ads on random website
 www.eatyourbytes.com##div.eyb-amazon-3image
 
-! Clean up open-webui
+! remove ad and junk from homepage of startpage
+www.startpage.com##.css-i4fykg.privacy-extension-and-app-widget
+www.startpage.com###home-below-the-fold-container
+www.startpage.com##.css-1hjmuxl.home-hero-down-arrow
+www.startpage.com##.css-1fnx5c8
+
+! Clean up open-webui ui
 localhost##.shrink-0.mr-1.space-x-1.flex.self-end > div.flex:nth-of-type(1)
 localhost###d1NztM1oqP > .flex
 
-! clean up random financial site I don't use
+! clean up random financial site I don't use, specifically for non-paying users (something in my ublock settings breaks the site a little, probably not these, though)
 finviz.com##td:nth-of-type(11)
 finviz.com##td:nth-of-type(12)
 finviz.com##td:nth-of-type(6)
 finviz.com##th.text-left:nth-of-type(6)
 finviz.com##.modal-elite-ad
 
-!list of 'important' ads and trackers to block
-/partner.ads.js
-/ads.js
-/widget/ads.$important
-ads.js$important
-pagead.js$important
-$removeparam=si
-/pagead.js$domain=d3ward.github.io
-adfstat.yandex.ru$important
-ads-api.tiktok.com$important
-ads-api.twitter.com#$important
-ads-sg.tiktok.com$important
-ads.pinterest.com$important
-ads.tiktok.com$important
-ads.youtube.com$important
-adserver.unityads.unity3d.com$important
-adtago.s3.amazonaws.com$important
-advertising-api-eu.amazon.com$important
-advertising.apple.com$important
-advice-ads.s3.amazonaws.com$important
-analytics-sg.tiktok.com$important
-analytics.google.com$important
-analytics.pinterest.com$important
-analytics.query.yahoo.com$important
-analytics.s3.amazonaws.com$important
-analytics.tiktok.com$important
-analyticsengine.s3.amazonaws.com$important
-api-adservices.apple.com$important
-api.ad.xiaomi.com$important
-api.bugsnag.com$important
-app.bugsnag.com$important
-appmetrica.yandex.ru$important
-auction.unityads.unity3d.com$important
-books-analytics-events.apple.com$important
-bugsnag.com$important
-business-api.tiktok.com$important
-config.unityads.unity3d.com$important
-data.mistat.india.xiaomi.com$important
-data.mistat.rus.xiaomi.com$important
-data.mistat.xiaomi.com$important
-doubleclick.net$important
-events.reddit.com$important
-events.redditmedia.com$important
-fingerprint.com$important
-fonts.googleapis.com/$important
-free4u.nurul-huda.or.id$important
-geo.yahoo.com$important
-google-analytics.com$important
-googlesyndication.com$important
-http://ads-api.twitter.com/$important
-iadsdk.apple.com$important
-imprezzer.com$important
-log.byteoversea.com$important
-log.fc.yahoo.com$important
-log.fc.yahoo.com$important
-log.pinterest.com$important
-magsrv.com$important
-mail-ads.google.com$important
-menrealitycalc.com$important
-metrics.icloud.com$important
-metrics.mzstatic.com$important
-metrika.yandex.ru$important
-notes-analytics-events.apple.com$important
-notify.bugsnag.com$important
-ree4u.nurul-huda.or.id$important
-rotator.nurul-huda.sch.id$important
-rotator.nurul-huda.sch.id$important
-sdkconfig.ad.intl.xiaomi.com$important
-sdkconfig.ad.xiaomi.com$important
-sessions.bugsnag.com$important
-sl1bas.blogspot.com$important
-smetrics.samsung.com$important
-stats.wp.com$important
-statcounter.com$important
-taboola.com$important
-tracking.rus.miui.com$important
-tripadvisor.com$important
-trk.pinterest.com$important
-truehits.in.th$important
-truehits.net$important
-udc.yahoo.com$important
-udcm.yahoo.com$important
-ufabet678.com$important
-vf.startpage.com$important
-weather-analytics-events.apple.com$important
-webview.unityads.unity3d.com$important
+! ad on test site (how?)
+www.wide-gamut.com###js-banner-eizo
 
+! ad on tampermonkey website (why?)
+www.tampermonkey.net##.incontent.searcad > div
+
+! Remove Pinarello newsletter modal thing
+pinarello.com###nl-pop
+
+! removes strange empty banner box on top of site. I don't use this site, may be out of date quick
+www.natgeotv.com###banner-top
+www.natgeotv.com##.LeaderboardContainer.VMargin10
+
+! ad on seamonkey site
+www.seamonkey-project.org###side > div 
+
+! clean up new york times
+www.nytimes.com###bottom-sheet-sensor > div
+www.nytimes.com##.bottom-of-article > .css-yomkvi
+www.nytimes.com##.css-1anccaj
+www.nytimes.com##.css-1jmk4jh
+www.nytimes.com###bottom-sheet-sensor
+www.nytimes.com##.bottom-of-article > .css-yomkvi
+www.nytimes.com##.css-1qa4qp6
+www.nytimes.com##.css-6xhk3s
+www.nytimes.com##.css-jxzr5i
+www.nytimes.com##.css-m5rkpj
+www.nytimes.com##.css-ui2i83 > ul
+www.nytimes.com##.css-1kj7lfb
