@@ -1,8 +1,17 @@
-! Title: Mateo Grgic's Personal Filterlist 
-! Description: Strict list, do not reccomend use without knowledge of the list and its contents.
+! Title: Mateo's Personal Cosmetic Filterlist 
+! Description: Strict cosmetic filter list, do not reccomend use without knowledge of the list and its contents.
 ! Expires: 1 Day
 ! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Mateo's%20Personal%20uBlock%20Origin%20Filterlist
 ! Home: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
+
+! various url clean-up things
+/partner.ads.js
+/ads.js
+/widget/ads.$important
+ads.js$important
+pagead.js$important
+$removeparam=si
+/pagead.js$domain=d3ward.github.io
 
 ! duckduckgo visual annoyances filter list. Cleans up the website, and removes ads and stuff. Removes things I don't want to see every time I search
 ||external-content.duckduckgo.com/iu/
@@ -55,8 +64,9 @@ duckduckgo.com##.desktop-homepage_ctaCards__L6Zai.cta-cards_cards__ApWvd
 duckduckgo.com##.button_size-xs__kck8r.button_ghost___IPIW.button_button__GGtY1.header_aiChatButton__e_9yJ
 duckduckgo.com##.desktop-homepage_belowTheFoldWrapper__rTcUd
 duckduckgo.com##.center_andText__q9Qi5.center_intrinsic__Gt_PZ.center_root___q8wn.homepage-cta-section_scrollCta__Wmixn
+duckduckgo.com##.AqHvr90CPQdpxvM5Hudq._f3aDBGcVsGYEX6faISN
 
-! Clean up the apperance of kagi (also removes ai stuff for the most part), one of the nicer looking sites by default
+! clean up the apperance of kagi (also removes ai stuff for the most part), one of the nicer looking sites by default
 kagi.com##.n_vi._0_query_link_item.nav_item
 kagi.com##a.n_ne._0_query_link_item.nav_item:nth-of-type(4)
 kagi.com##a.n_ne._0_query_link_item.nav_item:nth-of-type(5)
@@ -100,7 +110,7 @@ search.brave.com##.svelte-42fn05.related-queries-wrapper
 search.brave.com##.svelte-1yt5tdo.primary
 search.brave.com##.svelte-c3bjae.subutton
 
-! Slightly clean up searx.org, and some other searx instance(s), only tested on searx.org, may not work on other instance(s)
+! slightly clean up searx.org, and some other searx instance(s), only tested on searx.org, may not work on other instance(s)
 searx.org##button.category_button.category:nth-of-type(3)
 searx.org##button.category_button.category:nth-of-type(4)
 searx.org##button.category_button.category:nth-of-type(10)
@@ -142,7 +152,7 @@ amazon.ca###navbar > .nav-sprite
 amazon.ca##.navFooterDescLine.navFooterLinkLine.navFooterLine
 amazon.ca##.nav-sprite-v1.navLeftFooter
 
-! Some youtube.com things to hide, to make the website more usable. I use in conjuncture with yt-neuter nomusic, noshorts, and premium exclusion. Designed to look good when logged in. Does break some things.
+! some youtube.com things to hide, to make the website more usable. I use in conjuncture with yt-neuter nomusic, noshorts, and premium exclusion. Designed to look good when logged in. Does break some things.
 ! note: you must disable cosmetic filtering TEMPORARALY to subscribe to any channel. I reccomend going to the channel page, to avoid exessive advertisments.
 www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
 www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
@@ -163,10 +173,9 @@ www.youtube.com###content > .ytd-rich-section-renderer.style-scope
 www.youtube.com###offer-module
 www.youtube.com##div.yt-content-metadata-view-model-wiz__metadata-row:nth-of-type(3)
 www.youtube.com###action-menu > .ytd-comment-view-model.style-scope
-www.youtube.com##.ytd-app.style-scope.with-chipbar
-www.youtube.com##ytd-button-renderer.ytd-masthead.style-scope
-www.youtube.com###bottom-row
 www.youtube.com##.yt-dropdown-menu.style-scope.dropdown-trigger
+www.youtube.com##.ytd-app.style-scope.with-chipbar
+www.youtube.com##ytd-engagement-panel-section-list-renderer.ytd-watch-flexy.style-scope:nth-of-type(3)
 
 ! strict reading rules to make the website less obviously a fanfiction website, used in conjuncture with violentmonkey script to make text body wider.
 fanfiction.net###top
@@ -185,6 +194,8 @@ www.reddit.com##+js(trusted-set, HTMLElement.prototype.__blurred, { value: "fals
 www.reddit.com##+js(trusted-suppress-native-method, Element.prototype.querySelector, '"div[slot="revealed"]"', prevent)
 www.reddit.com##.prompt, .bg-scrim, .overlay, .viewInApp, #blocking-modal, #nsfw-qr-dialog, body > [style*="blur(4px)"]
 www.reddit.com##body:style(pointer-events: auto !important; overflow: auto !important;)
+reddit.com##body > div
+reddit.com##.w-\[448px\].box-border 
 
 ! make darkreader.org less ugly
 darkreader.org##darkreader-mobile-side
@@ -200,7 +211,7 @@ darkreader.org##.page-grid-side
 darkreader.org##.page-grid-ios > .ios__scroll-up.ios__show-up
 darkreader.org##.ios__show-up
 
-! Adblocker nags on random chemestry website, I will not be disabling my adblocker
+! adblocker nags on random chemestry website, I will not be disabling my adblocker
 www.webqc.org##.center > div:nth-of-type(2)
 www.webqc.org##body > .noprint
 
@@ -215,7 +226,7 @@ fictionhorizon.com##.entry-content-wrap > .cls-inserted.slick-inline-search-pane
 ! annoying element blocker on cycling website, I don't think this filter actually does anything though
 velo.outsideonline.com##.tm-c-tooltip
 
-! Some wikipeida misc element blocking (I do the survey typically)
+! some wikipeida misc element blocking (I do the survey typically)
 en.wikipedia.org##.survey-content.message
 
 ! remove stupid overlay that breaks the website. How smart are these people?
@@ -263,10 +274,10 @@ www.merriam-webster.com##.header-placeholder
 tcec-chess.com##.fastart.fbetween
 tcec-chess.com###body > .fastart.fcenter
 
-! Hide grades in myblueprint.ca when on courses view
+! hide grades in myblueprint.ca when on courses view
 app.myblueprint.ca##.bold.contrastSuccess
 
-! Ads on random website
+! ads on random website
 www.eatyourbytes.com##div.eyb-amazon-3image
 
 ! remove ad and junk from homepage of startpage
@@ -275,7 +286,7 @@ www.startpage.com###home-below-the-fold-container
 www.startpage.com##.css-1hjmuxl.home-hero-down-arrow
 www.startpage.com##.css-1fnx5c8
 
-! Clean up open-webui ui
+! clean up open-webui ui
 localhost##.shrink-0.mr-1.space-x-1.flex.self-end > div.flex:nth-of-type(1)
 localhost###d1NztM1oqP > .flex
 
@@ -292,7 +303,7 @@ www.wide-gamut.com###js-banner-eizo
 ! ad on tampermonkey website (why?)
 www.tampermonkey.net##.incontent.searcad > div
 
-! Remove Pinarello newsletter modal thing
+! remove Pinarello newsletter modal thing
 pinarello.com###nl-pop
 
 ! removes strange empty banner box on top of site. I don't use this site, may be out of date quick
@@ -315,3 +326,32 @@ www.nytimes.com##.css-jxzr5i
 www.nytimes.com##.css-m5rkpj
 www.nytimes.com##.css-ui2i83 > ul
 www.nytimes.com##.css-1kj7lfb
+
+! unbreak random website I used once
+linuxstans.com##.text-md-right.col-md-3.col-12.tc-sidebar.sidebar.right
+
+! remove ugly banner on site I used once
+www.usatoday.com##.gnt_nb
+
+! make website a little nicer
+www.bikeradar.com##.header-ad
+
+! remove unnecessary overlay on playing video 
+baldursgate3.game##.play
+
+! block ad on top of page
+||www.techpowerup.com/reviyuu/b784/_d67893d3.png$image
+www.techpowerup.com##.gbreb
+
+! remove the 'report ad' button on nitrotype, as well as the prompts to upgrade to nitro gold
+www.nitrotype.com##.ad--side.ad
+www.nitrotype.com##.link--bare.link.goldTeaser
+www.nitrotype.com##.structure-spacer-left
+www.nitrotype.com##.ad--container--side.structure-leaderboard
+
+! it's an ad by definition
+apps.apple.com##.we-arcade-upsell
+
+! screw you and your ad viruses
+mefmobile.org###rk-exit-modal-bg
+
