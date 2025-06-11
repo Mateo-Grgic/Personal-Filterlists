@@ -65,6 +65,10 @@ duckduckgo.com##.button_size-xs__kck8r.button_ghost___IPIW.button_button__GGtY1.
 duckduckgo.com##.desktop-homepage_belowTheFoldWrapper__rTcUd
 duckduckgo.com##.center_andText__q9Qi5.center_intrinsic__Gt_PZ.center_root___q8wn.homepage-cta-section_scrollCta__Wmixn
 duckduckgo.com##.AqHvr90CPQdpxvM5Hudq._f3aDBGcVsGYEX6faISN
+duckduckgo.com###header_wrapper:not(.header-wrap--with-hero), .js-header-wrap.header-wrap:not(.header-wrap--with-hero):style(position: relative !important; top: 0 !important;)
+duckduckgo.com##.is-stuck.has-dropdowns.js-zcm-sticky.metabar--fixed.metabar:style(position: absolute !important; top: 0 !important;)
+duckduckgo.com##.js-serp-bottom-right.serp__bottom-right:style(position: absolute !important; bottom: unset !important;)
+
 
 ! clean up the apperance of kagi (also removes ai stuff for the most part), one of the nicer looking sites by default
 kagi.com##.n_vi._0_query_link_item.nav_item
@@ -153,7 +157,8 @@ amazon.ca##.navFooterDescLine.navFooterLinkLine.navFooterLine
 amazon.ca##.nav-sprite-v1.navLeftFooter
 
 ! some youtube.com things to hide, to make the website more usable. I use in conjuncture with yt-neuter nomusic, noshorts, and premium exclusion. Designed to look good when logged in. Does break some things.
-! note: you must disable cosmetic filtering TEMPORARALY to subscribe to any channel. I reccomend going to the channel page, to avoid exessive advertisments.
+! ~half of these filters are just adapted youtube neuter filters
+! note: you must disable cosmetic filtering TEMPORARALY to subscribe to any channel. I recommend going to the channel page, to avoid excessive advertisments.
 www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
 www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
 www.youtube.com##.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
@@ -164,6 +169,7 @@ www.youtube.com###expandable-metadata > .ytd-watch-flexy.style-scope
 www.youtube.com##.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled.yt-spec-button-shape-next
 www.youtube.com###teaser-carousel
 www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope
+youtube.com###google-cookie-alert
 www.youtube.com###button-shape > .yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
 www.youtube.com###flexible-item-buttons
 www.youtube.com###chat-container
@@ -172,10 +178,43 @@ www.youtube.com###sponsor-button
 www.youtube.com###content > .ytd-rich-section-renderer.style-scope
 www.youtube.com###offer-module
 www.youtube.com##div.yt-content-metadata-view-model-wiz__metadata-row:nth-of-type(3)
+! filters from youtube neuter:
+@@||www.youtube.com/s/player/*/player_ias.vflset/*/offline.js$script
 www.youtube.com###action-menu > .ytd-comment-view-model.style-scope
 www.youtube.com##.yt-dropdown-menu.style-scope.dropdown-trigger
 www.youtube.com##.ytd-app.style-scope.with-chipbar
 www.youtube.com##ytd-engagement-panel-section-list-renderer.ytd-watch-flexy.style-scope:nth-of-type(3)
+www.youtube.com##ytd-rich-item-renderer:has(.badge-style-type-verified-artist)
+www.youtube.com##ytd-grid-video-renderer:has(.badge-style-type-verified-artist)
+www.youtube.com##ytd-video-renderer:has(.badge-style-type-verified-artist)
+m.youtube.com##ytm-chip-cloud-chip-renderer:has-text(Music)
+www.youtube.com##ytd-guide-entry-renderer:has-text(Music)
+www.youtube.com##ytd-mini-guide-entry-renderer:has-text(Music)
+www.youtube.com#@#ytd-menu-service-item-download-renderer
+www.youtube.com#@#.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
+www.youtube.com#@#ytd-download-button-renderer
+www.youtube.com##ytd-reel-shelf-renderer
+m.youtube.com##ytm-reel-shelf-renderer
+www.youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
+www.youtube.com##ytd-mini-guide-entry-renderer:has-text(Shorts)
+m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-bar-item-title:has-text(Shorts))
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts]
+m.youtube.com##ytm-rich-section-renderer:has(>ytm-reel-shelf-renderer)
+youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Shorts))
+youtube.com##yt-tab-shape[tab-title="Shorts"]
+www.youtube.com##ytd-rich-item-renderer:has(a[href^="/shorts/"])
+www.youtube.com##ytd-grid-video-renderer:has(a[href^="/shorts/"])
+www.youtube.com##ytd-video-renderer:has(a[href^="/shorts/"])
+m.youtube.com##ytm-video-with-context-renderer:has(a[href^="/shorts/"])
+www.youtube.com##ytd-rich-item-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+www.youtube.com##ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+www.youtube.com##ytd-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+m.youtube.com##ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
+www.youtube.com##ytd-rich-item-renderer:has(a#video-title>yt-formatted-string:has-text(#shorts))
+www.youtube.com##ytd-grid-video-renderer:has(a#video-title>yt-formatted-string:has-text(#shorts))
+www.youtube.com##ytd-video-renderer:has(a#video-title>yt-formatted-string:has-text(#shorts))
+www.youtube.com##.ytp-videowall-still:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+
 
 ! strict reading rules to make the website less obviously a fanfiction website, used in conjuncture with violentmonkey script to make text body wider.
 fanfiction.net###top
@@ -227,12 +266,15 @@ fictionhorizon.com##.entry-content-wrap > .cls-inserted.slick-inline-search-pane
 velo.outsideonline.com##.tm-c-tooltip
 
 ! some wikipeida misc element blocking (I do the survey typically)
-en.wikipedia.org##.survey-content.message
+wikipedia.org##.survey-content.message
+wikipedia.org###frb-inline
+wikipedia.org###frb-nag
+wikipedia.org###siteNotice
 
 ! remove stupid overlay that breaks the website. How smart are these people?
 mensa.ca##.fadeIn.animated.elementor-widget-text-editor.elementor-widget.animated-fast.elementor-element-88d4acb.elementor-element > .elementor-widget-container
 
-! remove siye banner, to make reading the website in public less embarassing, make site not as fanfictoin looking
+! remove siye banner, to make reading the website in public less embarassing, make site not as fanfiction looking
 ||siye.co.uk/skins/HarryGinny/top.jpg$image
 www.siye.co.uk##body > table > tbody > tr:nth-of-type(1) > td > center
 siye.co.uk##[src="skins/HarryGinny/top.jpg"]
@@ -269,6 +311,62 @@ www.merriam-webster.com##.fw-bold.home-btn-blue.btn.text-decoration-none.w-100
 www.merriam-webster.com##.flex-nowrap.container-xxl.navbar
 www.merriam-webster.com##.g-0.col-12.col-md-3.col-lg-3.col-xl-3.right-rail.position-relative.fixed-wrapper
 www.merriam-webster.com##.header-placeholder
+
+! Taken From DandelionSprout's 4k/5k website strecher list, which is then adapted from Github-Wide
+github.com##.file.js-code-editor.container-preview.show-code:style(height: 63vh !important; margin-bottom: 30px !important)
+github.com##.emoji-picker-tab:style(height: 700px !important)
+github.com##.comment-form-textarea:style(max-height: none !important)
+github.com##react-app[app-name="react-code-view"]:style(height: calc(100vh - 350px) !important; min-height: unset !important)
+github.com##.CodeMirror:style(height: calc(100vh - 350px) !important)
+github.com##.container-lg:style(max-width: none !important)
+github.com##.container:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
+github.com##.container-lg:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
+github.com##.file-header::after:style(clear: left !important)
+github.com##.container-xl:style(max-width: none !important)
+github.com##.repository-content:style(width: 100% !important)
+github.com##.repository-with-sidebar:style(padding-right: 60px !important)
+github.com##.repository-with-sidebar > .repository-sidebar:style(margin-right: -60px !important)
+github.com##.summary-stats:style(display: table; width: 100%)
+github.com##.authors-and-code:style(display: table; width: 100%)
+github.com##.summary-stats > li:style(width: 25%)
+github.com##.authors-and-code > .section:style(width: 50%)
+github.com##.with-full-navigation:style(padding-right: 190px !important)
+github.com##.with-full-navigation > .repository-sidebar:style(margin-right: -190px !important)
+github.com##.discussion-sidebar:style(width: 220px !important)
+github.com##.discussion-timeline:style(width: 100% !important)
+github.com##.col-9:style(width: 100% !important)
+github.com###discussion_bucket > .col-12.col-md-9:style(width: calc(100vw - 285px) !important)
+github.com###partial-discussion-sidebar[data-channel^=issue]:style(margin-left: 24px !important)
+github.com##.col-md-3.col-12.flex-shrink-0:style(width: 200px !important)
+github.com##.flex-shrink-0.col-12.col-md-9:style(width: calc(100% - 250px) !important)
+github.com##.js-discussion:style(width: calc(100vw - 370px) !important)
+github.com##.Layout-sidebar:style(max-width:220px!important;padding-left:10px!important)
+github.com##.pull-request-tab-content:style(width: calc(100vw - 275px) !important;)
+github.com##.gutter-condensed > .col-3:style(width: 200px !important)
+github.com###dashboard:style(position: relative !important)
+github.com##.new-issue-form:style(position: relative !important)
+github.com##html[lang] > body:not(.full-width) .dashboard-sidebar:style(position: absolute !important; top: 0 !important; right: 0 !important)
+github.com##.new-issue-form > .discussion-sidebar:style(position: absolute !important; top: 0 !important; right: 0 !important)
+github.com##button.discussion-sidebar-toggle:style(width: 100% !important)
+github.com##.timeline-new-comment:style(max-width: none !important)
+github.com##html[lang] > body:not(.full-width) .news:style(float: none !important; margin-right: 360px !important)
+github.com##.settings-content:style(float: none !important; width: auto !important; overflow: auto !important)
+github.com##.repo-settings-content:style(float: none !important; width: auto !important; overflow: auto !important)
+github.com##.container > .settings-content, .repo-settings-content:style(margin-left: 260px !important)
+github.com###repo-settings > .menu-container:style(width: 240px !important)
+github.com###js-flash-container > .flash-messages:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
+github.com##.u-photo .avatar:style(width: 230px !important)
+github.com##.h-card:style(width: 230px; margin-right: 16px)
+github.com##.commit-desc > .text-small:style(max-width: none !important)
+github.com###comments > .timeline-comment-wrapper:style(width: calc(100vw - 240px) !important)
+github.com##.js-blob-filename:style(width: 400px !important)
+github.com##body.page-profile .flex-shrink-0.col-12.col-md-9:style(margin-left: 40px !important)
+github.com##.Layout--sidebarPosition-flowRow-end:style(width: 96vw !important; --Layout-sidebar-width: 220px !important; --Layout-gutter: -5px !important)
+github.com##div[tabindex] + div > div[class^=Box-sc-][class*=" "]:style(max-width: unset !important)
+github.com##div[data-selector*=repos-split-pane-content i]:style(max-width: unset !important)
+github.com##div.Layout--sidebarPosition-end:style(grid-template-columns: calc(100vw - 275px) 210px !important)
+github.com##.timeline-comment:style(width: calc(100vw - 335px) !important)
+github.com##div[class^=IssueMetadata-] ~ div[class^=Box-]:style(max-width:2000px!important)
 
 ! removes donation banner at top of page and random ad thing
 tcec-chess.com##.fastart.fbetween
@@ -352,6 +450,9 @@ www.nitrotype.com##.ad--container--side.structure-leaderboard
 ! it's an ad by definition
 apps.apple.com##.we-arcade-upsell
 
-! screw you and your ad viruses
+! fuck you and your ad viruses
 mefmobile.org###rk-exit-modal-bg
+
+! i got this from another list; this was the only useful filter in the entire list, so I stole it
+my.nintendo.com##.badge
 
