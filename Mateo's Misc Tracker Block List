@@ -216,10 +216,26 @@ webview.unityads.unity3d.com$important
 ||books-analytics-events.apple.com^
 ||weather-analytics-events.apple.com^
 ||notes-analytics-events.apple.com^
-
 *$3p,domain=d3ward.github.io
 /pagead.js$domain=d3ward.github.io
 @@*$redirect-rule,domain=d3ward.github.io
 d3ward.github.io##.textads
+
+! etc
+||click-on-this-now.online
+||notifications.website
+||notificationz.com
+||notify-service.com
+||popnewsfeed.com
+||pushsroutg.com
+||sunchannel.me
+/apns.js
+/indigitall.min.js
+/indigitall/sdk.min.js
+/notify/v1/ua-sdk.js
+/notify/v1/ua-sdk.min.js
+/plugins/pushvault-push-notifications
+/plugins/smio-push-notification
+/pushmaze.js
 
 
