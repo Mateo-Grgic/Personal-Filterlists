@@ -68,25 +68,17 @@ duckduckgo.com##.AqHvr90CPQdpxvM5Hudq._f3aDBGcVsGYEX6faISN
 duckduckgo.com###header_wrapper:not(.header-wrap--with-hero), .js-header-wrap.header-wrap:not(.header-wrap--with-hero):style(position: relative !important; top: 0 !important;)
 duckduckgo.com##.is-stuck.has-dropdowns.js-zcm-sticky.metabar--fixed.metabar:style(position: absolute !important; top: 0 !important;)
 duckduckgo.com##.js-serp-bottom-right.serp__bottom-right:style(position: absolute !important; bottom: unset !important;)
+duckduckgo.com##.WGdpd_iV__IHlnRacxBr
 
 
-! clean up the apperance of kagi (also removes ai stuff for the most part), one of the nicer looking sites by default
+! clean up the apperance of kagi
+kagi.com##.false.new-tooltip.trigger
 kagi.com##.n_vi._0_query_link_item.nav_item
-kagi.com##a.n_ne._0_query_link_item.nav_item:nth-of-type(4)
-kagi.com##a.n_ne._0_query_link_item.nav_item:nth-of-type(5)
 kagi.com##.n_ma._0_query_link_item.nav_item
-kagi.com##.copyToClipLink._0_k_ui_dropdown_li
-kagi.com##.tabindex\=._0_more_search_dropdown.k_ui_dropdown._0_k_ui_dropdown > .k_ui_dropdown_first_item._0_k_ui_dropdown_first_item
-kagi.com##.widgetContent
-kagi.com##.app_nav_dropdown.k_ui_dropdown._0_k_ui_dropdown > .k_ui_dropdown_first_item._0_k_ui_dropdown_first_item
-kagi.com##.k_ui_dropdown._0_k_ui_dropdown.__sri_more_menu
-kagi.com##._0_summarize_link
-kagi.com##.clipboardCopy._0_share_url_footer
-kagi.com##.end.widgetFooter
-kagi.com###top-parent
-kagi.com##._0_provider-content.background.widget
+kagi.com##a.n_ne._0_query_link_item.nav_item:nth-of-type(5)
+kagi.com##a.n_ne._0_query_link_item.nav_item:nth-of-type(4)
+kagi.com##.serp_nav_end
 kagi.com##.__srgi
-kagi.com##.__dl.sr-group
 
 ! quick & dirty slight clean up of QWANT, not great, needs improvement
 www.qwant.com##._2p-Ie._396aK.amHBC._23lip._2loWJ
@@ -214,7 +206,6 @@ www.youtube.com##ytd-rich-item-renderer:has(a#video-title>yt-formatted-string:ha
 www.youtube.com##ytd-grid-video-renderer:has(a#video-title>yt-formatted-string:has-text(#shorts))
 www.youtube.com##ytd-video-renderer:has(a#video-title>yt-formatted-string:has-text(#shorts))
 www.youtube.com##.ytp-videowall-still:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
-
 
 ! strict reading rules to make the website less obviously a fanfiction website, used in conjuncture with violentmonkey script to make text body wider.
 fanfiction.net###top
