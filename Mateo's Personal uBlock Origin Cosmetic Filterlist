@@ -4,15 +4,6 @@
 ! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Mateo's%20Personal%20uBlock%20Origin%20Filterlist
 ! Home: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
 
-! various url clean-up things
-/partner.ads.js
-/ads.js
-/widget/ads.$important
-ads.js$important
-pagead.js$important
-$removeparam=si
-/pagead.js$domain=d3ward.github.io
-
 ! duckduckgo visual annoyances filter list. Cleans up the website, and removes ads and stuff. Removes things I don't want to see every time I search
 ||external-content.duckduckgo.com/iu/
 duckduckgo.com##.has-two-items.grid-2-cols.has-grid.bing.has-main-source.js-module--autoads.module--carousel-autoads.module--carousel.module
@@ -69,7 +60,6 @@ duckduckgo.com###header_wrapper:not(.header-wrap--with-hero), .js-header-wrap.he
 duckduckgo.com##.is-stuck.has-dropdowns.js-zcm-sticky.metabar--fixed.metabar:style(position: absolute !important; top: 0 !important;)
 duckduckgo.com##.js-serp-bottom-right.serp__bottom-right:style(position: absolute !important; bottom: unset !important;)
 duckduckgo.com##.WGdpd_iV__IHlnRacxBr
-
 
 ! clean up the apperance of kagi
 kagi.com##.false.new-tooltip.trigger
