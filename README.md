@@ -1,2 +1,3 @@
 # personal filter lists
-this is the home of my personal ublock origin filter list(s)
+
+These are my personal uBlock Origin filterlists. I don't reccomend you use these lists unless you know exactly the contents and what they do.
