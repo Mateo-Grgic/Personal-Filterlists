@@ -20,7 +20,6 @@ $removeparam=crid
 /fingerprint3.js
 /fingerprint3.min.js
 *$removeparam=utm_source
-||amazon.ca^$removeparam
 ||amazon.*$removeparam=/^pd_rd_/
 ||amazon.*$removeparam=/^pf_rd_/
 ||amazon.*$removeparam=content-id
