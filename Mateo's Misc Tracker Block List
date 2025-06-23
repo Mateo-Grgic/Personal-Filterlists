@@ -33,6 +33,7 @@ $removeparam=crid
 ||amazon.*$removeparam=coliid
 ||amazon.*$removeparam=colid
 ||amazon.*$removeparam=ref_
+||amazon.*$removeparam=ref
 *$removeparam=fbclid
 *$removeparam=gclid
 *$removeparam=/^utm_/
