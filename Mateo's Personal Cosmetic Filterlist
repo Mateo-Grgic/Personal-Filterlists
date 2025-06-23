@@ -163,6 +163,7 @@ www.youtube.com###content > .ytd-rich-section-renderer.style-scope
 www.youtube.com###offer-module
 www.youtube.com##div.yt-content-metadata-view-model-wiz__metadata-row:nth-of-type(3)
 www.youtube.com###content-section
+www.youtube.com##.ytd-watch-flexy.style-scope > .ytd-info-panel-container-renderer.style-scope
 ! filters from youtube neuter:
 @@||www.youtube.com/s/player/*/player_ias.vflset/*/offline.js$script
 youtube.com###action-menu > .ytd-comment-view-model.style-scope
@@ -296,6 +297,8 @@ www.merriam-webster.com##.flex-nowrap.container-xxl.navbar
 www.merriam-webster.com##.g-0.col-12.col-md-3.col-lg-3.col-xl-3.right-rail.position-relative.fixed-wrapper
 www.merriam-webster.com##.header-placeholder
 
+! My github rules 
+github.com##div.react-code-size-details-in-header:nth-of-type(2)
 ! Taken From DandelionSprout's 4k/5k website strecher list, which is then adapted from Github-Wide
 github.com##.file.js-code-editor.container-preview.show-code:style(height: 63vh !important; margin-bottom: 30px !important)
 github.com##.emoji-picker-tab:style(height: 700px !important)
@@ -445,4 +448,7 @@ fandom.com##.ad-slot-placeholder
 
 ! taken from another list
 bulbapedia.bulbagarden.net###upper-article
+
+! this website has a lot of ads for testing ublock origin, it also has an annoying banner at the bottom
+www.forbes.com##.red.ribbon
 
