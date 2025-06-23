@@ -10,6 +10,8 @@
 ads.js$important
 pagead.js$important
 $removeparam=si
+$removeparam=ref
+$removeparam=crid
 /pagead.js$domain=d3ward.github.io
 /fingerprint.js
 /fingerprint.min.js
@@ -17,6 +19,7 @@ $removeparam=si
 /fingerprint2.min.js
 /fingerprint3.js
 /fingerprint3.min.js
+||amazon.ca^$removeparam
 
 adfstat.yandex.ru$important
 ads-api.tiktok.com$important
