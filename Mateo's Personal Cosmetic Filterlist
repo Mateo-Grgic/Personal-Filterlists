@@ -61,7 +61,7 @@ duckduckgo.com##.is-stuck.has-dropdowns.js-zcm-sticky.metabar--fixed.metabar:sty
 duckduckgo.com##.js-serp-bottom-right.serp__bottom-right:style(position: absolute !important; bottom: unset !important;)
 duckduckgo.com##.WGdpd_iV__IHlnRacxBr
 
-! clean up the apperance of kagi
+! clean up the apperance of kagi, one of the nicer looking websites by default
 kagi.com##.false.new-tooltip.trigger
 kagi.com##.n_vi._0_query_link_item.nav_item
 kagi.com##.n_ma._0_query_link_item.nav_item
@@ -69,6 +69,8 @@ kagi.com##a.n_ne._0_query_link_item.nav_item:nth-of-type(5)
 kagi.com##a.n_ne._0_query_link_item.nav_item:nth-of-type(4)
 kagi.com##.serp_nav_end
 kagi.com##.__srgi
+kagi.com###_0_land_tooltip_message
+kagi.com##.clearfix.inline-content.list-widget._0_provider-content
 
 ! quick & dirty slight clean up of QWANT, not great, needs improvement
 www.qwant.com##._2p-Ie._396aK.amHBC._23lip._2loWJ
@@ -160,42 +162,43 @@ www.youtube.com###sponsor-button
 www.youtube.com###content > .ytd-rich-section-renderer.style-scope
 www.youtube.com###offer-module
 www.youtube.com##div.yt-content-metadata-view-model-wiz__metadata-row:nth-of-type(3)
+www.youtube.com###content-section
 ! filters from youtube neuter:
 @@||www.youtube.com/s/player/*/player_ias.vflset/*/offline.js$script
-www.youtube.com###action-menu > .ytd-comment-view-model.style-scope
-www.youtube.com##.yt-dropdown-menu.style-scope.dropdown-trigger
-www.youtube.com##.ytd-app.style-scope.with-chipbar
-www.youtube.com##ytd-engagement-panel-section-list-renderer.ytd-watch-flexy.style-scope:nth-of-type(3)
-www.youtube.com##ytd-rich-item-renderer:has(.badge-style-type-verified-artist)
-www.youtube.com##ytd-grid-video-renderer:has(.badge-style-type-verified-artist)
-www.youtube.com##ytd-video-renderer:has(.badge-style-type-verified-artist)
-m.youtube.com##ytm-chip-cloud-chip-renderer:has-text(Music)
-www.youtube.com##ytd-guide-entry-renderer:has-text(Music)
-www.youtube.com##ytd-mini-guide-entry-renderer:has-text(Music)
-www.youtube.com#@#ytd-menu-service-item-download-renderer
-www.youtube.com#@#.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
-www.youtube.com#@#ytd-download-button-renderer
-www.youtube.com##ytd-reel-shelf-renderer
-m.youtube.com##ytm-reel-shelf-renderer
-www.youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
-www.youtube.com##ytd-mini-guide-entry-renderer:has-text(Shorts)
-m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-bar-item-title:has-text(Shorts))
-www.youtube.com##ytd-rich-shelf-renderer[is-shorts]
-m.youtube.com##ytm-rich-section-renderer:has(>ytm-reel-shelf-renderer)
+youtube.com###action-menu > .ytd-comment-view-model.style-scope
+youtube.com##.yt-dropdown-menu.style-scope.dropdown-trigger
+youtube.com##.ytd-app.style-scope.with-chipbar
+youtube.com##ytd-engagement-panel-section-list-renderer.ytd-watch-flexy.style-scope:nth-of-type(3)
+youtube.com##ytd-rich-item-renderer:has(.badge-style-type-verified-artist)
+youtube.com##ytd-grid-video-renderer:has(.badge-style-type-verified-artist)
+youtube.com##ytd-video-renderer:has(.badge-style-type-verified-artist)
+youtube.com##ytd-guide-entry-renderer:has-text(Music)
+youtube.com##ytd-mini-guide-entry-renderer:has-text(Music)
+youtube.com#@#ytd-menu-service-item-download-renderer
+youtube.com#@#.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
+youtube.com#@#ytd-download-button-renderer
+youtube.com##ytd-reel-shelf-renderer
+youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
+youtube.com##ytd-mini-guide-entry-renderer:has-text(Shorts)
+youtube.com##ytd-rich-shelf-renderer[is-shorts]
 youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Shorts))
 youtube.com##yt-tab-shape[tab-title="Shorts"]
-www.youtube.com##ytd-rich-item-renderer:has(a[href^="/shorts/"])
-www.youtube.com##ytd-grid-video-renderer:has(a[href^="/shorts/"])
-www.youtube.com##ytd-video-renderer:has(a[href^="/shorts/"])
+youtube.com##ytd-rich-item-renderer:has(a[href^="/shorts/"])
+youtube.com##ytd-grid-video-renderer:has(a[href^="/shorts/"])
+youtube.com##ytd-video-renderer:has(a[href^="/shorts/"])
+youtube.com##ytd-rich-item-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+youtube.com##ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+youtube.com##ytd-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+youtube.com##ytd-rich-item-renderer:has(a#video-title>yt-formatted-string:has-text(#shorts))
+youtube.com##ytd-grid-video-renderer:has(a#video-title>yt-formatted-string:has-text(#shorts))
+youtube.com##ytd-video-renderer:has(a#video-title>yt-formatted-string:has-text(#shorts))
+youtube.com##.ytp-videowall-still:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+m.youtube.com##ytm-reel-shelf-renderer
+m.youtube.com##ytm-chip-cloud-chip-renderer:has-text(Music)
 m.youtube.com##ytm-video-with-context-renderer:has(a[href^="/shorts/"])
-www.youtube.com##ytd-rich-item-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
-www.youtube.com##ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
-www.youtube.com##ytd-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
 m.youtube.com##ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
-www.youtube.com##ytd-rich-item-renderer:has(a#video-title>yt-formatted-string:has-text(#shorts))
-www.youtube.com##ytd-grid-video-renderer:has(a#video-title>yt-formatted-string:has-text(#shorts))
-www.youtube.com##ytd-video-renderer:has(a#video-title>yt-formatted-string:has-text(#shorts))
-www.youtube.com##.ytp-videowall-still:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-bar-item-title:has-text(Shorts))
+m.youtube.com##ytm-rich-section-renderer:has(>ytm-reel-shelf-renderer)
 
 ! strict reading rules to make the website less obviously a fanfiction website, used in conjuncture with violentmonkey script to make text body wider.
 fanfiction.net###top
