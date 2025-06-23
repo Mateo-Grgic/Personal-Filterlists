@@ -1,5 +1,5 @@
 ! Title: Mateo's Misc Tracker Block List
-! Description: blocks common trackers
+! Description: Blocks common trackers. Collection of filters from around the web, and some made by myself
 ! Expires: 1 Day
 ! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Mateo's%20Misc%20Tracker%20Block%20List
 ! Homepage: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
@@ -19,7 +19,36 @@ $removeparam=crid
 /fingerprint2.min.js
 /fingerprint3.js
 /fingerprint3.min.js
+*$removeparam=utm_source
 ||amazon.ca^$removeparam
+||amazon.*$removeparam=/^pd_rd_/
+||amazon.*$removeparam=/^pf_rd_/
+||amazon.*$removeparam=content-id
+||amazon.*$removeparam=psc
+||amazon.*$removeparam=crid
+||amazon.*$removeparam=sprefix
+||amazon.*$removeparam=qu
+||amazon.*$removeparam=sr
+||amazon.*$removeparam=th
+||amazon.*$removeparam=coliid
+||amazon.*$removeparam=colid
+||amazon.*$removeparam=ref_
+*$removeparam=fbclid
+*$removeparam=gclid
+*$removeparam=/^utm_/
+*$removeparam=/^utm-/
+*$removeparam=igshid
+*$removeparam=ICID
+*$removeparam=rb_clickid
+*$removeparam=track_click
+*$removeparam=link_id
+*$removeparam=mc_cid
+*$removeparam=mc_eid
+*$removeparam=mcID
+*$removeparam=ref
+*$removeparam=qid
+*$removeparam=cid
+*$removeparam=pid
 
 adfstat.yandex.ru$important
 ads-api.tiktok.com$important
