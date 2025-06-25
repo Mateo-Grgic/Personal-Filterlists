@@ -26,11 +26,6 @@ $removeparam=crid
 ||amazon.*$removeparam=psc
 ||amazon.*$removeparam=crid
 ||amazon.*$removeparam=sprefix
-||amazon.*$removeparam=qu
-||amazon.*$removeparam=sr
-||amazon.*$removeparam=th
-||amazon.*$removeparam=coliid
-||amazon.*$removeparam=colid
 ||amazon.*$removeparam=ref_
 ||amazon.*$removeparam=ref
 *$removeparam=fbclid
@@ -42,13 +37,8 @@ $removeparam=crid
 *$removeparam=rb_clickid
 *$removeparam=track_click
 *$removeparam=link_id
-*$removeparam=mc_cid
-*$removeparam=mc_eid
 *$removeparam=mcID
 *$removeparam=ref
-*$removeparam=qid
-*$removeparam=cid
-*$removeparam=pid
 
 adfstat.yandex.ru$important
 ads-api.tiktok.com$important
