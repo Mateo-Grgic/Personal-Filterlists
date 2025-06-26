@@ -71,6 +71,7 @@ kagi.com##.serp_nav_end
 kagi.com##.__srgi
 kagi.com###_0_land_tooltip_message
 kagi.com##.clearfix.inline-content.list-widget._0_provider-content
+kagi.com##.tags-pane
 
 ! quick & dirty slight clean up of QWANT, not great, needs improvement
 www.qwant.com##._2p-Ie._396aK.amHBC._23lip._2loWJ
@@ -451,4 +452,7 @@ bulbapedia.bulbagarden.net###upper-article
 
 ! this website has a lot of ads for testing ublock origin, it also has an annoying banner at the bottom
 www.forbes.com##.red.ribbon
+
+! removes something, I forgot what it does. I'd guess something annoying ¯\_(ツ)_/¯
+www.canyon.com##.js-accordionToggle.serviceSnapIn__trigger
 
