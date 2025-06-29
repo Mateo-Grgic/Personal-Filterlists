@@ -63,8 +63,6 @@ duckduckgo.com##.WGdpd_iV__IHlnRacxBr
 
 ! clean up the apperance of kagi, one of the nicer looking websites by default
 kagi.com##.false.new-tooltip.trigger
-kagi.com##.n_vi._0_query_link_item.nav_item
-kagi.com##.n_ma._0_query_link_item.nav_item
 kagi.com##a.n_ne._0_query_link_item.nav_item:nth-of-type(5)
 kagi.com##a.n_ne._0_query_link_item.nav_item:nth-of-type(4)
 kagi.com##.serp_nav_end
@@ -72,6 +70,10 @@ kagi.com##.__srgi
 kagi.com###_0_land_tooltip_message
 kagi.com##.clearfix.inline-content.list-widget._0_provider-content
 kagi.com##.tags-pane
+kagi.com##.clipboardCopy._0_share_url_footer
+kagi.com##footer
+kagi.com##div.md\:pb-9.pb-7.box.settings-row-box:nth-of-type(4)
+kagi.com##div.md\:pb-9.pb-7.box.settings-row-box:nth-of-type(3)
 
 ! quick & dirty slight clean up of QWANT, not great, needs improvement
 www.qwant.com##._2p-Ie._396aK.amHBC._23lip._2loWJ
@@ -455,4 +457,7 @@ www.forbes.com##.red.ribbon
 
 ! removes something, I forgot what it does. I'd guess something annoying ¯\_(ツ)_/¯
 www.canyon.com##.js-accordionToggle.serviceSnapIn__trigger
+
+! google gemini button on google docs, yuck
+docs.google.com##.appsElementsSidekickEntryPointRoot
 
