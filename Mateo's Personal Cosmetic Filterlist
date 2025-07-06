@@ -183,9 +183,6 @@ m.youtube.com##ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-st
 m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-bar-item-title:has-text(Shorts))
 m.youtube.com##ytm-rich-section-renderer:has(>ytm-reel-shelf-renderer)
 ! my youtube filters
-# this filter removes watch later videos
-www.youtube.com###secondary
-# rest of filters
 www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
 www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
 www.youtube.com##.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
@@ -465,4 +462,7 @@ www.canyon.com##.js-accordionToggle.serviceSnapIn__trigger
 
 ! google gemini button on google docs, yuck
 docs.google.com##.appsElementsSidekickEntryPointRoot
+
+! annoying banner at bottom of page
+www.ipolitics.ca##.banner_action.banner
 
