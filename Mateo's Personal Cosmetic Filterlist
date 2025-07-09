@@ -205,6 +205,9 @@ www.youtube.com##div.yt-content-metadata-view-model-wiz__metadata-row:nth-of-typ
 www.youtube.com###content-section
 www.youtube.com##.ytd-watch-flexy.style-scope > .ytd-info-panel-container-renderer.style-scope
 www.youtube.com##ytd-feed-nudge-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(2)
+www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(1)
 
 ! strict reading rules to make the website less obviously a fanfiction website, used in conjuncture with violentmonkey script to make text body wider.
 fanfiction.net###top
@@ -459,9 +462,6 @@ www.forbes.com##.red.ribbon
 
 ! removes something, I forgot what it does. I'd guess something annoying ¯\_(ツ)_/¯
 www.canyon.com##.js-accordionToggle.serviceSnapIn__trigger
-
-! google gemini button on google docs, yuck
-docs.google.com##.appsElementsSidekickEntryPointRoot
 
 ! annoying banner at bottom of page
 www.ipolitics.ca##.banner_action.banner
