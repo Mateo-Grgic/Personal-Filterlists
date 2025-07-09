@@ -460,7 +460,7 @@ bulbapedia.bulbagarden.net###upper-article
 ! this website has a lot of ads for testing ublock origin, it also has an annoying banner at the bottom
 www.forbes.com##.red.ribbon
 
-! removes something, I forgot what it does. I'd guess something annoying ¯\_(ツ)_/¯
+! removes something, I forgot what it does. I'd guess removes something annoying ¯\_(ツ)_/¯
 www.canyon.com##.js-accordionToggle.serviceSnapIn__trigger
 
 ! annoying banner at bottom of page
