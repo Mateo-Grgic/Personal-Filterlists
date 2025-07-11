@@ -153,7 +153,7 @@ www.youtube.com###top-level-buttons-computed > yt-button-view-model.ytd-menu-ren
 www.youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer > .ytd-menu-renderer.style-scope.yt-spec-button-view-model > .yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
 www.youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
 www.youtube.com###expandable-metadata > .ytd-watch-flexy.style-scope
-www.youtube.com##.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled.yt-spec-button-shape-next
+! www.youtube.com##.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled.yt-spec-button-shape-next
 www.youtube.com###teaser-carousel
 www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope
 youtube.com###google-cookie-alert
