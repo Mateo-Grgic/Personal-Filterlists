@@ -171,7 +171,6 @@ www.youtube.com##ytd-feed-nudge-renderer.ytd-item-section-renderer.style-scope
 www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(2)
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
 www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(1)
-
 ! stolen from yt-neuter nomusic, noshorts, and premium exclusion
 @@||www.youtube.com/s/player/*/player_ias.vflset/*/offline.js$script
 youtube.com###action-menu > .ytd-comment-view-model.style-scope
@@ -466,7 +465,7 @@ www.canyon.com##.js-accordionToggle.serviceSnapIn__trigger
 ! annoying banner at bottom of page
 www.ipolitics.ca##.banner_action.banner
 
-! Junbreaks the website and removes placeholder boxes
+! unbreaks the website and removes placeholder boxes
 www.lenovo.com##.pc_dlp_skeleton_box
 
 ! removes black overlay that breaks the website
