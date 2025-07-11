@@ -144,10 +144,35 @@ amazon.ca###navbar > .nav-sprite
 amazon.ca##.navFooterDescLine.navFooterLinkLine.navFooterLine
 amazon.ca##.nav-sprite-v1.navLeftFooter
 
-! some youtube.com things to hide, to make the website more usable. I use in conjuncture with yt-neuter nomusic, noshorts, and premium exclusion. Designed to look good when logged in. Does break some things.
-! ~half of these filters are just adapted youtube neuter filters
+! some youtube.com things to hide, to make the website more usable. Designed to look good when logged in. Does break some things.
 ! note: you must disable cosmetic filtering TEMPORARALY to subscribe to any channel. I recommend going to the channel page, to avoid excessive advertisments.
-! filters from youtube neuter:
+www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
+www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
+www.youtube.com##.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
+www.youtube.com###top-level-buttons-computed > yt-button-view-model.ytd-menu-renderer
+www.youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer > .ytd-menu-renderer.style-scope.yt-spec-button-view-model > .yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
+www.youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
+www.youtube.com###expandable-metadata > .ytd-watch-flexy.style-scope
+www.youtube.com##.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled.yt-spec-button-shape-next
+www.youtube.com###teaser-carousel
+www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope
+youtube.com###google-cookie-alert
+www.youtube.com###button-shape > .yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
+www.youtube.com###flexible-item-buttons
+www.youtube.com###chat-container
+www.youtube.com###voice-search-button
+www.youtube.com###sponsor-button
+www.youtube.com###content > .ytd-rich-section-renderer.style-scope
+www.youtube.com###offer-module
+www.youtube.com##div.yt-content-metadata-view-model-wiz__metadata-row:nth-of-type(3)
+www.youtube.com###content-section
+www.youtube.com##.ytd-watch-flexy.style-scope > .ytd-info-panel-container-renderer.style-scope
+www.youtube.com##ytd-feed-nudge-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(2)
+www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(1)
+
+! stolen from yt-neuter nomusic, noshorts, and premium exclusion
 @@||www.youtube.com/s/player/*/player_ias.vflset/*/offline.js$script
 youtube.com###action-menu > .ytd-comment-view-model.style-scope
 youtube.com##.yt-dropdown-menu.style-scope.dropdown-trigger
@@ -183,32 +208,6 @@ m.youtube.com##ytm-video-with-context-renderer:has(a[href^="/shorts/"])
 m.youtube.com##ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
 m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-bar-item-title:has-text(Shorts))
 m.youtube.com##ytm-rich-section-renderer:has(>ytm-reel-shelf-renderer)
-! my youtube filters
-www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
-www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
-www.youtube.com##.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
-www.youtube.com###top-level-buttons-computed > yt-button-view-model.ytd-menu-renderer
-www.youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer > .ytd-menu-renderer.style-scope.yt-spec-button-view-model > .yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
-www.youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
-www.youtube.com###expandable-metadata > .ytd-watch-flexy.style-scope
-www.youtube.com##.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled.yt-spec-button-shape-next
-www.youtube.com###teaser-carousel
-www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope
-youtube.com###google-cookie-alert
-www.youtube.com###button-shape > .yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
-www.youtube.com###flexible-item-buttons
-www.youtube.com###chat-container
-www.youtube.com###voice-search-button
-www.youtube.com###sponsor-button
-www.youtube.com###content > .ytd-rich-section-renderer.style-scope
-www.youtube.com###offer-module
-www.youtube.com##div.yt-content-metadata-view-model-wiz__metadata-row:nth-of-type(3)
-www.youtube.com###content-section
-www.youtube.com##.ytd-watch-flexy.style-scope > .ytd-info-panel-container-renderer.style-scope
-www.youtube.com##ytd-feed-nudge-renderer.ytd-item-section-renderer.style-scope
-www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(2)
-www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
-www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(1)
 
 ! strict reading rules to make the website less obviously a fanfiction website, used in conjuncture with violentmonkey script to make text body wider.
 fanfiction.net###top
