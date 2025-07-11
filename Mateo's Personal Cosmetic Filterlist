@@ -74,6 +74,7 @@ kagi.com##.clipboardCopy._0_share_url_footer
 kagi.com##footer
 kagi.com##div.md\:pb-9.pb-7.box.settings-row-box:nth-of-type(4)
 kagi.com##div.md\:pb-9.pb-7.box.settings-row-box:nth-of-type(3)
+kagi.com##.__sri-time 
 
 ! quick & dirty slight clean up of QWANT, not great, needs improvement
 www.qwant.com##._2p-Ie._396aK.amHBC._23lip._2loWJ
@@ -466,3 +467,8 @@ www.canyon.com##.js-accordionToggle.serviceSnapIn__trigger
 ! annoying banner at bottom of page
 www.ipolitics.ca##.banner_action.banner
 
+! Junbreaks the website and removes placeholder boxes
+www.lenovo.com##.pc_dlp_skeleton_box
+
+! removes black overlay that breaks the website
+getfreewrite.com###containerD3-js > div 
