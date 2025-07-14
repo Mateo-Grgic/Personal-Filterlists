@@ -465,8 +465,6 @@ www.canyon.com##.js-accordionToggle.serviceSnapIn__trigger
 ! annoying banner at bottom of page
 www.ipolitics.ca##.banner_action.banner
 
-! unbreaks the website and removes placeholder boxes
-www.lenovo.com##.pc_dlp_skeleton_box
-
 ! removes black overlay that breaks the website
-getfreewrite.com###containerD3-js > div 
+getfreewrite.com###containerD3-js > div
+
