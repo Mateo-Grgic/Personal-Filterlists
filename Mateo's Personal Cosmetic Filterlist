@@ -171,6 +171,13 @@ www.youtube.com##ytd-feed-nudge-renderer.ytd-item-section-renderer.style-scope
 www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(2)
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
 www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(1)
+! my filters that remove crap from mobile youtube (shorts, games, etc)
+m.youtube.com##.rich-grid-sticky-header.rich-grid-renderer-header
+m.youtube.com##.is-extra-compact.scrollable-shelf
+m.youtube.com##ytm-rich-section-renderer:nth-of-type(3)
+m.youtube.com##.ytm-chips-shelf-view-model--is-inner-chips-shelf.ytm-chips-shelf-view-model > div
+m.youtube.com##.icon-expand.rich-shelf-expand-button
+m.youtube.com##.rich-section-content
 ! stolen from yt-neuter nomusic, noshorts, and premium exclusion
 @@||www.youtube.com/s/player/*/player_ias.vflset/*/offline.js$script
 youtube.com###action-menu > .ytd-comment-view-model.style-scope
