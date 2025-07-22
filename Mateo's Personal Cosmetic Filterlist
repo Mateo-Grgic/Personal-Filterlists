@@ -391,6 +391,10 @@ www.startpage.com###home-below-the-fold-container
 www.startpage.com##.css-1hjmuxl.home-hero-down-arrow
 www.startpage.com##.css-1fnx5c8
 www.startpage.com##.css-waz6w2.navigational-link-text
+www.startpage.com##.css-0.privacy-indicator-container
+www.startpage.com##.css-w1m7lx.blog-menu
+www.startpage.com##.css-c4nico.feedback-widget > .css-18vn6f9.feedback-button-container
+www.startpage.com##.css-1b3gbnx
 
 ! clean up open-webui ui
 localhost##.shrink-0.mr-1.space-x-1.flex.self-end > div.flex:nth-of-type(1)
