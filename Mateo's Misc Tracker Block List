@@ -548,4 +548,8 @@ $removeparam=pp,domain=youtube.com|youtu.be
 ||www21.counsellor.gov.cn
 ||www21.counsellor.gov.cn
 
+https://www.reddit.com/r/firefox/comments/1digcp4/comment/l93oijg/
+$3p,to=facebook.*,from=~facebook.*|~instagram.com|messenger.com|~meta.*|~threads.*
 
+! blocks 3rd party 'log in with google' popups
+||accounts.google.com/gsi/*$xhr,script,3p
