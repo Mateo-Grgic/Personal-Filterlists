@@ -390,6 +390,7 @@ www.startpage.com##.css-i4fykg.privacy-extension-and-app-widget
 www.startpage.com###home-below-the-fold-container
 www.startpage.com##.css-1hjmuxl.home-hero-down-arrow
 www.startpage.com##.css-1fnx5c8
+www.startpage.com##.css-waz6w2.navigational-link-text
 
 ! clean up open-webui ui
 localhost##.shrink-0.mr-1.space-x-1.flex.self-end > div.flex:nth-of-type(1)
