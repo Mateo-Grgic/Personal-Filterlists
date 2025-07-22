@@ -4,7 +4,7 @@
 ! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Mateo's%20Personal%20Cosmetic%20Filterlist
 ! Homepage: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
 
-! duckduckgo visual annoyances filter list. Cleans up the website, and removes ads and stuff. Removes things I don't want to see every time I search
+! duckduckgo visual annoyances filter list. cleans up the website, and removes ads and stuff. removes things I don't want to see every time i search
 ||external-content.duckduckgo.com/iu/
 duckduckgo.com##.has-two-items.grid-2-cols.has-grid.bing.has-main-source.js-module--autoads.module--carousel-autoads.module--carousel.module
 duckduckgo.com##.js-feedback-start.feedback-btn__send
@@ -75,6 +75,7 @@ kagi.com##footer
 kagi.com##div.md\:pb-9.pb-7.box.settings-row-box:nth-of-type(4)
 kagi.com##div.md\:pb-9.pb-7.box.settings-row-box:nth-of-type(3)
 kagi.com##.__sri-time 
+kagi.com##.--gap-10.--flex.result-comments
 
 ! quick & dirty slight clean up of QWANT, not great, needs improvement
 www.qwant.com##._2p-Ie._396aK.amHBC._23lip._2loWJ
@@ -87,6 +88,11 @@ www.qwant.com##._3K80b._1H2Td
 www.qwant.com##.UzhzG.external > .p9uUc
 www.qwant.com##._2mGN8
 www.qwant.com##._134ES
+www.qwant.com##.a2N1U.ZDl9l
+www.qwant.com##.gPOYP
+www.qwant.com##.dCc9W
+www.qwant.com##a._5eIRO._1xQVj.MlS4n:nth-of-type(4)
+www.qwant.com##.G-2qb.zY7ez._1xQVj.coG0\+
 
 ! clean up brave search a bit
 search.brave.com##li.svelte-1y1ijlx.tab-item:nth-of-type(3)
@@ -138,14 +144,14 @@ discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad > .linkButton_
 discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad > .linkButton_c91bad.interactive_c91bad.interactive_f5eb4b > .link_c91bad
 discord.com##.content__99f8c > li.container_e45859.channel__972a0 > .linkButton__972a0.interactive__972a0.interactive_bf202d
 
-! amazon.ca visual annoyances filter list, to make the site look slightly nicer. It's still ugly, but there is only so much I can do (rather, am willing to do).
+! amazon.ca visual annoyances filter list, to make the site look slightly nicer. it's still ugly, but there is only so much i can do (rather, am willing to do).
 amazon.ca###nav-subnav
 amazon.ca###navbar > .nav-sprite
 amazon.ca##.navFooterDescLine.navFooterLinkLine.navFooterLine
 amazon.ca##.nav-sprite-v1.navLeftFooter
 
-! some youtube.com things to hide, to make the website more usable. Designed to look good when logged in. Does break some things.
-! note: you must disable cosmetic filtering TEMPORARALY to subscribe to any channel. I recommend going to the channel page, to avoid excessive advertisments.
+! some youtube.com things to hide, to make the website more usable. designed to look good when logged in. does break some things.
+! note: you must disable cosmetic filtering TEMPORARALY to subscribe to any channel. i recommend going to the channel page, to avoid excessive advertisments.
 www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
 www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
 www.youtube.com##.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
@@ -311,9 +317,9 @@ www.merriam-webster.com##.flex-nowrap.container-xxl.navbar
 www.merriam-webster.com##.g-0.col-12.col-md-3.col-lg-3.col-xl-3.right-rail.position-relative.fixed-wrapper
 www.merriam-webster.com##.header-placeholder
 
-! My github rules 
+! my github rules 
 github.com##div.react-code-size-details-in-header:nth-of-type(2)
-! Taken From DandelionSprout's 4k/5k website strecher list, which is then adapted from Github-Wide
+! taken From dandelionSprout's 4k/5k website strecher list, which is then adapted from github-wide
 github.com##.file.js-code-editor.container-preview.show-code:style(height: 63vh !important; margin-bottom: 30px !important)
 github.com##.emoji-picker-tab:style(height: 700px !important)
 github.com##.comment-form-textarea:style(max-height: none !important)
@@ -402,7 +408,7 @@ www.wide-gamut.com###js-banner-eizo
 ! ad on tampermonkey website (why?)
 www.tampermonkey.net##.incontent.searcad > div
 
-! remove Pinarello newsletter modal thing
+! remove pinarello newsletter modal thing
 pinarello.com###nl-pop
 
 ! removes strange empty banner box on top of site. I don't use this site, may be out of date quick
