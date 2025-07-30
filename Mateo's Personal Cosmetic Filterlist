@@ -72,9 +72,8 @@ kagi.com##.clearfix.inline-content.list-widget._0_provider-content
 kagi.com##.tags-pane
 kagi.com##.clipboardCopy._0_share_url_footer
 kagi.com##footer
-kagi.com##div.md\:pb-9.pb-7.box.settings-row-box:nth-of-type(4)
-kagi.com##div.md\:pb-9.pb-7.box.settings-row-box:nth-of-type(3)
 kagi.com##.__sri-time 
+kagi.com##.n_ma._0_query_link_item.nav_item
 kagi.com##.--gap-10.--flex.result-comments
 
 ! quick & dirty slight clean up of QWANT, not great, needs improvement
@@ -494,4 +493,7 @@ getfreewrite.com###containerD3-js > div
 
 ! blocks upgrade button in proton mail
 mail.proton.me##.gap-2.button-promotion--full-gradient.button-promotion--icon-gradient.items-center.flex.max-w-full.text-center.inline-block.button-outline-weak.button-medium.button
+
+! Jblocks log-in dialouge
+www.pinterest.com##.zI7.p6V.ojN._he.ZZS.Rym.QLY
 
