@@ -61,6 +61,11 @@ duckduckgo.com###header_wrapper:not(.header-wrap--with-hero), .js-header-wrap.he
 duckduckgo.com##.is-stuck.has-dropdowns.js-zcm-sticky.metabar--fixed.metabar:style(position: absolute !important; top: 0 !important;)
 duckduckgo.com##.js-serp-bottom-right.serp__bottom-right:style(position: absolute !important; bottom: unset !important;)
 duckduckgo.com##.WGdpd_iV__IHlnRacxBr
+start.duckduckgo.com##ul:nth-of-type(2)
+start.duckduckgo.com##section.sideMenu_section__qPsAX:nth-of-type(2)
+start.duckduckgo.com##section.sideMenu_section__qPsAX:nth-of-type(3)
+start.duckduckgo.com##section.sideMenu_section__qPsAX:nth-of-type(4)
+start.duckduckgo.com##section.sideMenu_section__qPsAX:nth-of-type(5)
 
 ! clean up the apperance of kagi, one of the nicer looking websites by default
 kagi.com##.false.new-tooltip.trigger
