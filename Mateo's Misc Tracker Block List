@@ -11,6 +11,10 @@ $3p,to=facebook.*,from=~facebook.*|~instagram.com|messenger.com|~meta.*|~threads
 ! blocks 3rd party 'log in with google' popups
 ||accounts.google.com/gsi/*$xhr,script,3p
 
+! misc generall settings
+xn--*
+xn--*$doc,popup,frame
+
 ! remove paramaters and link trackers from URLs 
 $removeparam=ceneo_spo
 $removeparam=cmpid
