@@ -20,6 +20,7 @@ $3p,to=facebook.*,from=~facebook.*|~instagram.com|messenger.com|~meta.*|~threads
 ! IDN Homograph Attack protection - may break some things
 xn--*
 xn--*$doc,popup,frame
+||xn--*$doc,popup,frame
 
 ! remove paramaters and link trackers from URLs 
 $removeparam=ceneo_spo
@@ -555,5 +556,4 @@ webview.unityads.unity3d.com$important
 ||www21.counsellor.gov.cn
 ||www.caramail.com
 ||www.siom.ac.cn
-||xn--*$doc,popup,frame
 
