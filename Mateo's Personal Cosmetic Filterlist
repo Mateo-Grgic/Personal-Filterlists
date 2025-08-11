@@ -158,6 +158,7 @@ amazon.ca##.nav-sprite-v1.navLeftFooter
 
 ! some youtube.com things to hide, to make the website more usable. designed to look good when logged in. does break some things.
 ! note: you must disable cosmetic filtering TEMPORARALY to subscribe to any channel. i recommend going to the channel page, to avoid excessive advertisments.
+! general desktop youtube filters
 www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
 www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
 www.youtube.com##.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
@@ -185,6 +186,8 @@ www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.y
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
 www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(1)
 www.youtube.com##.ytLockupAttachmentsViewModelHost
+! disable youtube experiments
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_grid, false)
 ! my filters that remove crap from mobile youtube (shorts, games, etc)
 m.youtube.com##.rich-grid-sticky-header.rich-grid-renderer-header
 m.youtube.com##.is-extra-compact.scrollable-shelf
