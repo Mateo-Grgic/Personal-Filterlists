@@ -186,7 +186,7 @@ www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.y
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
 www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(1)
 www.youtube.com##.ytLockupAttachmentsViewModelHost
-! disable youtube experiments
+! disable some youtube experiments
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_grid, false)
 ! my filters that remove crap from mobile youtube (shorts, games, etc)
 m.youtube.com##.rich-grid-sticky-header.rich-grid-renderer-header
