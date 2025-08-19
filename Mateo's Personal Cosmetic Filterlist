@@ -192,6 +192,7 @@ www.youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-re
 www.youtube.com###panels-full-bleed-container
 www.youtube.com##ytd-watch-flexy[live-chat-present-and-expanded] #columns:style(padding-right: 0 !important;)
 www.youtube.com###chat-container, ytd-watch-flexy[live-chat-present-and-expanded] #panels-full-bleed-container
+www.youtube.com###chat-container
 ! disable some youtube experiments
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_grid, false)
 ! my filters that remove crap from mobile youtube (shorts, games, etc)
