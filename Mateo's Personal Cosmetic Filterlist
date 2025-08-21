@@ -531,3 +531,11 @@ www.google.com##.SLPe5b.Kevs9
 *anubis/static/img/reject.webp$image
 *anubis/static/img/happy.webp$image
 
+! blocks 3rd party 'log in with google' popups
+||accounts.google.com/gsi/*$xhr,script,3p
+||accounts.google.com^$third-party
+||appleid.apple.com^$third-party
+||appleid.cdn-apple.com^$third-party
+@@||accounts.google.com^$domain=youtube.com|chromium.org|gstatic.com|googleusercontent.com
+@@||appleid.apple.com^$domain=appleid.cdn-apple.com
+@@||appleid.cdn-apple.com^$domain=appleid.apple.com
