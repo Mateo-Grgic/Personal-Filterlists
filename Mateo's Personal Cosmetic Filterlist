@@ -526,8 +526,9 @@ www.kijiji.ca##.cAmHfv.sc-bc9ba973-0
 www.kijiji.ca##.giAOsp.sc-6b119651-2 > .iHQyEX.sc-6677fc-0.jyxDGB.sc-eb45309b-0
 www.kijiji.ca##.eTobXd.sc-1f51e79f-0
 
-! removes an ugly box on the google website
+! removes various annoying things on the google search site
 www.google.com##.SLPe5b.Kevs9
+www.google.com##dynamic-visibility-control:nth-of-type(2)
 
 ! hide the silly anubis anti-crawler catgirl mascot found on certain linux-related webpages i visit
 *anubis/static/img/pensive.webp$image
