@@ -1,9 +1,9 @@
 ! Title: Mateo's Personal Cosmetic Filterlist 
-! Description: Strict, strictly-cosmetic filter list, do not reccomend use without knowledge of the list and its contents.
+! Description: Strict, strictly-cosmetic filterlist. Will break things - Don't use unless you know what this list contains & does
 ! Expires: 12 hours
 ! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Mateo's%20Personal%20Cosmetic%20Filterlist
 ! Homepage: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
-! Note: You need to add this filter list to your trusted filters for some of the reddit.com filters to work. My other filters work just fine without trusted status
+! Note: You need to add this filter list to your trusted filters for some of the reddit.com filters to work. My other filters work just fine without trusted status, though.
 
 ! duckduckgo visual annoyances filter list. cleans up the website, and removes ads and stuff. removes things I don't want to see every time i search
 ||external-content.duckduckgo.com/iu/
@@ -82,7 +82,7 @@ kagi.com##.n_ma._0_query_link_item.nav_item
 kagi.com##.--gap-10.--flex.result-comments
 kagi.com##.__sri-rating-stars
 
-! quick & dirty slight clean up of QWANT, not great, needs improvement
+! quick & dirty slight clean up of qwant, not great, needs improvement at a later date
 www.qwant.com##._2p-Ie._396aK.amHBC._23lip._2loWJ
 www.qwant.com##._3DLzt._23lip._2loWJ._3DyM_
 www.qwant.com##._3K80b.cvtUd._1mij1._1hmsG
@@ -141,7 +141,7 @@ searx.tiekoetter.com##.language
 searx.tiekoetter.com##.engines
 searx.tiekoetter.com##.link_on_top_preferences 
 
-! discord visual annoyances filter list, these are probably out of date and don't really do anything anymore
+! discord visual annoyances filter list, these are probably out of date
 discord.com##.scrollerBase_c49869.none_c49869.scroller_fea3ef > div.listItem_c96c45 > .listItemWrapper_dfb2f8
 discord.com##.footer_aa1bff > .listItem_c96c45 > .listItemWrapper_dfb2f8
 discord.com##.guildSeparator_d0c57e
@@ -193,7 +193,7 @@ www.youtube.com###panels-full-bleed-container
 www.youtube.com##ytd-watch-flexy[live-chat-present-and-expanded] #columns:style(padding-right: 0 !important;)
 www.youtube.com###chat-container, ytd-watch-flexy[live-chat-present-and-expanded] #panels-full-bleed-container
 www.youtube.com###chat-container
-! disable some youtube experiments
+! disable some youtube experiment(s)
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_grid, false)
 ! my filters that remove crap from mobile youtube (shorts, games, etc)
 m.youtube.com##.rich-grid-sticky-header.rich-grid-renderer-header
@@ -239,7 +239,7 @@ m.youtube.com##ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-st
 m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-bar-item-title:has-text(Shorts))
 m.youtube.com##ytm-rich-section-renderer:has(>ytm-reel-shelf-renderer)
 
-! strict reading rules to make the website less obviously a fanfiction website, used in conjuncture with violentmonkey script to make text body wider.
+! strict reading rules to make the website less obviously a fanfiction website, used in conjuncture with violentmonkey script to make body text wider.
 fanfiction.net###top
 fanfiction.net##.zmenu
 fanfiction.net##.icon-heart.pull-right.btn
@@ -247,7 +247,7 @@ fanfiction.net###pre_story_links
 fanfiction.net##.h1.zone-name-title
 fanfiction.net##.spacer-top.spacer.core-msg
 
-! some reddit ease of use things, allows viewing nsfw posts without loggin in, blocks some ads
+! some reddit ease of use things, allows viewing nsfw posts without loggin in, blocks some ads and other junk
 reddit.com##[bundlename="nsfw_blocking_modal"]:remove()
 reddit.com##body:has(> shreddit-app > shreddit-async-loader[bundlename="app_selector"]):style(overflow: auto !important; pointer-events: auto !important;)
 reddit.com##shreddit-async-loader[bundlename="app_selector"]
@@ -273,28 +273,28 @@ darkreader.org##.page-grid-side
 darkreader.org##.page-grid-ios > .ios__scroll-up.ios__show-up
 darkreader.org##.ios__show-up
 
-! adblocker nags on random chemestry website, I will not be disabling my adblocker
+! adblocker nags on random chemestry website, i will not be disabling my adblocker, thank you very much
 www.webqc.org##.center > div:nth-of-type(2)
 www.webqc.org##body > .noprint
 
-! shoe website block thing
+! shoe website placeholder element remover
 www.skechers.ca##.banner-interrumpter.px-lg-3.mb-lg-4.mb-md-1.mb-2.col-12
 
-! removing blank space on a random news website. I never use this website, I only visited it once and decided to make it a little prettier
+! removing blank space on a random news website. i don't use this website at all, just decided to clean it up a little bit
 fictionhorizon.com##.slick-dcm > .cls-inserted.slick-inline-search-panel
 fictionhorizon.com##.slick-dcm
 fictionhorizon.com##.entry-content-wrap > .cls-inserted.slick-inline-search-panel
 
-! annoying element blocker on cycling website, I don't think this filter actually does anything though
+! annoying element blocker on cycling website, i don't think this filter actually does anything though
 velo.outsideonline.com##.tm-c-tooltip
 
-! some wikipeida misc element blocking (I do the survey typically)
+! some wikipeida misc element blocking (i do the survey typically, i just don't want to be nagged)
 wikipedia.org##.survey-content.message
 wikipedia.org###frb-inline
 wikipedia.org###frb-nag
 wikipedia.org###siteNotice
 
-! remove stupid overlay that breaks the website. How smart are these people?
+! remove stupid overlay that breaks the website. how smart are these people?
 mensa.ca##.fadeIn.animated.elementor-widget-text-editor.elementor-widget.animated-fast.elementor-element-88d4acb.elementor-element > .elementor-widget-container
 
 ! remove siye banner, to make reading the website in public less embarassing, make site not as fanfiction looking
@@ -306,10 +306,10 @@ siye.co.uk##[src="skins/HarryGinny/top.jpg"]
 www.blender.org###dfrdb-container
 docs.blender.org###dfrdb-container
 
-! removes erroneous steam deck shipping 'delay' to Canada that's been there since launch, and is false
+! removes erroneous steam deck shipping 'delay' to canada that's been there since launch, and is false
 store.steampowered.com##.cart_item_desc_ext.orderdetails_shippingdelay
 
-! cleans up the merriam-webster website, make it less ugly. Does remove some 'useful' things, but I generally like this look
+! cleans up the merriam-webster website, make it less ugly. Does remove some 'useful' things, but i generally like this look better
 www.merriam-webster.com##.non-sticky.fixed-wrapper
 www.merriam-webster.com##.d-flex.flex-nowrap.flex-md-row.flex-xl-column.sidebar-padder
 www.merriam-webster.com##.p-0.order-lg-1.align-items-lg-center.justify-content-start.flex-lg-row.flex-column.d-flex.navigation-second-half
@@ -335,9 +335,9 @@ www.merriam-webster.com##.flex-nowrap.container-xxl.navbar
 www.merriam-webster.com##.g-0.col-12.col-md-3.col-lg-3.col-xl-3.right-rail.position-relative.fixed-wrapper
 www.merriam-webster.com##.header-placeholder
 
-! my github rules 
+! removes some element or other
 github.com##div.react-code-size-details-in-header:nth-of-type(2)
-! taken From dandelionSprout's 4k/5k website strecher list, which is then adapted from github-wide
+! taken from dandelionSprout's 4k/5k website strecher list, which is then itself adapted from github-wide
 github.com##.file.js-code-editor.container-preview.show-code:style(height: 63vh !important; margin-bottom: 30px !important)
 github.com##.emoji-picker-tab:style(height: 700px !important)
 github.com##.comment-form-textarea:style(max-height: none !important)
@@ -403,7 +403,7 @@ app.myblueprint.ca##.bold.contrastSuccess
 ! ads on random website
 www.eatyourbytes.com##div.eyb-amazon-3image
 
-! remove ad and junk from homepage of startpage
+! remove ads and junk from homepage of startpage
 www.startpage.com##.css-i4fykg.privacy-extension-and-app-widget
 www.startpage.com###home-below-the-fold-container
 www.startpage.com##.css-1hjmuxl.home-hero-down-arrow
@@ -431,7 +431,7 @@ www.wide-gamut.com###js-banner-eizo
 ! ad on tampermonkey website (why?)
 www.tampermonkey.net##.incontent.searcad > div
 
-! remove pinarello newsletter modal thing
+! remove pinarello newsletter overlay modal thing
 pinarello.com###nl-pop
 
 ! removes strange empty banner box on top of site. I don't use this site, may be out of date quick
@@ -455,16 +455,16 @@ www.nytimes.com##.css-m5rkpj
 www.nytimes.com##.css-ui2i83 > ul
 www.nytimes.com##.css-1kj7lfb
 
-! unbreak random website I used once
+! unbreak random website i used once
 linuxstans.com##.text-md-right.col-md-3.col-12.tc-sidebar.sidebar.right
 
-! remove ugly banner on site I used once
+! remove ugly banner on site i used once
 www.usatoday.com##.gnt_nb
 
 ! make website a little nicer
 www.bikeradar.com##.header-ad
 
-! remove unnecessary overlay on playing video 
+! remove unnecessary overlay on currently playing video 
 baldursgate3.game##.play
 
 ! block ad on top of page
@@ -483,7 +483,7 @@ apps.apple.com##.we-arcade-upsell
 ! dang you and your ad viruses
 mefmobile.org###rk-exit-modal-bg
 
-! i got this from another list; this was the only useful filter in the entire list, so I stole it
+! i got this from another list; this was the only useful filter in the entire list, so i stole it
 my.nintendo.com##.badge
 
 ! taken from another list
@@ -495,7 +495,7 @@ bulbapedia.bulbagarden.net###upper-article
 ! this website has a lot of ads for testing ublock origin, it also has an annoying banner at the bottom
 www.forbes.com##.red.ribbon
 
-! removes something, I forgot what it does. I'd guess removes something annoying ¯\_(ツ)_/¯
+! removes something, i forgot what it does. i'd guess removes something annoying ¯\_(ツ)_/¯
 www.canyon.com##.js-accordionToggle.serviceSnapIn__trigger
 
 ! annoying banner at bottom of page
