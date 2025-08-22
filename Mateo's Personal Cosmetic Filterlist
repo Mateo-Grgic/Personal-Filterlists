@@ -8,7 +8,7 @@
 ! Caveat: However, as a rule of thumb, do not give random lists on the internet trusted status unless you thourougly trust the author, and know what the list does exactly.
 ! Note Continued: My other filters work just fine without trusted status, so if you don't care about reddit, don't give this list trusted status.
 
-! duckduckgo visual annoyances filter list. cleans up the website, and removes ads and stuff. removes things I don't want to see every time i search
+! duckduckgo visual annoyances filter list. cleans up the website, and removes ads and stuff. removes things i don't want to see every time i search
 ||external-content.duckduckgo.com/iu/
 duckduckgo.com##.has-two-items.grid-2-cols.has-grid.bing.has-main-source.js-module--autoads.module--carousel-autoads.module--carousel.module
 duckduckgo.com##.js-feedback-start.feedback-btn__send
