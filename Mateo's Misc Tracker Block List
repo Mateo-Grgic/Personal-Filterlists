@@ -196,6 +196,7 @@ $removeparam=__twitter_impression
 ||reddit.com^$removeparam=/^\x24original_url=/
 ||reddit.com^$removeparam=/^\x243p=/
 ||reddit.com^$removeparam=_branch_match_id
+||youtube.com^$removeparam=&t
 
 ! misc tracker and unpleasant website blocklist
 adfstat.yandex.ru$important
