@@ -535,7 +535,7 @@ www.google.com##dynamic-visibility-control:nth-of-type(2)
 *anubis/static/img/reject.webp$image
 *anubis/static/img/happy.webp$image
 
-! blocks 3rd party 'log in with google' and 'login with apple' overlays
+! blocks 3rd party 'log in with google' and 'login with apple' overlays found on some websites
 ||accounts.google.com/gsi/*$xhr,script,3p
 ||accounts.google.com^$third-party
 ||appleid.apple.com^$third-party
@@ -546,3 +546,11 @@ www.google.com##dynamic-visibility-control:nth-of-type(2)
 
 ! removes gemini button from google docs
 docs.google.com###docs-sidekick-gen-ai-promo-button-container
+
+! clean up theweathernetwork.com a little bit
+www.theweathernetwork.com##.cGAqKQ.sc-bizigk
+www.theweathernetwork.com##.jWvzPP.sc-fUBkdm
+www.theweathernetwork.com###other-locations > div > .jgeahg.sc-jnOGJG
+www.theweathernetwork.com##.dTPsHq.sc-bizigk
+www.theweathernetwork.com##.cnWpSc.sc-krNlru
+
