@@ -530,20 +530,6 @@ www.kijiji.ca##.eTobXd.sc-1f51e79f-0
 www.google.com##.SLPe5b.Kevs9
 www.google.com##dynamic-visibility-control:nth-of-type(2)
 
-! hide the silly anubis anti-AI-crawlers catgirl mascot found on certain linux-related webpages i visit
-*anubis/static/img/pensive.webp$image
-*anubis/static/img/reject.webp$image
-*anubis/static/img/happy.webp$image
-
-! blocks 3rd party 'log in with google' and 'login with apple' overlays found on some websites
-||accounts.google.com/gsi/*$xhr,script,3p
-||accounts.google.com^$third-party
-||appleid.apple.com^$third-party
-||appleid.cdn-apple.com^$third-party
-@@||accounts.google.com^$domain=youtube.com|chromium.org|gstatic.com|googleusercontent.com
-@@||appleid.apple.com^$domain=appleid.cdn-apple.com
-@@||appleid.cdn-apple.com^$domain=appleid.apple.com
-
 ! removes gemini button from google docs
 docs.google.com###docs-sidekick-gen-ai-promo-button-container
 
