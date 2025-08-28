@@ -3,7 +3,13 @@
 ! Expires: 2 Days
 ! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Mateo's%20Misc%20Tracker%20Block%20List
 ! Homepage: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
-! Note: Many of these filters are from around the web, but many are made by myself
+! Note: Many of these rules are from around the web, but that being said, most of them are made by myself list)
+
+! this filter isn't really a tracker, but it doesn't fall into my 'strictly-cosmetic' list
+! hide the silly anubis anti-AI-crawlers catgirl mascot found on certain linux-related webpages i visit
+*anubis/static/img/pensive.webp$image
+*anubis/static/img/reject.webp$image
+*anubis/static/img/happy.webp$image
 
 ! https://www.reddit.com/r/firefox/comments/1digcp4/comment/l93oijg/
 $3p,to=facebook.*,from=~facebook.*|~instagram.com|messenger.com|~meta.*|~threads.*
@@ -12,6 +18,15 @@ $3p,to=facebook.*,from=~facebook.*|~instagram.com|messenger.com|~meta.*|~threads
 xn--*
 xn--*$doc,popup,frame
 ||xn--*$doc,popup,frame
+
+! blocks 3rd party 'log in with google' and 'login with apple' overlays found on some websites
+||accounts.google.com/gsi/*$xhr,script,3p
+||accounts.google.com^$third-party
+||appleid.apple.com^$third-party
+||appleid.cdn-apple.com^$third-party
+@@||accounts.google.com^$domain=youtube.com|chromium.org|gstatic.com|googleusercontent.com
+@@||appleid.apple.com^$domain=appleid.cdn-apple.com
+@@||appleid.cdn-apple.com^$domain=appleid.apple.com
 
 ! remove paramaters and link trackers from URLs 
 $removeparam=ceneo_spo
