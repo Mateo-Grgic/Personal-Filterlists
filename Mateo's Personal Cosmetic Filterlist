@@ -508,8 +508,9 @@ www.ipolitics.ca##.banner_action.banner
 ! removes black overlay that breaks the website
 getfreewrite.com###containerD3-js > div
 
-! blocks upgrade button in proton mail
+! blocks some annoying ui elements in proton mail
 mail.proton.me##.gap-2.button-promotion--full-gradient.button-promotion--icon-gradient.items-center.flex.max-w-full.text-center.inline-block.button-outline-weak.button-medium.button
+mail.proton.me##.topnav-list--four-elements.empty\:hidden.items-center.flex-nowrap.flex.gap-1.ml-2.my-0.unstyled.topnav-list > div
 
 ! blocks log-in dialouge box overlay
 www.pinterest.com##.zI7.p6V.ojN._he.ZZS.Rym.QLY
