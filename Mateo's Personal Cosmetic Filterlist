@@ -64,6 +64,8 @@ duckduckgo.com###header_wrapper:not(.header-wrap--with-hero), .js-header-wrap.he
 duckduckgo.com##.is-stuck.has-dropdowns.js-zcm-sticky.metabar--fixed.metabar:style(position: absolute !important; top: 0 !important;)
 duckduckgo.com##.js-serp-bottom-right.serp__bottom-right:style(position: absolute !important; bottom: unset !important;)
 duckduckgo.com##.WGdpd_iV__IHlnRacxBr
+duckduckgo.com###react-duckbar li:has-text(Search Assist)
+duckduckgo.com##li:first-child:has([data-testid="duckassist-answer-content"])
 start.duckduckgo.com##ul:nth-of-type(2)
 start.duckduckgo.com##section.sideMenu_section__qPsAX:nth-of-type(2)
 start.duckduckgo.com##section.sideMenu_section__qPsAX:nth-of-type(3)
@@ -115,6 +117,12 @@ search.brave.com##.svelte-6afvde
 search.brave.com##.svelte-42fn05.related-queries-wrapper
 search.brave.com##.svelte-1yt5tdo.primary
 search.brave.com##.svelte-c3bjae.subutton
+search.brave.com###llm-snippet
+search.brave.com##.llm.suggestion:has-text(Answer with AI)
+search.brave.com##.subutton-tooltip-wrapper[aria-label="Answer with AI"]
+search.brave.com##button.suggestion.llm
+search.brave.com##div.ai-digest
+search.brave.com##div.subutton-wrapper:has(button#submit-llm-button)
 
 ! slightly clean up searx.org, and some other searx instance(s), only tested on searx.org, may not work on other instance(s)
 searx.org##button.category_button.category:nth-of-type(3)
@@ -531,6 +539,17 @@ www.kijiji.ca##.eTobXd.sc-1f51e79f-0
 ! removes various annoying things on the google search site
 www.google.com##.SLPe5b.Kevs9
 www.google.com##dynamic-visibility-control:nth-of-type(2)
+google.com##[data-hveid="CAIQAQ"]:has-text(Gemini, an AI assistant)
+google.com##[data-mcpr]
+google.com##[role="listitem"]:has(a[href*="aep=1&ntc=1"])
+google.com##button:has(path[d^="M17.5 12c0-3.04 2.46-5.5"])
+google.com##li[data-attrid$="Prediction"]:has([aria-description="AI Mode"])
+
+! clean up gmail site
+mail.google.com###google-hats-survey
+
+! clean up google support 
+support.google.com##.helpPanelContainerRoot:has-text(Help guide)
 
 ! removes gemini button from google docs
 docs.google.com###docs-sidekick-gen-ai-promo-button-container
