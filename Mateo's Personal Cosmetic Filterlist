@@ -66,6 +66,7 @@ duckduckgo.com##.js-serp-bottom-right.serp__bottom-right:style(position: absolut
 duckduckgo.com##.WGdpd_iV__IHlnRacxBr
 duckduckgo.com###react-duckbar li:has-text(Search Assist)
 duckduckgo.com##li:first-child:has([data-testid="duckassist-answer-content"])
+duckduckgo.com##.YU2JXQWzBxr5xRv1Zn_H
 start.duckduckgo.com##ul:nth-of-type(2)
 start.duckduckgo.com##section.sideMenu_section__qPsAX:nth-of-type(2)
 start.duckduckgo.com##section.sideMenu_section__qPsAX:nth-of-type(3)
@@ -551,8 +552,9 @@ mail.google.com###google-hats-survey
 ! clean up google support 
 support.google.com##.helpPanelContainerRoot:has-text(Help guide)
 
-! removes gemini button from google docs
+! rfixes and cleans up google docs
 docs.google.com###docs-sidekick-gen-ai-promo-button-container
+docs.google.com##.gb_y
 
 ! clean up theweathernetwork.com a little bit
 www.theweathernetwork.com##.cGAqKQ.sc-bizigk
