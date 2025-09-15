@@ -552,7 +552,7 @@ mail.google.com###google-hats-survey
 ! clean up google support 
 support.google.com##.helpPanelContainerRoot:has-text(Help guide)
 
-! rfixes and cleans up google docs
+! fixes and cleans up google docs a bit
 docs.google.com###docs-sidekick-gen-ai-promo-button-container
 docs.google.com##.gb_y
 
