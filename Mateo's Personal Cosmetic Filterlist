@@ -556,10 +556,12 @@ support.google.com##.helpPanelContainerRoot:has-text(Help guide)
 docs.google.com###docs-sidekick-gen-ai-promo-button-container
 docs.google.com##.gb_y
 
-! clean up theweathernetwork.com a little bit
+! clean up theweathernetwork.com a little bit, also breaks the website, but removes ads & invasive content
 www.theweathernetwork.com##.cGAqKQ.sc-bizigk
 www.theweathernetwork.com##.jWvzPP.sc-fUBkdm
 www.theweathernetwork.com###other-locations > div > .jgeahg.sc-jnOGJG
 www.theweathernetwork.com##.dTPsHq.sc-bizigk
 www.theweathernetwork.com##.cnWpSc.sc-krNlru
 
+! remove login overlay on canva
+www.canva.com##.AD_uww.FijAlA.Ue5QFA._2Cfibw
