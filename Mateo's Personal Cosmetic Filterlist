@@ -554,7 +554,6 @@ support.google.com##.helpPanelContainerRoot:has-text(Help guide)
 
 ! fixes and cleans up google docs a bit
 docs.google.com###docs-sidekick-gen-ai-promo-button-container
-docs.google.com##.gb_y
 
 ! clean up theweathernetwork.com a little bit, also breaks the website, but removes ads & invasive content
 www.theweathernetwork.com##.cGAqKQ.sc-bizigk
