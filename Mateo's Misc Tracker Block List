@@ -5,12 +5,6 @@
 ! Homepage: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
 ! Note: Many of these rules are from around the web, but that being said, most of them are made by myself
 
-! this filter isn't really a tracker, but it doesn't fall into my 'strictly-cosmetic' list
-! hide the silly anubis anti-AI-crawlers catgirl mascot found on certain linux-related webpages i visit
-*anubis/static/img/pensive.webp$image
-*anubis/static/img/reject.webp$image
-*anubis/static/img/happy.webp$image
-
 ! https://www.reddit.com/r/firefox/comments/1digcp4/comment/l93oijg/
 $3p,to=facebook.*,from=~facebook.*|~instagram.com|messenger.com|~meta.*|~threads.*
 
