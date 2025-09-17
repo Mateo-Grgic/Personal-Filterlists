@@ -67,6 +67,7 @@ duckduckgo.com##.WGdpd_iV__IHlnRacxBr
 duckduckgo.com###react-duckbar li:has-text(Search Assist)
 duckduckgo.com##li:first-child:has([data-testid="duckassist-answer-content"])
 duckduckgo.com##.YU2JXQWzBxr5xRv1Zn_H
+duckduckgo.com##ul:nth-of-type(2)
 start.duckduckgo.com##ul:nth-of-type(2)
 start.duckduckgo.com##section.sideMenu_section__qPsAX:nth-of-type(2)
 start.duckduckgo.com##section.sideMenu_section__qPsAX:nth-of-type(3)
