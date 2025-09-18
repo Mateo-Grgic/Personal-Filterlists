@@ -22,7 +22,8 @@ xn--*$doc,popup,frame
 @@||appleid.apple.com^$domain=appleid.cdn-apple.com
 @@||appleid.cdn-apple.com^$domain=appleid.apple.com
 
-! block youtube view-count trackers & analytics. recently removed from easyprivacy. correct decison to make for that list, but I'd prefer it blocked
+! block youtube view-count trackers & analytics. recently removed from easyprivacy. 
+! it's the correct decison to make for the easyprivacy list, but I'd prefer it blocked
 ||youtube.com/api/stats/atr?
 ||youtube.com/api/stats/atr?$xhr,removeparam
 ||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=$xhr,method=post
