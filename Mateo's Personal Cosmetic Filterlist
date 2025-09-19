@@ -550,6 +550,7 @@ google.com##li[data-attrid$="Prediction"]:has([aria-description="AI Mode"])
 
 ! clean up gmail site
 mail.google.com###google-hats-survey
+mail.google.com##.e5IPTd.r4vW1e
 
 ! clean up google support 
 support.google.com##.helpPanelContainerRoot:has-text(Help guide)
