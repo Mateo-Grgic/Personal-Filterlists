@@ -209,6 +209,8 @@ www.youtube.com###chat-container
 www.youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-metadata-row-renderer.style-scope
 www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(3)
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has(.badge-style-type-members-only)
+youtube.com###primary > ytd-rich-grid-renderer > #contents > ytd-rich-section-renderer
+youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-items-per-row: 3 !important;)
 ! disable some youtube experiment(s)
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_grid, false)
 ! my filters that remove crap from mobile youtube (shorts, games, etc)
