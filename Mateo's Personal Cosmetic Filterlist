@@ -75,6 +75,7 @@ start.duckduckgo.com##section.sideMenu_section__qPsAX:nth-of-type(4)
 start.duckduckgo.com##section.sideMenu_section__qPsAX:nth-of-type(5)
 
 ! clean up the apperance of kagi, one of the nicer looking websites by default
+! kagi.com##footer
 kagi.com##.false.new-tooltip.trigger
 kagi.com##a.n_ne._0_query_link_item.nav_item:nth-of-type(5)
 kagi.com##a.n_ne._0_query_link_item.nav_item:nth-of-type(4)
@@ -83,7 +84,6 @@ kagi.com##.__srgi
 kagi.com###_0_land_tooltip_message
 kagi.com##.clearfix.inline-content.list-widget._0_provider-content
 kagi.com##.clipboardCopy._0_share_url_footer
-kagi.com##footer
 kagi.com##.__sri-time 
 kagi.com##.n_ma._0_query_link_item.nav_item
 kagi.com##.--gap-10.--flex.result-comments
