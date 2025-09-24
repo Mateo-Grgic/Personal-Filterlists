@@ -576,3 +576,7 @@ www.canva.com##.AD_uww.FijAlA.Ue5QFA._2Cfibw
 *anubis/static/img/pensive.webp$image
 *anubis/static/img/reject.webp$image
 *anubis/static/img/happy.webp$image
+
+! remove kahoot 'achievements' button
+kahoot.it##.biGEas.island-achievements__Button-sc-v7i43v-2
+
