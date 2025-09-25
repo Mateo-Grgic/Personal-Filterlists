@@ -125,6 +125,7 @@ search.brave.com##.subutton-tooltip-wrapper[aria-label="Answer with AI"]
 search.brave.com##button.suggestion.llm
 search.brave.com##div.ai-digest
 search.brave.com##div.subutton-wrapper:has(button#submit-llm-button)
+search.brave.com##.svelte-ve2bd1.noscript-hide.noscrollbar.example-searches
 
 ! slightly clean up searx.org, and some other searx instance(s), only tested on searx.org, may not work on other instance(s)
 searx.org##button.category_button.category:nth-of-type(3)
