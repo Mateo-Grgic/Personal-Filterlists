@@ -590,9 +590,10 @@ www.canva.com##.AD_uww.FijAlA.Ue5QFA._2Cfibw
 ! remove kahoot 'achievements' button
 kahoot.it##.biGEas.island-achievements__Button-sc-v7i43v-2
 
-! remove sponsored & 'you may like' from tom's hardware
+! remove sponsored, 'you may like', social media, etc from tom's hardware
 www.tomshardware.com##div.hawk-root
 www.tomshardware.com##.border-neutral-300.border-y.border-solid.mb-4.pb-4.pt-3.clear-both
+www.tomshardware.com##.see-more--clipped.see-more
 
 
 
