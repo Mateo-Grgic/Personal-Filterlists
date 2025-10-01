@@ -166,6 +166,7 @@ amazon.ca###nav-subnav
 amazon.ca###navbar > .nav-sprite
 amazon.ca##.navFooterDescLine.navFooterLinkLine.navFooterLine
 amazon.ca##.nav-sprite-v1.navLeftFooter
+amazon.ca##.vse-video-widget-container.vse-video-widget-dp-container._vc-pfo_style_vseVideoWidgetContainer__1l1qH.vse-ive_vfsp-ive-video-rss-dp-vfsp._vc-pfo_style_peekThrough__pobCI.a-cardui
 
 ! some youtube.com things to hide, to make the website more usable. designed to look good when logged in. does break some things.
 ! note: you must disable cosmetic filtering TEMPORARALY to subscribe to any channel. i recommend going to the channel page, to avoid excessive advertisments.
