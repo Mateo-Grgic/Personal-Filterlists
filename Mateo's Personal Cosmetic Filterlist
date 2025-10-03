@@ -211,6 +211,7 @@ www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.y
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has(.badge-style-type-members-only)
 youtube.com###primary > ytd-rich-grid-renderer > #contents > ytd-rich-section-renderer
 www.youtube.com###cinematics.ytd-watch-flexy
+www.youtube.com##.ytp-fullscreen-grid
 youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-items-per-row: 3 !important;)
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_grid, false)
 !
