@@ -239,9 +239,10 @@ $removeparam=__twitter_impression
 /widget/ads.$important
 @@*$redirect-rule,domain=d3ward.github.io
 acobt.tech$important
+ad.doubleclick.net$important
 adfstat.yandex.ru$important
 ads-api.tiktok.com$important
-ads-api.twitter.com#$important
+ads-api.twitter.com$important
 ads-sg.tiktok.com$important
 ads.js$important
 ads.pinterest.com$important
@@ -282,8 +283,8 @@ fonts.googleapis.com/$important
 free4u.nurul-huda.or.id$important
 geo.yahoo.com$important
 google-analytics.com$important
+googleads.g.doubleclick.net$important
 googlesyndication.com$important
-http://ads-api.twitter.com/$important
 iadsdk.apple.com$important
 imprezzer.com$important
 kickoffo.site$important
@@ -313,6 +314,7 @@ sessions.bugsnag.com$important
 sl1bas.blogspot.com$important
 smetrics.samsung.com$important
 statcounter.com$important
+static.doubleclick.net$important
 stats.wp.com$important
 taboola.com$important
 tracking.rus.miui.com$important
