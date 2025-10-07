@@ -185,6 +185,7 @@ www.amazon.ca###atfTop1_feature_div > .mako-v2.content-grid-wrapper
 www.amazon.ca###btfContent2_feature_div > .mako-v2.content-grid-alternate-styles > div.content-grid-row-wrapper
 www.amazon.ca###btfContent6_feature_div
 www.amazon.ca###btfContent9_feature_div > .ucc-v2-widget
+www.amazon.ca###a-page > .a-spacing-none.a-section
 
 ! some youtube.com things to hide, to make the website more usable. designed to look good when logged in. does break some things.
 ! note: you must disable cosmetic filtering TEMPORARALY to subscribe to any channel. i recommend going to the channel page, to avoid excessive advertisments.
