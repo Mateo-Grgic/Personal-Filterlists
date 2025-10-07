@@ -162,12 +162,20 @@ discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad > .linkButton_
 discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad > .linkButton_c91bad.interactive_c91bad.interactive_f5eb4b > .link_c91bad
 discord.com##.content__99f8c > li.container_e45859.channel__972a0 > .linkButton__972a0.interactive__972a0.interactive_bf202d
 
-! amazon.ca visual annoyances filter list, to make the site look slightly nicer. it's still ugly, but there is only so much i can do (rather, am willing to do).
+! amazon.ca visual annoyances filter list, used in conjuncture with a violentmonkey script that makes amazon look like a traditional search engine
 amazon.ca###nav-subnav
 amazon.ca###navbar > .nav-sprite
 amazon.ca##.navFooterDescLine.navFooterLinkLine.navFooterLine
 amazon.ca##.nav-sprite-v1.navLeftFooter
 amazon.ca##.vse-video-widget-container.vse-video-widget-dp-container._vc-pfo_style_vseVideoWidgetContainer__1l1qH.vse-ive_vfsp-ive-video-rss-dp-vfsp._vc-pfo_style_peekThrough__pobCI.a-cardui
+www.amazon.ca###gw-layout > .gw-card-layout.a-section
+www.amazon.ca###CardInstanceNbaVgKoENosvX8rIHP9KwA > .fresh-shoveler.aui-desktop.image-shoveler.card-lite.shogun-widget.a-spacing-none.a-section
+www.amazon.ca##.celwidget.pd_rd_r-1a5a64b2-823c-4ea6-9776-d030342461d2.pd_rd_w-mAGe9.pd_rd_wg-0c44y.desktop-gateway-btf_deals-p13n-ac3e9115-959d-4bda-9409-aa84fa635166.csm-placement-id-c407e9f8-11f1-46dc-83f0-2958d01b832c.gw-auto-height.gw-widget-instrument.gwi-row.desktop-row.gw-col
+www.amazon.ca##.a-spacing-large.a-section
+www.amazon.ca###desktop-banner
+www.amazon.ca##.rhf-frame
+www.amazon.ca##.a-badge-label
+www.amazon.ca###nav-xshop-container > .nav-progressive-content
 
 ! some youtube.com things to hide, to make the website more usable. designed to look good when logged in. does break some things.
 ! note: you must disable cosmetic filtering TEMPORARALY to subscribe to any channel. i recommend going to the channel page, to avoid excessive advertisments.
