@@ -415,9 +415,6 @@ finviz.com##td:nth-of-type(6)
 finviz.com##th.text-left:nth-of-type(6)
 finviz.com##.modal-elite-ad
 
-! remove pinarello newsletter overlay modal thing
-pinarello.com###nl-pop
-
 ! clean up new york times
 www.nytimes.com###bottom-sheet-sensor > div
 www.nytimes.com##.bottom-of-article > .css-yomkvi
@@ -444,6 +441,9 @@ www.nitrotype.com##.ad--container--side.structure-leaderboard
 
 ! removes something, i forgot what it does. i'd guess removes something annoying ¯\_(ツ)_/¯
 www.canyon.com##.js-accordionToggle.serviceSnapIn__trigger
+
+! remove pinarello newsletter overlay modal thing
+pinarello.com###nl-pop
 
 ! blocks some annoying ui elements in proton mail
 mail.proton.me##.gap-2.button-promotion--full-gradient.button-promotion--icon-gradient.items-center.flex.max-w-full.text-center.inline-block.button-outline-weak.button-medium.button
