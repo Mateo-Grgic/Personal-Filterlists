@@ -140,21 +140,8 @@ searx.org###sidebar
 searx.org##.language
 searx.org##.engines
 searx.org##.link_on_top_preferences
-searx.tiekoetter.com##button.category_button.category:nth-of-type(3)
-searx.tiekoetter.com##button.category_button.category:nth-of-type(4)
-searx.tiekoetter.com##button.category_button.category:nth-of-type(10)
-searx.tiekoetter.com##button.category_button.category:nth-of-type(9)
-searx.tiekoetter.com##button.category_button.category:nth-of-type(8)
-searx.tiekoetter.com##button.category_button.category:nth-of-type(5)
-searx.tiekoetter.com##button.category_button.category:nth-of-type(6)
-searx.tiekoetter.com##button.category_button.category:nth-of-type(7)
-searx.tiekoetter.com##.link_on_top_about
-searx.tiekoetter.com###sidebar
-searx.tiekoetter.com##.language
-searx.tiekoetter.com##.engines
-searx.tiekoetter.com##.link_on_top_preferences 
 
-! discord visual annoyances filter list, these are probably out of date
+! discord visual annoyances filter list, these are probably out of date (I use GoofCord desktop, rarely browser)
 discord.com##.scrollerBase_c49869.none_c49869.scroller_fea3ef > div.listItem_c96c45 > .listItemWrapper_dfb2f8
 discord.com##.footer_aa1bff > .listItem_c96c45 > .listItemWrapper_dfb2f8
 discord.com##.guildSeparator_d0c57e
@@ -286,14 +273,6 @@ m.youtube.com##ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-st
 m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-bar-item-title:has-text(Shorts))
 m.youtube.com##ytm-rich-section-renderer:has(>ytm-reel-shelf-renderer)
 
-! strict reading rules to make the website less obviously a fanfiction website, used in conjuncture with violentmonkey script to make body text wider.
-fanfiction.net###top
-fanfiction.net##.zmenu
-fanfiction.net##.icon-heart.pull-right.btn
-fanfiction.net###pre_story_links
-fanfiction.net##.h1.zone-name-title
-fanfiction.net##.spacer-top.spacer.core-msg
-
 ! some reddit ease of use things, allows viewing nsfw posts without loggin in, blocks some ads and other junk
 reddit.com##[bundlename="nsfw_blocking_modal"]:remove()
 reddit.com##body:has(> shreddit-app > shreddit-async-loader[bundlename="app_selector"]):style(overflow: auto !important; pointer-events: auto !important;)
@@ -320,41 +299,11 @@ darkreader.org##.page-grid-side
 darkreader.org##.page-grid-ios > .ios__scroll-up.ios__show-up
 darkreader.org##.ios__show-up
 
-! adblocker nags on random chemestry website, i will not be disabling my adblocker, thank you very much
-www.webqc.org##.center > div:nth-of-type(2)
-www.webqc.org##body > .noprint
-
-! shoe website placeholder element remover
-www.skechers.ca##.banner-interrumpter.px-lg-3.mb-lg-4.mb-md-1.mb-2.col-12
-
-! removing blank space on a random news website. i don't use this website at all, just decided to clean it up a little bit
-fictionhorizon.com##.slick-dcm > .cls-inserted.slick-inline-search-panel
-fictionhorizon.com##.slick-dcm
-fictionhorizon.com##.entry-content-wrap > .cls-inserted.slick-inline-search-panel
-
-! annoying element blocker on cycling website, i don't think this filter actually does anything though
-velo.outsideonline.com##.tm-c-tooltip
-
 ! some wikipeida misc element blocking (i do the survey typically, i just don't want to be nagged)
 wikipedia.org##.survey-content.message
 wikipedia.org###frb-inline
 wikipedia.org###frb-nag
 wikipedia.org###siteNotice
-
-! remove stupid overlay that breaks the website. how smart are these people?
-mensa.ca##.fadeIn.animated.elementor-widget-text-editor.elementor-widget.animated-fast.elementor-element-88d4acb.elementor-element > .elementor-widget-container
-
-! remove siye banner, to make reading the website in public less embarassing, make site not as fanfiction looking
-||siye.co.uk/skins/HarryGinny/top.jpg$image
-www.siye.co.uk##body > table > tbody > tr:nth-of-type(1) > td > center
-siye.co.uk##[src="skins/HarryGinny/top.jpg"]
-
-! remove dontate banner on top of page (you should donate though)
-www.blender.org###dfrdb-container
-docs.blender.org###dfrdb-container
-
-! removes erroneous steam deck shipping 'delay' to canada that's been there since launch, and is false
-store.steampowered.com##.cart_item_desc_ext.orderdetails_shippingdelay
 
 ! cleans up the merriam-webster website, make it less ugly. Does remove some 'useful' things, but i generally like this look better
 www.merriam-webster.com##.non-sticky.fixed-wrapper
@@ -444,12 +393,6 @@ github.com##div[class^=IssueMetadata-] ~ div[class^=Box-]:style(max-width:2000px
 tcec-chess.com##.fastart.fbetween
 tcec-chess.com###body > .fastart.fcenter
 
-! hide grades in myblueprint.ca when on courses view
-app.myblueprint.ca##.bold.contrastSuccess
-
-! ads on random website
-www.eatyourbytes.com##div.eyb-amazon-3image
-
 ! remove ads and junk from homepage of startpage
 www.startpage.com##.css-i4fykg.privacy-extension-and-app-widget
 www.startpage.com###home-below-the-fold-container
@@ -472,21 +415,8 @@ finviz.com##td:nth-of-type(6)
 finviz.com##th.text-left:nth-of-type(6)
 finviz.com##.modal-elite-ad
 
-! ad on test site (how?)
-www.wide-gamut.com###js-banner-eizo
-
-! ad on tampermonkey website (why?)
-www.tampermonkey.net##.incontent.searcad > div
-
 ! remove pinarello newsletter overlay modal thing
 pinarello.com###nl-pop
-
-! removes strange empty banner box on top of site. I don't use this site, may be out of date quick
-www.natgeotv.com###banner-top
-www.natgeotv.com##.LeaderboardContainer.VMargin10
-
-! ad on seamonkey site
-www.seamonkey-project.org###side > div 
 
 ! clean up new york times
 www.nytimes.com###bottom-sheet-sensor > div
@@ -502,18 +432,6 @@ www.nytimes.com##.css-m5rkpj
 www.nytimes.com##.css-ui2i83 > ul
 www.nytimes.com##.css-1kj7lfb
 
-! unbreak random website i used once
-linuxstans.com##.text-md-right.col-md-3.col-12.tc-sidebar.sidebar.right
-
-! remove ugly banner on site i used once
-www.usatoday.com##.gnt_nb
-
-! make website a little nicer
-www.bikeradar.com##.header-ad
-
-! remove unnecessary overlay on currently playing video 
-baldursgate3.game##.play
-
 ! block ad on top of page
 ||www.techpowerup.com/reviyuu/b784/_d67893d3.png$image
 www.techpowerup.com##.gbreb
@@ -524,32 +442,8 @@ www.nitrotype.com##.link--bare.link.goldTeaser
 www.nitrotype.com##.structure-spacer-left
 www.nitrotype.com##.ad--container--side.structure-leaderboard
 
-! it's an ad by definition
-apps.apple.com##.we-arcade-upsell
-
-! dang you and your ad viruses
-mefmobile.org###rk-exit-modal-bg
-
-! i got this from another list; this was the only useful filter in the entire list, so i stole it
-my.nintendo.com##.badge
-
-! taken from another list
-fandom.com##.ad-slot-placeholder
-
-! taken from another list
-bulbapedia.bulbagarden.net###upper-article
-
-! this website has a lot of ads for testing ublock origin, it also has an annoying banner at the bottom
-www.forbes.com##.red.ribbon
-
 ! removes something, i forgot what it does. i'd guess removes something annoying ¯\_(ツ)_/¯
 www.canyon.com##.js-accordionToggle.serviceSnapIn__trigger
-
-! annoying banner at bottom of page
-www.ipolitics.ca##.banner_action.banner
-
-! removes black overlay that breaks the website
-getfreewrite.com###containerD3-js > div
 
 ! blocks some annoying ui elements in proton mail
 mail.proton.me##.gap-2.button-promotion--full-gradient.button-promotion--icon-gradient.items-center.flex.max-w-full.text-center.inline-block.button-outline-weak.button-medium.button
@@ -558,10 +452,6 @@ mail.proton.me##.topnav-list--four-elements.empty\:hidden.items-center.flex-nowr
 ! blocks log-in dialouge box overlay
 www.pinterest.com##.zI7.p6V.ojN._he.ZZS.Rym.QLY
 www.pinterest.ca##.zI7.p6V.ojN._he.ZZS.Rym.QLY
-
-! removes annoying repetitive ad/placeholder item on the webpage
-fosspost.org##.fosspostthing
-fosspost.org##iframe.wp-embedded-content
 
 ! clean up the incredibly ugly kijiji
 www.kijiji.ca##.bannerContainer-2041484315
@@ -591,23 +481,10 @@ support.google.com##.helpPanelContainerRoot:has-text(Help guide)
 docs.google.com###docs-sidekick-gen-ai-promo-button-container
 docs.google.com##.gb_y
 
-! clean up theweathernetwork.com a little bit, also breaks the website, but removes ads & invasive content
-www.theweathernetwork.com##.cGAqKQ.sc-bizigk
-www.theweathernetwork.com##.jWvzPP.sc-fUBkdm
-www.theweathernetwork.com###other-locations > div > .jgeahg.sc-jnOGJG
-www.theweathernetwork.com##.dTPsHq.sc-bizigk
-www.theweathernetwork.com##.cnWpSc.sc-krNlru
-
-! remove login overlay on canva
-www.canva.com##.AD_uww.FijAlA.Ue5QFA._2Cfibw
-
 ! hide the silly anubis anti-AI-crawlers catgirl mascot found on certain linux-related webpages i visit
 *anubis/static/img/pensive.webp$image
 *anubis/static/img/reject.webp$image
 *anubis/static/img/happy.webp$image
-
-! remove kahoot 'achievements' button
-kahoot.it##.biGEas.island-achievements__Button-sc-v7i43v-2
 
 ! remove sponsored, 'you may like', social media, etc from tom's hardware
 www.tomshardware.com##div.hawk-root
