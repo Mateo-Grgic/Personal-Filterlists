@@ -12,6 +12,14 @@ My personal filter lists for uBlock Origin (and AdGuard Home). Cosmetic list is 
 
 **This is a personal, experimental filter list.** It is not maintained by the uBlock Origin team. If sites break, it's on you to fix it, not the uBO developers.
 
+## How to Import (Advanced Users Only)
+
+**uBlock Origin:**
+1. Dashboard → **Filter lists** → **Custom** section 
+2. Click **Import** and paste the raw GitHub URL for the list you want
+3. **Apply changes**
+4. You're done, lists will automatically update 
+
 ## What's Included
 
 **General Tracker Filterlist Rules:** Tracker blocking, analytics, fingerprinting scripts, Telemetry, URL parameters, and Canadian-specific tracking domains not covered by default lists.
