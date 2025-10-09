@@ -1,6 +1,6 @@
 # Personal Filter Lists
 
-My personal filter lists for uBlock Origin (and AdGuard Home). My cosmetic list is designed to make websites usably minimalist, and tracker list is designed to increase privacy. I highly recommend you do not use the cosmetic list, tracker list should be fine for general use.
+My personal filter lists for uBlock Origin (and AdGuard Home). My cosmetic list is designed to make websites usably minimalist, and my tracker list is designed to increase privacy. I highly recommend you *do not use* the cosmetic list, tracker list should be fine for general use.
 
 ## Warning: This List WILL Break Sites
 
@@ -22,7 +22,7 @@ My personal filter lists for uBlock Origin (and AdGuard Home). My cosmetic list 
 
 ## What's Included
 
-**General Tracker Filterlist Rules:** Tracker blocking, analytics, fingerprinting scripts, Telemetry, URL parameters, and Canadian-specific tracking domains not covered by default lists.
+**General Tracker Filterlist Rules:** Tracker blocking, analytics, fingerprinting scripts, telemetry, URL parameters, and Canadian-specific tracking domains not covered by default lists.
 
 **Cosmetic Filterlist Rules:** Cookie banners, newsletter popups, anti-adblock nags, social media widgets, and other annoyances. (very strict)
 
@@ -39,7 +39,7 @@ My personal filter lists for uBlock Origin (and AdGuard Home). My cosmetic list 
 
 - Updated irregularly as I encounter new tracking/annoyances
 - Tested with uBlock Origin on LibreWolf 143+
-- Tracker list designed for the advanced capabilities of uBlock Origin, but 70% of filters should work with an intelligent network-level blocker, like AdGuard Home.
+- Tracker list designed for the advanced capabilities of uBlock Origin, but 70% of filters should work with an intelligent network-level blocker, like AdGuard Home
 
 ## License
 
