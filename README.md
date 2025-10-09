@@ -24,7 +24,7 @@ My personal filter lists for uBlock Origin (and AdGuard Home). My cosmetic list 
 
 **General Tracker Filterlist Rules:** Tracker blocking, analytics, fingerprinting scripts, telemetry, URL parameters, and Canadian-specific tracking domains not covered by default lists.
 
-**Cosmetic Filterlist Rules:** Cookie banners, newsletter popups, anti-adblock nags, social media widgets, and other annoyances. (very strict)
+**Cosmetic Filterlist Rules:** Cookie banners, newsletter popups, anti-adblock nags, social media widgets, useless UI elements, and other 'visual annoyances'. (very strict)
 
 ## Should You Use These?
 
