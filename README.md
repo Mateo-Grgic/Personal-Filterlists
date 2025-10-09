@@ -2,6 +2,16 @@
 
 My personal filter lists for uBlock Origin (and AdGuard Home). Cosmetic list is designed to make websites usably minimalist, and tracker list is designed to increase privacy. 
 
+## Warning: This List WILL Break Sites
+
+**Do not use this list unless:**
+- You understand how uBlock Origin filter lists work
+- You know how to diagnose and disable problematic filters
+- You accept full responsibility for any breakage
+- You will NOT blame uBlock Origin developers for issues caused by this list
+
+**This is a personal, experimental filter list.** It is not maintained by the uBlock Origin team. If sites break, it's on you to fix it, not the uBO developers.
+
 ## What's Included
 
 **General Tracker Filterlist Rules:** Tracker blocking, analytics, fingerprinting scripts, Telemetry, URL parameters, and Canadian-specific tracking domains not covered by default lists.
