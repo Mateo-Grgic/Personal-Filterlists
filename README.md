@@ -21,7 +21,7 @@ My personal filter lists for uBlock Origin (and AdGuard Home). Cosmetic list is 
 
 - Updated irregularly as I encounter new tracking/annoyances
 - Tested with uBlock Origin on LibreWolf 143+
-- Tracker list designed for the advanced capabilities of uBlock Origin, but 70% of filters should work with an inteligent network-level blocker, like AdGuard Home.
+- Tracker list designed for the advanced capabilities of uBlock Origin, but 70% of filters should work with an intelligent network-level blocker, like AdGuard Home.
 
 ## License
 
