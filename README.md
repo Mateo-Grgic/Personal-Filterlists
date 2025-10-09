@@ -1,6 +1,6 @@
 # Personal Filter Lists
 
-My personal filter lists for uBlock Origin (and AdGuard Home). Cosmetic list is designed to make websites usably minimalist, and tracker list is designed to increase privacy. 
+My personal filter lists for uBlock Origin (and AdGuard Home). My cosmetic list is designed to make websites usably minimalist, and tracker list is designed to increase privacy. I highly recommend you do not use the cosmetic list, tracker list should be fine for general use.
 
 ## Warning: This List WILL Break Sites
 
