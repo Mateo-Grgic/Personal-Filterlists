@@ -87,6 +87,7 @@ kagi.com##.__sri-time
 kagi.com##.n_ma._0_query_link_item.nav_item
 kagi.com##.--gap-10.--flex.result-comments
 kagi.com##.__sri-rating-stars
+kagi.com##.gap-4.flex.result-comments
 
 ! quick & dirty slight clean up of qwant, not great, needs improvement at a later date
 www.qwant.com##._2p-Ie._396aK.amHBC._23lip._2loWJ
@@ -168,11 +169,6 @@ www.amazon.ca##.promoPriceBlockMessage > div
 www.amazon.ca###dealBadge_feature_div
 www.amazon.ca##.mvt-ac-badge-wrapper
 www.amazon.ca##.a-spacing-top-micro.a-spacing-small.a-section
-www.amazon.ca###atfTop1_feature_div > .mako-v2.content-grid-wrapper
-www.amazon.ca###btfContent2_feature_div > .mako-v2.content-grid-alternate-styles > div.content-grid-row-wrapper
-www.amazon.ca###btfContent6_feature_div
-www.amazon.ca###btfContent9_feature_div > .ucc-v2-widget
-www.amazon.ca##div[data-component-type="s-search-result"] .s-price-instructions-style > .a-row
 
 ! some youtube.com things to hide, to make the website more usable. designed to look good when logged in. does break some things.
 ! note: you must disable cosmetic filtering TEMPORARALY to subscribe to any channel. i recommend going to the channel page, to avoid excessive advertisments.
@@ -491,5 +487,6 @@ www.tomshardware.com##div.hawk-root
 www.tomshardware.com##.border-neutral-300.border-y.border-solid.mb-4.pb-4.pt-3.clear-both
 www.tomshardware.com##.see-more--clipped.see-more
 
-
+! Remove premium nags for instapaper
+www.instapaper.com##.js_galog.open_modal.instapaper_premium
 
