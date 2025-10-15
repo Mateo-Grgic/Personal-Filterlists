@@ -5,7 +5,7 @@
 # See hosts(5) for proper format and other examples:
 # 192.168.1.10 foo.example.org foo
 # 192.168.1.13 bar.example.org bar
-# My Hosts List: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Hosts.txt
+# My Hosts List: https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/refs/heads/main/Hosts.txt
 
 0.0.0.0 a.nel.cloudfare.com
 0.0.0.0 accounts.firefox.com
