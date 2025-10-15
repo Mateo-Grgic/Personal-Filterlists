@@ -1,19 +1,18 @@
-! Title: Mateo's Tracker Blocklist
-! Description: Blocks common trackers, popups, web annoyances, and more. All my non-'strictly-cosmetic' filters
-! Expires: 5 Days
-! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Mateo's%20Tracker%20Blocklist
+! Title: Mateo's Tracker Block List
+! Description: Blocks common trackers, popups, web annoyances, and more
+! Expires: 3 Days
+! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Mateo's%20Misc%20Tracker%20Block%20List
 ! Homepage: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
-! Note: Many of these rules are from around the web, but that being said, most of them are made by myself
 
 ! https://www.reddit.com/r/firefox/comments/1digcp4/comment/l93oijg/
 $3p,to=facebook.*,from=~facebook.*|~instagram.com|messenger.com|~meta.*|~threads.*
 
-! IDN Homograph Attack protection - may break some things
+! IDN Homograph Attack protection  - may break some things
 xn--*
 xn--*$doc,popup,frame
 ||xn--*$doc,popup,frame
 
-! blocks 3rd party 'log in with google' and 'login with apple' overlays found on some websites
+! Block 3rd party 'log in with Google' and 'login with Apple' overlays
 ||accounts.google.com/gsi/*$xhr,script,3p
 ||accounts.google.com^$third-party
 ||appleid.apple.com^$third-party
@@ -22,208 +21,18 @@ xn--*$doc,popup,frame
 @@||appleid.apple.com^$domain=appleid.cdn-apple.com
 @@||appleid.cdn-apple.com^$domain=appleid.apple.com
 
-! block youtube view-count trackers & analytics, recently removed from easyprivacy.
+! Block youtube view-count trackers & analytics, recently removed from easyprivacy
 ||youtube.com/api/stats/atr?
 ||youtube.com/api/stats/atr?$xhr,removeparam
 ||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=$xhr,method=post
 ||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&$xhr,method=post
 ||youtube.com/ptracking?html5=1&video_id=*&cpn=*&ei=*&ptk=youtube_*&pltype=content$xhr,method=get
 ||youtube-nocookie.com/api/stats/atr
-||youtube.com/api/stats/atr
 ||youtube-nocookie.com/api/stats/playback?
 
-! remove paramaters and link trackers from URLs 
-$removeparam=ceneo_spo
-$removeparam=cmpid
-$removeparam=crid
-$removeparam=dclid
-$removeparam=Echobox
-$removeparam=fbclid
-$removeparam=feature,domain=youtube.com|youtu.be
-$removeparam=gclid
-$removeparam=gclid,domain=youtube.com|youtu.be
-$removeparam=gs_l
-$removeparam=hsCtaTracking
-$removeparam=kw,domain=youtube.com|youtu.be
-$removeparam=mkt_tok
-$removeparam=ml_subscriber
-$removeparam=ml_subscriber_hash
-$removeparam=msclkid
-$removeparam=oly_anon_id
-$removeparam=oly_enc_id
-$removeparam=os_ehash
-$removeparam=pp,domain=youtube.com|youtu.be
-$removeparam=rb_clickid
-$removeparam=ref
-$removeparam=si
-$removeparam=si,domain=youtube.com|youtu.be
-$removeparam=spm
-$removeparam=srsltid
-$removeparam=s_cid
-$removeparam=tracking_source
-$removeparam=twclid
-$removeparam=vero_conv
-$removeparam=vero_id
-$removeparam=wickedid
-$removeparam=wtrid
-$removeparam=yclid
-$removeparam=/^action_(object|type|ref)_map=/
-$removeparam=/^fb_action_(types|ids)=/
-$removeparam=/^fb_(source|ref)=/
-$removeparam=/^ga_[a-z_]+=/
-$removeparam=/^hmb_(campaign|medium|source)=/
-$removeparam=/^itm_(campaign|medium|source)=/
-$removeparam=/^mc_(eid|cid|tc)=/
-$removeparam=/^otm_[a-z_]*=/
-$removeparam=/^utm(_[a-z_]*)?=/
-$removeparam=/^vn(_[a-z]*)+=/
-$removeparam=/^wt_?z?mc=/
-$removeparam=_ga
-$removeparam=_gl
-$removeparam=_hsenc
-$removeparam=_openstat
-$removeparam=__hsfp
-$removeparam=__hssc
-$removeparam=__hstc
-$removeparam=__s
-$removeparam=__twitter_impression
-*$removeparam=fbclid
-*$removeparam=gclid
-*$removeparam=ICID
-*$removeparam=igshid
-*$removeparam=link_id
-*$removeparam=mcID
-*$removeparam=rb_clickid
-*$removeparam=ref
-*$removeparam=track_click
-*$removeparam=utm_source
-*$removeparam=/^utm-/
-*$removeparam=/^utm_/
-@@||accounts.google.com/o/oauth2/$removeparam
-@@||accounts.google.com/signin/oauth/$removeparam
-@@||mail.google.com/mail/u/$removeparam
-||amazon.*$removeparam=content-id
-||amazon.*$removeparam=crid
-||amazon.*$removeparam=psc
-||amazon.*$removeparam=ref
-||amazon.*$removeparam=ref_
-||amazon.*$removeparam=sprefix
-||amazon.*$removeparam=/^pd_rd_/
-||amazon.*$removeparam=/^pf_rd_/
-||amazon.*/s?$removeparam=aaxitk
-||amazon.*/s?$removeparam=ascsubtag
-||amazon.*/s?$removeparam=camp
-||amazon.*/s?$removeparam=creative
-||amazon.*/s?$removeparam=creativeASIN
-||amazon.*/s?$removeparam=crid
-||amazon.*/s?$removeparam=dchild
-||amazon.*/s?$removeparam=field-lbr_brands_browse-bin
-||amazon.*/s?$removeparam=hsa_cr_id
-||amazon.*/s?$removeparam=linkCode
-||amazon.*/s?$removeparam=ms3_c
-||amazon.*/s?$removeparam=qid
-||amazon.*/s?$removeparam=qualifier
-||amazon.*/s?$removeparam=refRID
-||amazon.*/s?$removeparam=smid
-||amazon.*/s?$removeparam=spIA
-||amazon.*/s?$removeparam=sprefix
-||amazon.*/s?$removeparam=th
-||amazon.*/s?$removeparam=/^colii?d=/
-||amazon.*/s?$removeparam=/^cv_ct_[a-z]+=/
-||amazon.*/s?$removeparam=/^p[fd]_rd_[a-z]*=/
-||amazon.*/s?$removeparam=/^ref_?=/
-||amazon.*/s?$removeparam=/^sb-ci-[a-z]+=/
-||amazon.*/s?$removeparam=/^srs?=/
-||amazon.*/s?$removeparam=/^[a-z%0-9]*ie=/
-||amazon.*/s?$removeparam=/^[^a-z%0-9]adId=/
-||amazon.*/s?$removeparam=/^__mk_[a-z]{1,3}_[a-z]{1,3}=/
-||amazon.*/s?$removeparam=_encoding
-||amazon.*^$removeparam=aaxitk
-||amazon.*^$removeparam=ascsubtag
-||amazon.*^$removeparam=camp
-||amazon.*^$removeparam=content-id
-||amazon.*^$removeparam=creative
-||amazon.*^$removeparam=creativeASIN
-||amazon.*^$removeparam=crid
-||amazon.*^$removeparam=dchild
-||amazon.*^$removeparam=dib
-||amazon.*^$removeparam=dib_tag
-||amazon.*^$removeparam=field-lbr_brands_browse-bin
-||amazon.*^$removeparam=hsa_cr_id
-||amazon.*^$removeparam=keywords
-||amazon.*^$removeparam=linkCode
-||amazon.*^$removeparam=ms3_c
-||amazon.*^$removeparam=qid
-||amazon.*^$removeparam=qualifier
-||amazon.*^$removeparam=refRID
-||amazon.*^$removeparam=skipTwisterOG
-||amazon.*^$removeparam=smid
-||amazon.*^$removeparam=social_share
-||amazon.*^$removeparam=spIA
-||amazon.*^$removeparam=sprefix
-||amazon.*^$removeparam=starsLeft
-||amazon.*^$removeparam=th
-||amazon.*^$removeparam=/^colii?d=/
-||amazon.*^$removeparam=/^cv_ct_[a-z]+=/
-||amazon.*^$removeparam=/^p[fd]_rd_[a-z]*=/
-||amazon.*^$removeparam=/^ref_?=/
-||amazon.*^$removeparam=/^sb-ci-[a-z]+=/
-||amazon.*^$removeparam=/^srs?=/
-||amazon.*^$removeparam=/^[a-z%0-9]*ie=/
-||amazon.*^$removeparam=/^[^a-z%0-9]adId=/
-||amazon.*^$removeparam=/^__mk_[a-z]{1,3}_[a-z]{1,3}=/
-||amazon.*^$removeparam=_encoding
-||apple.com^$removeparam=app
-||apple.com^$removeparam=/^ign-itsc[a-z]+=/
-||bestbuy.com^$removeparam=acampID
-||bestbuy.com^$removeparam=intl
-||bestbuy.com^$removeparam=irclickid
-||bestbuy.com^$removeparam=irgwc
-||bestbuy.com^$removeparam=loc
-||bestbuy.com^$removeparam=mpid
-||duckduckgo.com$removeparam=ia
-||duckduckgo.com$removeparam=origin
-||duckduckgo.com$removeparam=t
-||duckduckgo.com$removeparam=ffab
-||ebay.*^$removeparam=hash
-||ebay.*^$removeparam=_from
-||ebay.*^$removeparam=_trkparms
-||ebay.*^$removeparam=_trksid
-||epicgames.com^$removeparam=epic_affiliate
-||epicgames.com^$removeparam=epic_gameId
-||firefox.com^$removeparam=form_type
-||github.com^$removeparam=email_source
-||github.com^$removeparam=email_token
-||indeed.com^$removeparam=alid
-||indeed.com^$removeparam=from
-||indeed.com^$removeparam=/^[a-z]*tk=/
-||linkedin.com/learning$removeparam=u
-||linkedin.com^$removeparam=refId
-||linkedin.com^$removeparam=trackingId
-||linkedin.com^$removeparam=trk
-||linkedin.com^$removeparam=/^li[a-z]{2}=/
-||mozilla.org^$removeparam=as
-||mozilla.org^$removeparam=platform
-||mozilla.org^$removeparam=redirect_source
-||mozilla.org^$removeparam=src
-||msn.com^$removeparam=cvid
-||msn.com^$removeparam=ocid
-||reddit.com^$removeparam=%24deep_link
-||reddit.com^$removeparam=correlation_id
-||reddit.com^$removeparam=ref_campaign
-||reddit.com^$removeparam=ref_source
-||reddit.com^$removeparam=share_id
-||reddit.com^$removeparam=%24original_url
-||reddit.com^$removeparam=%243p
-||reddit.com^$removeparam=/^\x24deep_link=/
-||reddit.com^$removeparam=/^\x24original_url=/
-||reddit.com^$removeparam=/^\x243p=/
-||reddit.com^$removeparam=_branch_match_id
-||youtube.com^$removeparam=&t
-
-! misc tracker and unpleasant website blocklist
-*$3p,domain=d3ward.github.io
-/ads.js
+! Block Certain Misc Tracking JavaScript
+/ads.js$important
+/pagead.js$important
 /apns.js
 /fingerprint.js
 /fingerprint.min.js
@@ -235,825 +44,236 @@ $removeparam=__twitter_impression
 /indigitall/sdk.min.js
 /notify/v1/ua-sdk.js
 /notify/v1/ua-sdk.min.js
-/pagead.js$domain=d3ward.github.io
 /partner.ads.js
 /plugins/pushvault-push-notifications
 /plugins/smio-push-notification
 /pushmaze.js
 /widget/ads.$important
-0.0.0.0 a.nel.cloudfare.com
-0.0.0.0 accounts.firefox.com
-0.0.0.0 acobt.tech
-0.0.0.0 acsbapp.com
-0.0.0.0 activations.cdn.mozilla.net
-0.0.0.0 activations.mozilla.com
-0.0.0.0 activations.mozilla.or
-0.0.0.0 activations.mozilla.org
-0.0.0.0 activity-stream-icons.services.mozilla.com
-0.0.0.0 ad.doubleclick.net
-0.0.0.0 adc3-launch.adcolony.com
-0.0.0.0 adfox.yandex.ru
-0.0.0.0 adfstat.yandex.ru
-0.0.0.0 adm.hotjar.com
-0.0.0.0 ads-api.tiktok.com
-0.0.0.0 ads-api.twitter.com
-0.0.0.0 ads-dev.pinterest.com
-0.0.0.0 ads-sg.tiktok.com
-0.0.0.0 ads.facebook.com
-0.0.0.0 ads.google.com
-0.0.0.0 ads.js
-0.0.0.0 ads.linkedin.com
-0.0.0.0 ads.pinterest.com
-0.0.0.0 ads.reddit.com
-0.0.0.0 ads.tiktok.com
-0.0.0.0 ads.yahoo.com
-0.0.0.0 ads.youtube.com
-0.0.0.0 ads30.adcolony.com
-0.0.0.0 adserver.unityads.unity3d.com
-0.0.0.0 adservetx.media.net
-0.0.0.0 adservice.google.com
-0.0.0.0 adsfs.oppomobile.com
-0.0.0.0 adtago.s3.amazonaws.com
-0.0.0.0 adtech.yahooinc.com
-0.0.0.0 advertising-api-eu.amazon.com
-0.0.0.0 advertising.apple.com
-0.0.0.0 advice-ads.s3.amazonaws.com
-0.0.0.0 adx.ads.oppomobile.com
-0.0.0.0 afs.googlesyndication.com
-0.0.0.0 an.facebook.com
-0.0.0.0 analytics-api.samsunghealthcn.com
-0.0.0.0 analytics-sg.tiktok.com
-0.0.0.0 analytics.google.com
-0.0.0.0 analytics.pinterest.com
-0.0.0.0 analytics.pointdrive.linkedin.com
-0.0.0.0 analytics.query.yahoo.com
-0.0.0.0 analytics.s3.amazonaws.com
-0.0.0.0 analytics.services.jetbrains.com
-0.0.0.0 analytics.tiktok.com
-0.0.0.0 analytics.yahoo.com
-0.0.0.0 analyticsengine.s3.amazonaws.com
-0.0.0.0 api-adservices.apple.com
-0.0.0.0 api-adservices.apple.com
-0.0.0.0 api.accounts.firefox.com
-0.0.0.0 api.ad.xiaomi.com
-0.0.0.0 api.bugsnag.com
-0.0.0.0 api.luckyorange.com
-0.0.0.0 api.mouseflow.com
-0.0.0.0 api.rewards.brave.com
-0.0.0.0 app.bugsnag.com
-0.0.0.0 app.getsentry.com
-0.0.0.0 app.pendio.io
-0.0.0.0 appmetrica.yandex.ru
-0.0.0.0 apps.mozillalabs.com
-0.0.0.0 assets.adobetm.com
-0.0.0.0 assets.rch.io
-0.0.0.0 auction.unityads.unity3d.com
-0.0.0.0 auth.mozilla.auth0.com
-0.0.0.0 auth.services.mozilla.com
-0.0.0.0 autoconfig-live.mozillamessaging.com
-0.0.0.0 autoconfig.thunderbird.net
-0.0.0.0 autopush.prod.mozaws.net
-0.0.0.0 balrog-admin.dev.mozaws.net
-0.0.0.0 balrog-admin.stage.mozaws.net
-0.0.0.0 balrog-aus5.r53-2.services.mozilla.com
-0.0.0.0 bdapi-ads.realmemobile.com
-0.0.0.0 bdapi-in-ads.realmemobile.com
-0.0.0.0 bgl1dr1-a-fixed.sancharnet.in
-0.0.0.0 bgl1pp1-a-fixed.sancharnet.in
-0.0.0.0 bj02.cww.com
-0.0.0.0 blackcrow.ai
-0.0.0.0 blocked.cdn.mozilla.net
-0.0.0.0 bloggerpemula.pythonanywhere.com
-0.0.0.0 books-analytics-events.apple.com
-0.0.0.0 bouncer-bouncer-elb.prod.mozaws.net
-0.0.0.0 broker-live.mozillamessaging.com
-0.0.0.0 browser.sentry-cdn.com
-0.0.0.0 bugsnag.com
-0.0.0.0 business-api.tiktok.com
-0.0.0.0 butt-head.mos.ru
-0.0.0.0 c.evidon.com
-0.0.0.0 careers.hotjar.com
-0.0.0.0 cdn-test.mouseflow.com
-0.0.0.0 cdn.cookielaw.org
-0.0.0.0 cdn.grainify.com
-0.0.0.0 cdn.lr-ingest.io
-0.0.0.0 cdn.luckyorange.com
-0.0.0.0 cdn.mouseflow.com
-0.0.0.0 cdn.mozilla.net
-0.0.0.0 cdn2.hubspot.net
-0.0.0.0 ciscobinary.openh264.org
-0.0.0.0 ck.ads.oppomobile.com
-0.0.0.0 claritybt.freshmarketer.com
-0.0.0.0 click-on-this-now.online
-0.0.0.0 click.googleanalytics.com
-0.0.0.0 click.oneplus.cn
-0.0.0.0 clients1.google.com
-0.0.0.0 clients2.google.com
-0.0.0.0 clients3.google.com
-0.0.0.0 clients4.google.com
-0.0.0.0 clients5.google.com
-0.0.0.0 clients6.google.com
-0.0.0.0 clientservices.googleapis.com
-0.0.0.0 code.cdn.mozilla.net
-0.0.0.0 config.unityads.unity3d.com
-0.0.0.0 config.unityads.unity3d.com
-0.0.0.0 content-signature.cdn.mozilla.net
-0.0.0.0 content.cdn.mozilla.net
-0.0.0.0 cookielaw.org
-0.0.0.0 crash-stats.mozilla.com
-0.0.0.0 crash-stats.mozilla.org
-0.0.0.0 cs.luckyorange.net
-0.0.0.0 d2o47bxgqzkcc3.cloudfront.net
-0.0.0.0 data.ads.oppomobile.com
-0.0.0.0 data.mistat.india.xiaomi.com
-0.0.0.0 data.mistat.rus.xiaomi.com
-0.0.0.0 data.mistat.xiaomi.com
-0.0.0.0 data.mozilla.com
-0.0.0.0 dc.services.visualstudio.com
-0.0.0.0 dcproxy1.thrunet.com
-0.0.0.0 de.malware-error.mozilla.com
-0.0.0.0 de.malware-report.mozilla.com
-0.0.0.0 de.phish-error.mozilla.com
-0.0.0.0 de.phish-generic.mozilla.com
-0.0.0.0 de.phish-report.mozilla.com
-0.0.0.0 dmn2.bjpeu.edu.cn
-0.0.0.0 dns2.net1.it
-0.0.0.0 dnt.mozilla.org
-0.0.0.0 doors.co.kr
-0.0.0.0 doubleclick.net
-0.0.0.0 dtex4kvbppovt.cloudfront.net
-0.0.0.0 dxr.mozilla.org
-0.0.0.0 en-us.malware-error.mozilla.com
-0.0.0.0 en-us.malware-report.mozilla.com
-0.0.0.0 en-us.phish-error.mozilla.com
-0.0.0.0 en-us.phish-generic.mozilla.com
-0.0.0.0 en-us.phish-report.mozilla.com
-0.0.0.0 en.malware-error.mozilla.com
-0.0.0.0 en.malware-report.mozilla.com
-0.0.0.0 en.phish-error.mozilla.com
-0.0.0.0 en.phish-generic.mozilla.com
-0.0.0.0 en.phish-report.mozilla.com
-0.0.0.0 enterprise.telesat.com.co
-0.0.0.0 eol1.egyptonline.com
-0.0.0.0 events.hotjar.io
-0.0.0.0 events.reddit.com
-0.0.0.0 events.redditmedia.com
-0.0.0.0 events3alt.adcolony.com
-0.0.0.0 experiments.mozilla.org
-0.0.0.0 extmaps-api.yandex.net
-0.0.0.0 f5f7ln7s.gvtl.com
-0.0.0.0 fhr.cdn.mozilla.net
-0.0.0.0 fhr.data.mozilla.com
-0.0.0.0 fhr.data.mozilla.net
-0.0.0.0 fingerprint.com
-0.0.0.0 firefox.settings.services.mozilla.com
-0.0.0.0 firefoxflicks.com
-0.0.0.0 fonts.googleapis.com/
-0.0.0.0 free4u.nurul-huda.or.id
-0.0.0.0 freshmarketer.com
-0.0.0.0 ftp.mozilla.org
-0.0.0.0 fw433.npic.ac.cn
-0.0.0.0 fwtracks.freshmarketer.com
-0.0.0.0 gambero3.cs.tin.it
-0.0.0.0 gaming.mozillalabs.com
-0.0.0.0 gate.technopolis.kirov.ru
-0.0.0.0 gemini.yahoo.com
-0.0.0.0 geo.yahoo.com
-0.0.0.0 getpocket.cdn.mozilla.net
-0.0.0.0 getpocket.com
-0.0.0.0 globalsiteanalytics.com
-0.0.0.0 google-analytics.com
-0.0.0.0 googleads.g.doubleclick.net
-0.0.0.0 googlesyndication.com
-0.0.0.0 googletagmanager.com
-0.0.0.0 grainify.com
-0.0.0.0 grant.rewards.brave.com
-0.0.0.0 grs.hicloud.com
-0.0.0.0 gtm.mouseflow.com
-0.0.0.0 gvtl.com
-0.0.0.0 hakuba.janis.or.jp
-0.0.0.0 heatmap.mozillalabs.com
-0.0.0.0 hello.firefox.com
-0.0.0.0 hotjar-analytics.com
-0.0.0.0 hubspot.net
-0.0.0.0 iadsdk.apple.com
-0.0.0.0 iadsdk.apple.com
-0.0.0.0 identify.hotjar.com
-0.0.0.0 img-getpocket.cdn.mozilla.net
-0.0.0.0 imms1.macau.ctm.net
-0.0.0.0 imprezzer.com
-0.0.0.0 improving.duckduckgo.com
-0.0.0.0 incoming.telemetry.mozilla.org
-0.0.0.0 indy.fjmu.edu.cn
-0.0.0.0 input.mozilla.org
-0.0.0.0 insights.hotjar.com
-0.0.0.0 intranet.mozilla.org
-0.0.0.0 ioncheck.prod.mozaws.net
-0.0.0.0 iot-eu-logser.realme.com
-0.0.0.0 iot-logser.realme.com
-0.0.0.0 jur.unn.ac.ru
-0.0.0.0 kacstserv.kacst.edu.sa
-0.0.0.0 kickoffo.site
-0.0.0.0 klickly.com
-0.0.0.0 known.counsellor.gov.cn
-0.0.0.0 kserv.krldysh.ru
-0.0.0.0 kst.klickly.com
-0.0.0.0 laleh.itrc.ac.ir
-0.0.0.0 laptop-updates.brave.com
-0.0.0.0 lazybumblebee.com
-0.0.0.0 live.mozillamessaging.com
-0.0.0.0 live.thunderbird.net
-0.0.0.0 log.byteoversea.com
-0.0.0.0 log.fc.yahoo.com
-0.0.0.0 log.pinterest.com
-0.0.0.0 logbak.hicloud.com
-0.0.0.0 logservice.hicloud.com
-0.0.0.0 logservice1.hicloud.com
-0.0.0.0 loop.services.mozilla.com
-0.0.0.0 luckyorange.com
-0.0.0.0 m.doubleclick.net
-0.0.0.0 m0-s.san.ru
-0.0.0.0 magsrv.com
-0.0.0.0 mail-ads.google.com
-0.0.0.0 mail-gw.jbic.go.jp
-0.0.0.0 mail.bangla.net
-0.0.0.0 mail.edi.edu.cn
-0.0.0.0 mail.hallym.ac.kr
-0.0.0.0 mail.hangzhouit.gov.cn
-0.0.0.0 mail.hz.zh.cn
-0.0.0.0 mail.imamu.edu.sa
-0.0.0.0 mail.interq.or.jp
-0.0.0.0 mail.ioc.ac.ru
-0.0.0.0 mail.issas.ac.cn
-0.0.0.0 mail.pmo.ac.cn
-0.0.0.0 mail.siom.ac.cn
-0.0.0.0 mail.tropmet.res.in
-0.0.0.0 mail.tsinghua.edu.cn
-0.0.0.0 mail.zzu.edu.cn
-0.0.0.0 mail1.371.net
-0.0.0.0 mailgate.sbell.com.cn
-0.0.0.0 mailgw.thtf.com.cn
-0.0.0.0 mailhub.minaffet.gov.rw
-0.0.0.0 mails.cneic.com.cn
-0.0.0.0 mailscan3.cau.ctm.net
-0.0.0.0 mailsrv02.macau.ctm.net
-0.0.0.0 mailsvra.macau.ctm.net
-0.0.0.0 malware-error.mozilla.com
-0.0.0.0 malware-report.mozilla.com
-0.0.0.0 mana.mozilla.org
-0.0.0.0 marketingcloudapis.com
-0.0.0.0 marketplace.firefox.com
-0.0.0.0 mbi3.kuicr.kyoto-u.ac.jp
-0.0.0.0 mcd-su-2.mos.ru
-0.0.0.0 mdn.mozilla.net
-0.0.0.0 mdn.mozillademos.org
-0.0.0.0 media.fastclick.net
-0.0.0.0 media.net
-0.0.0.0 mediavisor.doubleclick.net
-0.0.0.0 menrealitycalc.com
-0.0.0.0 metcoc5cm.clarent.com
-0.0.0.0 metrics.data.hicloud.com
-0.0.0.0 metrics.icloud.com
-0.0.0.0 metrics.mzstatic.com
-0.0.0.0 metrics2.data.hicloud.com
-0.0.0.0 metrika.yandex.ru
-0.0.0.0 mipsa.ciae.ac.cn
-0.0.0.0 mn.mn.co.cu
-0.0.0.0 mobile.events.data.microsoft.com
-0.0.0.0 most.cob.net.ba
-0.0.0.0 mouseflow.com
-0.0.0.0 mozaws.net
-0.0.0.0 mozilla.dorando.at
-0.0.0.0 mozsocial.cliqz.com
-0.0.0.0 mpkhi-bk.multi.net.pk
-0.0.0.0 msgstore2.pldtprv.net
-0.0.0.0 mtccsun.imtech.ernet.in
-0.0.0.0 mx1.freemail.ne.jp
-0.0.0.0 mxr.mozilla.org
-0.0.0.0 n02.unternehmen.com
-0.0.0.0 nd11mx1-a-fixed.sancharnet.in
-0.0.0.0 ndl1mc1-a-fixed.sancharnet.in
-0.0.0.0 ndl1mx1-a-fixed.sancharnet.in
-0.0.0.0 ndl1pp1-a-fixed.sancharnet.in
-0.0.0.0 news-cdn.site
-0.0.0.0 nightly.mozilla.org
-0.0.0.0 nmetrics.samsung.com
-0.0.0.0 no1.unternehemen.com
-0.0.0.0 no3.unternehmen.org
-0.0.0.0 nofraud.com
-0.0.0.0 normandy-admin-bearer.dev.mozaws.net
-0.0.0.0 normandy-admin-bearer.prod.mozaws.net
-0.0.0.0 normandy-admin-bearer.stage.mozaws.net
-0.0.0.0 normandy-admin.prod.mozaws.net
-0.0.0.0 normandy-admin.stage.mozaws.net
-0.0.0.0 normandy-cloudfront.cdn.mozilla.net
-0.0.0.0 normandy.cdn.mozilla.net
-0.0.0.0 normandy.dev.mozaws.net
-0.0.0.0 normandy.services.mozilla.com
-0.0.0.0 normandy.stage.mozaws.net
-0.0.0.0 notes-analytics-events.apple.com
-0.0.0.0 notifications.website
-0.0.0.0 notificationz.com
-0.0.0.0 notify-service.com
-0.0.0.0 notify.bugsnag.com
-0.0.0.0 ns.cac.com.cn
-0.0.0.0 ns.huawei.com.cn
-0.0.0.0 ns.nint.ac.cn
-0.0.0.0 ns1.2911.net
-0.0.0.0 ns1.multi.net.pk
-0.0.0.0 ns2.rosprint.ru
-0.0.0.0 ns2.xidian.edu.cn
-0.0.0.0 o1.ingest.sentry.io
-0.0.0.0 o2.ingest.sentry.io
-0.0.0.0 o2.mouseflow.com
-0.0.0.0 o3.ingest.sentry.io
-0.0.0.0 o4.ingest.sentry.io
-0.0.0.0 oauth.accounts.firefox.com
-0.0.0.0 offerwall.yandex.net
-0.0.0.0 onegg.site
-0.0.0.0 onyx_tiles.stage.mozaws.net
-0.0.0.0 opcwdns.opcw.nl
-0.0.0.0 open.oneplus.net
-0.0.0.0 opensearch-live.mozillamessaging.com
-0.0.0.0 opserver01.iti.net.pk
-0.0.0.0 orange.npix.net
-0.0.0.0 orion.platino.gov.ve
-0.0.0.0 outweb.nudt.edu.cn
-0.0.0.0 p3a.brave.com
-0.0.0.0 pagead.js
-0.0.0.0 pagead2.googleadservices.com
-0.0.0.0 partnerads.ysm.yahoo.com
-0.0.0.0 pdns.nudt.edu.cn
-0.0.0.0 pendio.io
-0.0.0.0 petra.nic.gov.jo
-0.0.0.0 pfs.mozilla.org
-0.0.0.0 phish-error.mozilla.com
-0.0.0.0 phish-generic.mozilla.com
-0.0.0.0 phish-report.mozilla.com
-0.0.0.0 pixel.facebook.com
-0.0.0.0 planet.mozilla.org
-0.0.0.0 pop.net21pk.com
-0.0.0.0 popawa.com
-0.0.0.0 popnewsfeed.com
-0.0.0.0 post.netchina.com.cn
-0.0.0.0 postbox.mos.ru
-0.0.0.0 profile.accounts.firefox.com
-0.0.0.0 public2.zz.ha.cn
-0.0.0.0 push.services.mozilla.com
-0.0.0.0 pushsroutg.com
-0.0.0.0 qa-analytics.com
-0.0.0.0 qsurvey.mozilla.com
-0.0.0.0 rayo.pereira.multi.net.co
-0.0.0.0 rch.io
-0.0.0.0 realtime.luckyorange.com
-0.0.0.0 redirector.gvtl.com
-0.0.0.0 ree4u.nurul-huda.or.id
-0.0.0.0 report-uri.io
-0.0.0.0 reps.mozilla.org
-0.0.0.0 rewards.brave.com
-0.0.0.0 rotator.nurul-huda.sch.id
-0.0.0.0 safebrowsing.googleapis.com
-0.0.0.0 samsung-com.112.2o7.net
-0.0.0.0 samsungads.com
-0.0.0.0 sb-ssl.google.com
-0.0.0.0 sb-ssl.google.com
-0.0.0.0 sb.google.com
-0.0.0.0 script.hotjar.com
-0.0.0.0 sdkconfig.ad.intl.xiaomi.com
-0.0.0.0 sdkconfig.ad.xiaomi.com
-0.0.0.0 sea.net.edu.cn
-0.0.0.0 search.r53-2.services.mozilla.com
-0.0.0.0 search.services.mozilla.com
-0.0.0.0 sedesol.sedesol.gob.mx
-0.0.0.0 segob.gob.mx
-0.0.0.0 self-repair.mozilla.org
-0.0.0.0 services.mozilla.com
-0.0.0.0 services.nofraud.com
-0.0.0.0 sessions.bugsnag.com
-0.0.0.0 settings.luckyorange.net
-0.0.0.0 setup.services.mozilla.com
-0.0.0.0 shavar.developer-services.mozilla.com
-0.0.0.0 shavar.services.mozilla.com
-0.0.0.0 shopify-init.blackcrow.ai
-0.0.0.0 sky.kies.co.kr
-0.0.0.0 sl1bas.blogspot.com
-0.0.0.0 smetrics.samsung.com
-0.0.0.0 smmu-ipv6.smmu.edu.cn
-0.0.0.0 smtp.2911.net
-0.0.0.0 smtp.macau.ctm.net
-0.0.0.0 snippets.cdn.mozilla.net
-0.0.0.0 snippets.mozilla.com
-0.0.0.0 soft-start.loop.services.mozilla.com
-0.0.0.0 sonatns.sonatrach.dz
-0.0.0.0 sparc.nour.net.sa
-0.0.0.0 sps01.office.ctm.net
-0.0.0.0 src.ebay-us.com
-0.0.0.0 ssl.google-analytics.com
-0.0.0.0 ssl.google-analytics.com
-0.0.0.0 statcounter.com
-0.0.0.0 static-san.mozilla.org
-0.0.0.0 static.ads-twitter.com
-0.0.0.0 static.doubleclick.net
-0.0.0.0 static.media.net
-0.0.0.0 static.mozilla.com
-0.0.0.0 stats.g.doubleclick.net
-0.0.0.0 stats.wp.com
-0.0.0.0 stun.services.mozilla.com
-0.0.0.0 summerhamster.com
-0.0.0.0 sunchannel.me
-0.0.0.0 sunhe.jinr.ru
-0.0.0.0 support.live.mozillamessaging.com
-0.0.0.0 support.mozillamessaging.com
-0.0.0.0 surveys.hotjar.com
-0.0.0.0 sussi.cressoft.com.pk
-0.0.0.0 symbols.mozilla.org
-0.0.0.0 taboola.com
-0.0.0.0 tbpl.mozilla.org
-0.0.0.0 telemetry-experiment.cdn.mozilla.net
-0.0.0.0 telemetry.mozilla.org
-0.0.0.0 testpilot.firefox.com
-0.0.0.0 thisdata.com
-0.0.0.0 tiles-cloudfront.cdn.mozilla.net
-0.0.0.0 tiles.services.mozilla.com
-0.0.0.0 token.services.mozilla.com
-0.0.0.0 tools.mouseflow.com
-0.0.0.0 tracking-protection-issues.herokuapp.com
-0.0.0.0 tracking.rus.miui.com
-0.0.0.0 tracking.services.mozilla.com
-0.0.0.0 tripadvisor.com
-0.0.0.0 trk.pinterest.com
-0.0.0.0 truehits.net
-0.0.0.0 tx.micro.net.pk
-0.0.0.0 udc.yahoo.com
-0.0.0.0 udcm.yahoo.com
-0.0.0.0 ufabet678.com
-0.0.0.0 ultra2.tsinghua.edu.cn
-0.0.0.0 unity3d.com
-0.0.0.0 unk.vver.kiae.rr
-0.0.0.0 unknown.counsellor.gov.cn
-0.0.0.0 update.googleapis.com
-0.0.0.0 upload.luckyorange.net
-0.0.0.0 variations.brave.com
-0.0.0.0 vf.startpage.com
-0.0.0.0 videos-cdn.mozilla.net
-0.0.0.0 videos.mozilla.org
-0.0.0.0 vortex.data.microsoft.com
-0.0.0.0 voyager1.telesat.com.co
-0.0.0.0 w1.luckyorange.com
-0.0.0.0 wd.adcolony.com
-0.0.0.0 weather-analytics-events.apple.com
-0.0.0.0 web-ccfr.tsinghua.edu.cn
-0.0.0.0 webextensions.settings.services.mozilla.com
-0.0.0.0 webmaker.mozillalabs.com
-0.0.0.0 webnetra.entelnet.bo
-0.0.0.0 webserv.mos.ru
-0.0.0.0 webview.unityads.unity3d.com
-0.0.0.0 ws.xjb.ac.cn
-0.0.0.0 www-google-analytics.l.google.com
-0.0.0.0 www-google-analytics.l.google.com
-0.0.0.0 www.caramail.com
-0.0.0.0 www.firefoxflicks.com
-0.0.0.0 www.google-analytics.com
-0.0.0.0 www.mozilla.com
-0.0.0.0 www.mozilla.org.cdn.cloudflare.net
-0.0.0.0 www.pendio.io
-0.0.0.0 www.siom.ac.cn
-0.0.0.0 www.summerhamster.com
-0.0.0.0 www21.counsellor.gov.cn
-0.0.0.0 yastatic.net
-@@*$redirect-rule,domain=d3ward.github.io
-acobt.tech$important
-ad.doubleclick.net$important
-adfstat.yandex.ru$important
-ads-api.tiktok.com$important
-ads-api.twitter.com$important
-ads-sg.tiktok.com$important
-ads.js$important
-ads.pinterest.com$important
-ads.tiktok.com$important
-ads.youtube.com$important
-adserver.unityads.unity3d.com$important
-adtago.s3.amazonaws.com$important
-advertising-api-eu.amazon.com$important
-advertising.apple.com$important
-advice-ads.s3.amazonaws.com$important
-analytics-sg.tiktok.com$important
-analytics.google.com$important
-analytics.pinterest.com$important
-analytics.query.yahoo.com$important
-analytics.s3.amazonaws.com$important
-analytics.tiktok.com$important
-analyticsengine.s3.amazonaws.com$important
-api-adservices.apple.com$important
-api.ad.xiaomi.com$important
-api.bugsnag.com$important
-app.bugsnag.com$important
-appmetrica.yandex.ru$important
-auction.unityads.unity3d.com$important
-bloggerpemula.pythonanywhere.com$important
-books-analytics-events.apple.com$important
-bugsnag.com$important
-business-api.tiktok.com$important
-config.unityads.unity3d.com$important
-d3ward.github.io##.textads
-data.mistat.india.xiaomi.com$important
-data.mistat.rus.xiaomi.com$important
-data.mistat.xiaomi.com$important
-doubleclick.net$important
-events.reddit.com$important
-events.redditmedia.com$important
-fingerprint.com$important
-fonts.googleapis.com/$important
-free4u.nurul-huda.or.id$important
-geo.yahoo.com$important
-google-analytics.com$important
-googleads.g.doubleclick.net$important
-googlesyndication.com$important
-iadsdk.apple.com$important
-imprezzer.com$important
-kickoffo.site$important
-lazybumblebee.com$important
-log.byteoversea.com$important
-log.fc.yahoo.com$important
-log.pinterest.com$important
-magsrv.com$important
-mail-ads.google.com$important
-marketingcloudapis.com$important
-menrealitycalc.com$important
-metrics.icloud.com$important
-metrics.mzstatic.com$important
-metrika.yandex.ru$important
-news-cdn.site$important
-notes-analytics-events.apple.com$important
-notify.bugsnag.com$important
-onegg.site$important
-pagead.js$important
-popawa.com$important
-qa-analytics.com$important
-ree4u.nurul-huda.or.id$important
-rotator.nurul-huda.sch.id$important
-sdkconfig.ad.intl.xiaomi.com$important
-sdkconfig.ad.xiaomi.com$important
-sessions.bugsnag.com$important
-sl1bas.blogspot.com$important
-smetrics.samsung.com$important
-statcounter.com$important
-static.doubleclick.net$important
-stats.wp.com$important
-taboola.com$important
-tracking.rus.miui.com$important
-tripadvisor.com$important
-trk.pinterest.com$important
-truehits.in.th$important
-truehits.net$important
-udc.yahoo.com$important
-udcm.yahoo.com$important
-ufabet678.com$important
-unity3d.com$important
-vf.startpage.com$important
-weather-analytics-events.apple.com$important
-webview.unityads.unity3d.com$important
-yastatic.net$important
-||ad.doubleclick.net^
-||adc3-launch.adcolony.com^
-||adfox.yandex.ru^
-||adfstat.yandex.ru^
-||adm.hotjar.com^
-||ads-api.tiktok.com^
-||ads-api.twitter.com^
-||ads-sg.tiktok.com^
-||ads.linkedin.com^
-||ads.pinterest.com^
-||ads.tiktok.com^
-||ads.yahoo.com^
-||ads.youtube.com^
-||ads30.adcolony.com^
-||adserver.unityads.unity3d.com^
-||adservetx.media.net^
-||adservice.google.com^
-||adsfs.oppomobile.com^
-||adtago.s3.amazonaws.com^
-||adtech.yahooinc.com^
-||advice-ads.s3.amazonaws.com^
-||adx.ads.oppomobile.com^
-||afs.googlesyndication.com^
-||an.facebook.com^
-||analytics-api.samsunghealthcn.com^
-||analytics-sg.tiktok.com^
-||analytics.google.com^
-||analytics.pinterest.com^
-||analytics.pointdrive.linkedin.com^
-||analytics.query.yahoo.com^
-||analytics.s3.amazonaws.com^
-||analytics.tiktok.com^
-||analytics.yahoo.com^
-||analyticsengine.s3.amazonaws.com^
-||api-adservices.apple.com^
-||api.ad.xiaomi.com^
-||api.bugsnag.com^
-||api.luckyorange.com^
-||api.mouseflow.com^
-||app.bugsnag.com^
-||app.getsentry.com^
-||appmetrica.yandex.ru^
-||auction.unityads.unity3d.com^
-||bdapi-ads.realmemobile.com^
-||bdapi-in-ads.realmemobile.com^
-||bgl1dr1-a-fixed.sancharnet.in
-||bgl1pp1-a-fixed.sancharnet.in
-||bj02.cww.com
-||books-analytics-events.apple.com^
-||browser.sentry-cdn.com^
-||business-api.tiktok.com^
-||butt-head.mos.ru
-||careers.hotjar.com^
-||cdn-test.mouseflow.com^
-||cdn.luckyorange.com^
-||cdn.mouseflow.com^
-||ck.ads.oppomobile.com^
-||claritybt.freshmarketer.com^
-||click-on-this-now.online
-||click.googleanalytics.com^
-||click.oneplus.cn^
-||config.unityads.unity3d.com^
-||cs.luckyorange.net^
-||data.ads.oppomobile.com^
-||data.mistat.india.xiaomi.com^
-||data.mistat.rus.xiaomi.com^
-||data.mistat.xiaomi.com^
-||dcproxy1.thrunet.com
-||dmn2.bjpeu.edu.cn
-||dns2.net1.it
-||doors.co.kr
-||enterprise.telesat.com.co
-||eol1.egyptonline.com
-||events.hotjar.io^
-||events.reddit.com^
-||events.redditmedia.com^
-||events3alt.adcolony.com^
-||extmaps-api.yandex.net^
-||freshmarketer.com^
-||fw433.npic.ac.cn
-||fwtracks.freshmarketer.com^
-||gambero3.cs.tin.it
-||gate.technopolis.kirov.ru
-||gemini.yahoo.com^
-||geo.yahoo.com^
-||google-analytics.com^
-||grs.hicloud.com^
-||gtm.mouseflow.com^
-||hakuba.janis.or.jp
-||iadsdk.apple.com^
-||identify.hotjar.com^
-||imms1.macau.ctm.net
-||indy.fjmu.edu.cn
-||insights.hotjar.com^
-||iot-eu-logser.realme.com^
-||iot-logser.realme.com^
-||jur.unn.ac.ru
-||kacstserv.kacst.edu.sa
-||known.counsellor.gov.cn
-||kserv.krldysh.ru
-||laleh.itrc.ac.ir
-||log.byteoversea.com^
-||log.fc.yahoo.com^
-||log.pinterest.com^
-||logbak.hicloud.com^
-||logservice.hicloud.com^
-||logservice1.hicloud.com^
-||luckyorange.com^
-||m.doubleclick.net^
-||m0-s.san.ru
-||mail-gw.jbic.go.jp
-||mail.bangla.net
-||mail.edi.edu.cn
-||mail.hallym.ac.kr
-||mail.hangzhouit.gov.cn
-||mail.hz.zh.cn
-||mail.imamu.edu.sa
-||mail.interq.or.jp
-||mail.ioc.ac.ru
-||mail.issas.ac.cn
-||mail.pmo.ac.cn
-||mail.siom.ac.cn
-||mail.tropmet.res.in
-||mail.tsinghua.edu.cn
-||mail.zzu.edu.cn
-||mail1.371.net
-||mailgate.sbell.com.cn
-||mailgw.thtf.com.cn
-||mailhub.minaffet.gov.rw
-||mails.cneic.com.cn
-||mailscan3.cau.ctm.net
-||mailsrv02.macau.ctm.net
-||mailsvra.macau.ctm.net
-||mbi3.kuicr.kyoto-u.ac.jp
-||mcd-su-2.mos.ru
-||media.net^
-||mediavisor.doubleclick.net^
-||metcoc5cm.clarent.com
-||metrics.data.hicloud.com^
-||metrics.icloud.com^
-||metrics.mzstatic.com^
-||metrics2.data.hicloud.com^
-||metrika.yandex.ru^
-||mipsa.ciae.ac.cn
-||mn.mn.co.cu
-||most.cob.net.ba
-||mouseflow.com^
-||mpkhi-bk.multi.net.pk
-||msgstore2.pldtprv.net
-||mtccsun.imtech.ernet.in
-||mx1.freemail.ne.jp
-||n02.unternehmen.com
-||nd11mx1-a-fixed.sancharnet.in
-||ndl1mc1-a-fixed.sancharnet.in
-||ndl1mx1-a-fixed.sancharnet.in
-||ndl1pp1-a-fixed.sancharnet.in
-||nmetrics.samsung.com^
-||no1.unternehemen.com
-||no3.unternehmen.org
-||notes-analytics-events.apple.com^
-||notifications.website
-||notificationz.com
-||notify-service.com
-||notify.bugsnag.com^
-||ns.cac.com.cn
-||ns.huawei.com.cn
-||ns.nint.ac.cn
-||ns1.2911.net
-||ns1.multi.net.pk
-||ns2.rosprint.ru
-||ns2.xidian.edu.cn
-||o2.mouseflow.com^
-||offerwall.yandex.net^
-||opcwdns.opcw.nl
-||open.oneplus.net^
-||opserver01.iti.net.pk
-||orange.npix.net
-||orion.platino.gov.ve
-||outweb.nudt.edu.cn
-||pagead2.googleadservices.com^
-||pagead2.googlesyndication.com^
-||partnerads.ysm.yahoo.com^
-||pdns.nudt.edu.cn
-||petra.nic.gov.jo
-||pixel.facebook.com^
-||pop.net21pk.com
-||popnewsfeed.com
-||post.netchina.com.cn
-||postbox.mos.ru
-||public2.zz.ha.cn
-||pushsroutg.com
-||rayo.pereira.multi.net.co
-||realtime.luckyorange.com^
-||samsung-com.112.2o7.net^
-||samsungads.com^
-||script.hotjar.com^
-||sdkconfig.ad.intl.xiaomi.com^
-||sdkconfig.ad.xiaomi.com^
-||sea.net.edu.cn
-||sedesol.sedesol.gob.mx
-||segob.gob.mx
-||sessions.bugsnag.com^
-||settings.luckyorange.net^
-||sky.kies.co.kr
-||smetrics.samsung.com^
-||smmu-ipv6.smmu.edu.cn
-||smtp.2911.net
-||smtp.macau.ctm.net
-||sonatns.sonatrach.dz
-||sparc.nour.net.sa
-||sps01.office.ctm.net
-||ssl.google-analytics.com^
-||static.ads-twitter.com^
-||static.doubleclick.net^
-||static.media.net^
-||stats.g.doubleclick.net^
-||stats.wp.com^
-||sunchannel.me
-||sunhe.jinr.ru
-||surveys.hotjar.com^
-||sussi.cressoft.com.pk
-||tools.mouseflow.com^
-||tracking.rus.miui.com^
-||trk.pinterest.com^
-||tx.micro.net.pk
-||udc.yahoo.com^
-||udcm.yahoo.com^
-||ultra2.tsinghua.edu.cn
-||unk.vver.kiae.rr
-||unknown.counsellor.gov.cn
-||upload.luckyorange.net^
-||voyager1.telesat.com.co
-||w1.luckyorange.com^
-||wd.adcolony.com^
-||weather-analytics-events.apple.com^
-||web-ccfr.tsinghua.edu.cn
-||webnetra.entelnet.bo
-||webserv.mos.ru
-||webview.unityads.unity3d.com^
-||ws.xjb.ac.cn
-||www.caramail.com
-||www.siom.ac.cn
-||www21.counsellor.gov.cn
+
+! General Trackers, Analytics, Telemetry, etc
+! General Trackers, Analytics, Telemetry, etc
+! All entries standardized to ||domain^$important format
+
+||acobt.tech^$important
+||afs.googlesyndication.com^$important
+||an.facebook.com^$important
+||analytics-api.samsunghealthcn.com^$important
+||analytics-sg.tiktok.com^$important
+||analytics.google.com^$important
+||analytics.pinterest.com^$important
+||analytics.pointdrive.linkedin.com^$important
+||analytics.query.yahoo.com^$important
+||analytics.s3.amazonaws.com^$important
+||analytics.tiktok.com^$important
+||analytics.yahoo.com^$important
+||analyticsengine.s3.amazonaws.com^$important
+||api.bugsnag.com^$important
+||api.luckyorange.com^$important
+||api.mouseflow.com^$important
+||app.bugsnag.com^$important
+||app.getsentry.com^$important
+||appmetrica.yandex.ru^$important
+||bgl1dr1-a-fixed.sancharnet.in^$important
+||bgl1pp1-a-fixed.sancharnet.in^$important
+||bj02.cww.com^$important
+||bloggerpemula.pythonanywhere.com^$important
+||books-analytics-events.apple.com^$important
+||browser.sentry-cdn.com^$important
+||bugsnag.com^$important
+||business-api.tiktok.com^$important
+||butt-head.mos.ru^$important
+||careers.hotjar.com^$important
+||cdn-test.mouseflow.com^$important
+||cdn.luckyorange.com^$important
+||cdn.mouseflow.com^$important
+||claritybt.freshmarketer.com^$important
+||cs.luckyorange.net^$important
+||data.mistat.india.xiaomi.com^$important
+||data.mistat.rus.xiaomi.com^$important
+||data.mistat.xiaomi.com^$important
+||dcproxy1.thrunet.com^$important
+||dmn2.bjpeu.edu.cn^$important
+||dns2.net1.it^$important
+||doors.co.kr^$important
+||enterprise.telesat.com.co^$important
+||eol1.egyptonline.com^$important
+||events.hotjar.io^$important
+||events.reddit.com^$important
+||events.redditmedia.com^$important
+||events3alt.adcolony.com^$important
+||extmaps-api.yandex.net^$important
+||fingerprint.com^$important
+||free4u.nurul-huda.or.id^$important
+||freshmarketer.com^$important
+||fw433.npic.ac.cn^$important
+||fwtracks.freshmarketer.com^$important
+||gambero3.cs.tin.it^$important
+||gate.technopolis.kirov.ru^$important
+||gemini.yahoo.com^$important
+||geo.yahoo.com^$important
+||google-analytics.com^$important
+||googlesyndication.com^$important
+||grs.hicloud.com^$important
+||gtm.mouseflow.com^$important
+||hakuba.janis.or.jp^$important
+||iadsdk.apple.com^$important
+||identify.hotjar.com^$important
+||imms1.macau.ctm.net^$important
+||indy.fjmu.edu.cn^$important
+||insights.hotjar.com^$important
+||iot-eu-logser.realme.com^$important
+||iot-logser.realme.com^$important
+||jur.unn.ac.ru^$important
+||kacstserv.kacst.edu.sa^$important
+||known.counsellor.gov.cn^$important
+||kserv.krldysh.ru^$important
+||laleh.itrc.ac.ir^$important
+||lazybumblebee.com^$important
+||log.byteoversea.com^$important
+||log.fc.yahoo.com^$important
+||log.pinterest.com^$important
+||logbak.hicloud.com^$important
+||logservice.hicloud.com^$important
+||logservice1.hicloud.com^$important
+||luckyorange.com^$important
+||m0-s.san.ru^$important
+||magsrv.com^$important
+||mail-gw.jbic.go.jp^$important
+||mail.bangla.net^$important
+||mail.edi.edu.cn^$important
+||mail.hallym.ac.kr^$important
+||mail.hangzhouit.gov.cn^$important
+||mail.hz.zh.cn^$important
+||mail.imamu.edu.sa^$important
+||mail.interq.or.jp^$important
+||mail.ioc.ac.ru^$important
+||mail.issas.ac.cn^$important
+||mail.pmo.ac.cn^$important
+||mail.siom.ac.cn^$important
+||mail.tropmet.res.in^$important
+||mail.tsinghua.edu.cn^$important
+||mail.zzu.edu.cn^$important
+||mail1.371.net^$important
+||mailgate.sbell.com.cn^$important
+||mailgw.thtf.com.cn^$important
+||mailhub.minaffet.gov.rw^$important
+||mails.cneic.com.cn^$important
+||mailscan3.cau.ctm.net^$important
+||mailsrv02.macau.ctm.net^$important
+||mailsvra.macau.ctm.net^$important
+||mbi3.kuicr.kyoto-u.ac.jp^$important
+||mcd-su-2.mos.ru^$important
+||media.net^$important
+||menrealitycalc.com^$important
+||metcoc5cm.clarent.com^$important
+||metrics.data.hicloud.com^$important
+||metrics.icloud.com^$important
+||metrics.mzstatic.com^$important
+||metrics2.data.hicloud.com^$important
+||metrika.yandex.ru^$important
+||mipsa.ciae.ac.cn^$important
+||mn.mn.co.cu^$important
+||most.cob.net.ba^$important
+||mouseflow.com^$important
+||mpkhi-bk.multi.net.pk^$important
+||msgstore2.pldtprv.net^$important
+||mtccsun.imtech.ernet.in^$important
+||mx1.freemail.ne.jp^$important
+||n02.unternehmen.com^$important
+||nd11mx1-a-fixed.sancharnet.in^$important
+||ndl1mc1-a-fixed.sancharnet.in^$important
+||ndl1mx1-a-fixed.sancharnet.in^$important
+||ndl1pp1-a-fixed.sancharnet.in^$important
+||news-cdn.site^$important
+||nmetrics.samsung.com^$important
+||no1.unternehemen.com^$important
+||no3.unternehmen.org^$important
+||notes-analytics-events.apple.com^$important
+||notifications.website^$important
+||notificationz.com^$important
+||notify-service.com^$important
+||notify.bugsnag.com^$important
+||ns.cac.com.cn^$important
+||ns.huawei.com.cn^$important
+||ns.nint.ac.cn^$important
+||ns1.2911.net^$important
+||ns1.multi.net.pk^$important
+||ns2.rosprint.ru^$important
+||ns2.xidian.edu.cn^$important
+||o2.mouseflow.com^$important
+||offerwall.yandex.net^$important
+||onegg.site^$important
+||opcwdns.opcw.nl^$important
+||open.oneplus.net^$important
+||opserver01.iti.net.pk^$important
+||orange.npix.net^$important
+||orion.platino.gov.ve^$important
+||outweb.nudt.edu.cn^$important
+||pdns.nudt.edu.cn^$important
+||petra.nic.gov.jo^$important
+||pixel.facebook.com^$important
+||pop.net21pk.com^$important
+||popawa.com^$important
+||popnewsfeed.com^$important
+||post.netchina.com.cn^$important
+||postbox.mos.ru^$important
+||public2.zz.ha.cn^$important
+||pushsroutg.com^$important
+||qa-analytics.com^$important
+||rayo.pereira.multi.net.co^$important
+||realtime.luckyorange.com^$important
+||ree4u.nurul-huda.or.id^$important
+||rotator.nurul-huda.sch.id^$important
+||samsung-com.112.2o7.net^$important
+||script.hotjar.com^$important
+||sea.net.edu.cn^$important
+||sedesol.sedesol.gob.mx^$important
+||segob.gob.mx^$important
+||sessions.bugsnag.com^$important
+||settings.luckyorange.net^$important
+||sky.kies.co.kr^$important
+||sl1bas.blogspot.com^$important
+||smetrics.samsung.com^$important
+||smmu-ipv6.smmu.edu.cn^$important
+||smtp.2911.net^$important
+||smtp.macau.ctm.net^$important
+||sonatns.sonatrach.dz^$important
+||sparc.nour.net.sa^$important
+||sps01.office.ctm.net^$important
+||ssl.google-analytics.com^$important
+||statcounter.com^$important
+||static.doubleclick.net^$important
+||static.media.net^$important
+||stats.g.doubleclick.net^$important
+||stats.wp.com^$important
+||sunchannel.me^$important
+||sunhe.jinr.ru^$important
+||surveys.hotjar.com^$important
+||sussi.cressoft.com.pk^$important
+||taboola.com^$important
+||tools.mouseflow.com^$important
+||tracking.rus.miui.com^$important
+||trk.pinterest.com^$important
+||truehits.in.th^$important
+||truehits.net^$important
+||tx.micro.net.pk^$important
+||udc.yahoo.com^$important
+||udcm.yahoo.com^$important
+||ufabet678.com^$important
+||ultra2.tsinghua.edu.cn^$important
+||unk.vver.kiae.rr^$important
+||unknown.counsellor.gov.cn^$important
+||upload.luckyorange.net^$important
+||vf.startpage.com^$important
+||voyager1.telesat.com.co^$important
+||w1.luckyorange.com^$important
+||weather-analytics-events.apple.com^$important
+||web-ccfr.tsinghua.edu.cn^$important
+||webnetra.entelnet.bo^$important
+||webserv.mos.ru^$important
+||webview.unityads.unity3d.com^$important
+||ws.xjb.ac.cn^$important
+||www.caramail.com^$important
+||www.siom.ac.cn^$important
+||www21.counsellor.gov.cn^$important
+||yastatic.net^$important
