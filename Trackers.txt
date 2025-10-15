@@ -2,7 +2,7 @@
 ! Description: Blocks common trackers, popups, web annoyances, and more
 ! Expires: 3 Days
 ! URL: https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/refs/heads/main/Trackers.txt
-! Homepage: https://github.com/Mateo-Grgic/Personal-Filterlists/tree/main
+! Homepage: https://github.com/Mateo-Grgic/Personal-Filterlists
 
 ! https://www.reddit.com/r/firefox/comments/1digcp4/comment/l93oijg/
 $3p,to=facebook.*,from=~facebook.*|~instagram.com|messenger.com|~meta.*|~threads.*
