@@ -1,1 +1,11 @@
 ! Mateo's Unified uBlock Filterlist
+! Description: Incorporates all my filterlists & blocklists into one list 
+! Expires: 12 hours
+! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Mateo's%20Unified%20uBlock%20Filterlist
+! Homepage: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
+
+!#include Mateo's Advertisement Blocklist
+!#include Mateo's Tracker Blocklist
+!#include Mateo's Personal Cosmetic Filterlist
+!#include Mateo's URL Shortener List
+!#include Mateo's Hosts List
