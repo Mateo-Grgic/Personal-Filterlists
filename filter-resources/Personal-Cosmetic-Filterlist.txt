@@ -1,0 +1,492 @@
+! Title: Mateo's Personal Cosmetic Filterlist 
+! Description: Strict, strictly-cosmetic filterlist. Will break things - Don't use unless you know what this list contains & does.
+! Expires: 12 hours
+! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Personal-Cosmetic-Filterlist.txt
+! Homepage: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
+
+! Note: You need to add this filterlist to your 'trusted filterlists' in uBlock Origin or AdGuard for some of the reddit.com filters to work. 
+! Caveat: However, as a rule of thumb, do not give random lists on the internet trusted status unless you thourougly trust the author, and know what the list does exactly.
+! Note Continued: My other filters work just fine without trusted status, so if you don't care about reddit, don't give this list trusted status.
+
+! duckduckgo visual annoyances filter list. cleans up the website, and removes ads and stuff. removes things i don't want to see every time i search
+||external-content.duckduckgo.com/iu/
+duckduckgo.com##.L6fj2A3X2mfJl5kE8caF
+duckduckgo.com##.has-two-items.grid-2-cols.has-grid.bing.has-main-source.js-module--autoads.module--carousel-autoads.module--carousel.module
+duckduckgo.com##.js-feedback-start.feedback-btn__send
+duckduckgo.com##.js-feedback-btn-wrap
+duckduckgo.com##.footer
+duckduckgo.com##.NCwWYRkAos7ntUjEoEWk.wbUB0U7KMDyukXtzMd8Y > span > .feedback-prompt > .js-feedback-prompt-generic.feedback-prompt__link
+duckduckgo.com##.ofDl_1VxUG_EKc3b9E3x.XvPRmQVeIoCP5lQhICTv
+duckduckgo.com##.yjuFYcjOI844d3KiuLhz.nOpYdHAdSD_d47TfU1p8.KE_4ibtn0WI3iUo6lJw9 > .UWzy821Y58lvrLxQ7fnz
+duckduckgo.com##li:nth-of-type(6) > .d26Geqs1C__RaCO7MUs2.wZ4JdaHxSAhGy1HoNVja.kFFXe30DOpq5j1hbWU1q
+duckduckgo.com##li:nth-of-type(5) > .d26Geqs1C__RaCO7MUs2.wZ4JdaHxSAhGy1HoNVja.kFFXe30DOpq5j1hbWU1q
+duckduckgo.com##li:nth-of-type(4) > .d26Geqs1C__RaCO7MUs2.wZ4JdaHxSAhGy1HoNVja.kFFXe30DOpq5j1hbWU1q
+duckduckgo.com##li:nth-of-type(3) > .d26Geqs1C__RaCO7MUs2.wZ4JdaHxSAhGy1HoNVja.kFFXe30DOpq5j1hbWU1q
+duckduckgo.com###links > .results--ads
+duckduckgo.com##.kYheVVecSlvJdWHcWzJs.hF7w5TROgutbYQwHzEf_.MQCbz04ET5EljRmK3YpQ.ffON2NH02oMAcqyoh2UU.YZxymVMEkIDA0nZSt_Pm.uuIDnYC4qmyFk5dsXOhr.cxQwADb9kt3UnKwcXKat
+duckduckgo.com##body > [href^="https://www.google.com/search"]
+duckduckgo.com##li:nth-of-type(7) > .d26Geqs1C__RaCO7MUs2.wZ4JdaHxSAhGy1HoNVja.kFFXe30DOpq5j1hbWU1q
+duckduckgo.com##.t-m.related-searches
+duckduckgo.com##.has-content-height.ia-module--definitions.module > .feedback-prompt > .js-feedback-prompt-generic.feedback-prompt__link
+duckduckgo.com##li.L6fj2A3X2mfJl5kE8caF:nth-of-type(6)
+duckduckgo.com##.has-preview.js-module--news.module--carousel-news.module--carousel.module
+duckduckgo.com##.js-text-promo-link.header--text_promo--link.text_promo--link
+duckduckgo.com##.hoUWqHNnn8Kv_pLhPzPQ.wbUB0U7KMDyukXtzMd8Y > .AlPVsxUsFt3bnuOvg6hI.wZ4JdaHxSAhGy1HoNVja.ZvcE0ToM7Sfi6iwk7KiJ > .QLnrpZotv4aJbXfgALkx > span > .jEtSIrH8lHNhHno1Glvn
+duckduckgo.com##.AlPVsxUsFt3bnuOvg6hI.wZ4JdaHxSAhGy1HoNVja.ZvcE0ToM7Sfi6iwk7KiJ
+duckduckgo.com##.react-feedback-prompt-mvc-wrapper--news.react-feedback-prompt-mvc-wrapper > .AlPVsxUsFt3bnuOvg6hI.wZ4JdaHxSAhGy1HoNVja.ZvcE0ToM7Sfi6iwk7KiJ
+duckduckgo.com##.d26Geqs1C__RaCO7MUs2.wZ4JdaHxSAhGy1HoNVja.ai-chat-pill-btn-in-header.xngNsKs5JnfVuVQQiOUs.VssOcyhy47YNtTsYTdr0.FjSJqhByQmoYMVscUoQe.Pd_jmhkZzftl0UtTaw0u
+duckduckgo.com##.AgRvhDZlpjWsRz4nVQDb.O9Ipab51rBntYb0pwOQn
+duckduckgo.com##.WktWJWUFfihMbuzAEqk2.hUUdRtuaOUx7mcSwc56s.ffON2NH02oMAcqyoh2UU
+duckduckgo.com##.Eg9ZFCRxMWqHRzkCtewa.zBanFIEymeySULdnPIUg.O9Ipab51rBntYb0pwOQn
+duckduckgo.com##li.L6fj2A3X2mfJl5kE8caF:nth-of-type(3)
+duckduckgo.com##.module__content
+duckduckgo.com##.spread-cta--has-top-margin.ia-module--spread-cta.module
+duckduckgo.com##.gyDT4qronqJu4BgQBq2F
+duckduckgo.com##.dxX8MoSEf9ja3nCPB3bG
+duckduckgo.com##.qGu74QSLFYQRfeLvJRRc.yfJq_efWTV0OnUvNRg1f.nYs5EPJFwdhisN0E7MCB
+duckduckgo.com##.FTrf7TqAcfxxEQ_3nfUg
+duckduckgo.com##li.L6fj2A3X2mfJl5kE8caF:nth-of-type(2)
+duckduckgo.com##ul:nth-of-type(4)
+duckduckgo.com##.nav-menu--feedback
+duckduckgo.com##li.nav-menu__item:nth-of-type(7)
+duckduckgo.com##ul:nth-of-type(5)
+duckduckgo.com##ul:nth-of-type(6)
+duckduckgo.com##ul:nth-of-type(3)
+duckduckgo.com##li.L6fj2A3X2mfJl5kE8caF:nth-of-type(5)
+duckduckgo.com##.CmD9eLgF85aKeuW7KwSP
+duckduckgo.com##.desktop-homepage_ctaCards__L6Zai.cta-cards_cards__ApWvd
+duckduckgo.com##.button_size-xs__kck8r.button_ghost___IPIW.button_button__GGtY1.header_aiChatButton__e_9yJ
+duckduckgo.com##.desktop-homepage_belowTheFoldWrapper__rTcUd
+duckduckgo.com##.center_andText__q9Qi5.center_intrinsic__Gt_PZ.center_root___q8wn.homepage-cta-section_scrollCta__Wmixn
+duckduckgo.com##.AqHvr90CPQdpxvM5Hudq._f3aDBGcVsGYEX6faISN
+duckduckgo.com###header_wrapper:not(.header-wrap--with-hero), .js-header-wrap.header-wrap:not(.header-wrap--with-hero):style(position: relative !important; top: 0 !important;)
+duckduckgo.com##.is-stuck.has-dropdowns.js-zcm-sticky.metabar--fixed.metabar:style(position: absolute !important; top: 0 !important;)
+duckduckgo.com##.js-serp-bottom-right.serp__bottom-right:style(position: absolute !important; bottom: unset !important;)
+duckduckgo.com##.WGdpd_iV__IHlnRacxBr
+duckduckgo.com###react-duckbar li:has-text(Search Assist)
+duckduckgo.com##li:first-child:has([data-testid="duckassist-answer-content"])
+duckduckgo.com##.YU2JXQWzBxr5xRv1Zn_H
+duckduckgo.com##ul:nth-of-type(2)
+start.duckduckgo.com##ul:nth-of-type(2)
+start.duckduckgo.com##section.sideMenu_section__qPsAX:nth-of-type(2)
+start.duckduckgo.com##section.sideMenu_section__qPsAX:nth-of-type(3)
+start.duckduckgo.com##section.sideMenu_section__qPsAX:nth-of-type(4)
+start.duckduckgo.com##section.sideMenu_section__qPsAX:nth-of-type(5)
+
+! clean up the apperance of kagi, one of the nicer looking websites by default
+! kagi.com##footer
+kagi.com##.false.new-tooltip.trigger
+kagi.com##a.n_ne._0_query_link_item.nav_item:nth-of-type(5)
+kagi.com##a.n_ne._0_query_link_item.nav_item:nth-of-type(4)
+kagi.com##.serp_nav_end
+kagi.com##.__srgi
+kagi.com###_0_land_tooltip_message
+kagi.com##.clearfix.inline-content.list-widget._0_provider-content
+kagi.com##.clipboardCopy._0_share_url_footer
+kagi.com##.__sri-time 
+kagi.com##.n_ma._0_query_link_item.nav_item
+kagi.com##.--gap-10.--flex.result-comments
+kagi.com##.__sri-rating-stars
+kagi.com##.gap-4.flex.result-comments
+
+! quick & dirty slight clean up of qwant, not great, needs improvement at a later date
+www.qwant.com##._2p-Ie._396aK.amHBC._23lip._2loWJ
+www.qwant.com##._3DLzt._23lip._2loWJ._3DyM_
+www.qwant.com##._3K80b.cvtUd._1mij1._1hmsG
+www.qwant.com##a._396aK._2loWJ._4JiNE:nth-of-type(4)
+www.qwant.com##a._396aK._2loWJ._4JiNE:nth-of-type(3)
+www.qwant.com##._3K80b._1H2Td > ._1o6fl > ._2_jNz > ._2loWJ
+www.qwant.com##._3K80b._1H2Td
+www.qwant.com##.UzhzG.external > .p9uUc
+www.qwant.com##._2mGN8
+www.qwant.com##._134ES
+www.qwant.com##.a2N1U.ZDl9l
+www.qwant.com##.gPOYP
+www.qwant.com##.dCc9W
+www.qwant.com##a._5eIRO._1xQVj.MlS4n:nth-of-type(4)
+www.qwant.com##.G-2qb.zY7ez._1xQVj.coG0\+
+
+! clean up brave search a bit
+search.brave.com##li.svelte-1y1ijlx.tab-item:nth-of-type(3)
+search.brave.com##li.svelte-1y1ijlx.tab-item:nth-of-type(4)
+search.brave.com##li.svelte-1y1ijlx.tab-item:nth-of-type(5)
+search.brave.com##.svelte-18xgeuj.result-cluster
+search.brave.com##div.svelte-1o29vmf.standalone.snippet:nth-of-type(5)
+search.brave.com###discussions
+search.brave.com###search-elsewhere
+search.brave.com##.overflowing.inline-qa--top-answer.svelte-i59cct.inline-qa
+search.brave.com##.svelte-6afvde
+search.brave.com##.svelte-42fn05.related-queries-wrapper
+search.brave.com##.svelte-1yt5tdo.primary
+search.brave.com##.svelte-c3bjae.subutton
+search.brave.com###llm-snippet
+search.brave.com##.llm.suggestion:has-text(Answer with AI)
+search.brave.com##.subutton-tooltip-wrapper[aria-label="Answer with AI"]
+search.brave.com##button.suggestion.llm
+search.brave.com##div.ai-digest
+search.brave.com##div.subutton-wrapper:has(button#submit-llm-button)
+search.brave.com##.svelte-ve2bd1.noscript-hide.noscrollbar.example-searches
+
+! slightly clean up searx.org, and some other searx instance(s), only tested on searx.org, may not work on other instance(s)
+searx.org##button.category_button.category:nth-of-type(3)
+searx.org##button.category_button.category:nth-of-type(4)
+searx.org##button.category_button.category:nth-of-type(10)
+searx.org##button.category_button.category:nth-of-type(9)
+searx.org##button.category_button.category:nth-of-type(8)
+searx.org##button.category_button.category:nth-of-type(5)
+searx.org##button.category_button.category:nth-of-type(6)
+searx.org##button.category_button.category:nth-of-type(7)
+searx.org##.link_on_top_about
+searx.org###sidebar
+searx.org##.language
+searx.org##.engines
+searx.org##.link_on_top_preferences
+
+! discord visual annoyances filter list, these are probably out of date (I use GoofCord desktop, rarely browser)
+discord.com##.scrollerBase_c49869.none_c49869.scroller_fea3ef > div.listItem_c96c45 > .listItemWrapper_dfb2f8
+discord.com##.footer_aa1bff > .listItem_c96c45 > .listItemWrapper_dfb2f8
+discord.com##.guildSeparator_d0c57e
+discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad > .linkButton_c91bad.interactive_c91bad.interactive_f5eb4b > .link_c91bad > .layout_ec8679.avatarWithText_c91bad
+discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad > .linkButton_c91bad.interactive_c91bad.interactive_f5eb4b > .link_c91bad
+discord.com##.content__99f8c > li.container_e45859.channel__972a0 > .linkButton__972a0.interactive__972a0.interactive_bf202d
+
+! amazon.ca visual annoyances filter list, used in conjuncture with a violentmonkey script that makes amazon look like a traditional search engine
+amazon.ca###nav-subnav
+amazon.ca###navbar > .nav-sprite
+amazon.ca##.navFooterDescLine.navFooterLinkLine.navFooterLine
+amazon.ca##.nav-sprite-v1.navLeftFooter
+amazon.ca##.vse-video-widget-container.vse-video-widget-dp-container._vc-pfo_style_vseVideoWidgetContainer__1l1qH.vse-ive_vfsp-ive-video-rss-dp-vfsp._vc-pfo_style_peekThrough__pobCI.a-cardui
+www.amazon.ca###gw-layout > .gw-card-layout.a-section
+www.amazon.ca###CardInstanceNbaVgKoENosvX8rIHP9KwA > .fresh-shoveler.aui-desktop.image-shoveler.card-lite.shogun-widget.a-spacing-none.a-section
+www.amazon.ca##.celwidget.pd_rd_r-1a5a64b2-823c-4ea6-9776-d030342461d2.pd_rd_w-mAGe9.pd_rd_wg-0c44y.desktop-gateway-btf_deals-p13n-ac3e9115-959d-4bda-9409-aa84fa635166.csm-placement-id-c407e9f8-11f1-46dc-83f0-2958d01b832c.gw-auto-height.gw-widget-instrument.gwi-row.desktop-row.gw-col
+www.amazon.ca###desktop-banner
+www.amazon.ca##.rhf-frame
+www.amazon.ca##.a-badge-label
+www.amazon.ca###nav-xshop-container > .nav-progressive-content
+www.amazon.ca##.mn-is-visible.mn-nav-stripe-1-line.mn-nav-stripe
+www.amazon.ca##.inherit-link-color.content-grid-block
+www.amazon.ca##.promoPriceBlockMessage > div
+www.amazon.ca###dealBadge_feature_div
+www.amazon.ca##.mvt-ac-badge-wrapper
+www.amazon.ca##.a-spacing-top-micro.a-spacing-small.a-section
+
+! some youtube.com things to hide, to make the website more usable. designed to look good when logged in. does break some things.
+! note: you must disable cosmetic filtering TEMPORARALY to subscribe to any channel. i recommend going to the channel page, to avoid excessive advertisments.
+! my general desktop youtube filters
+www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
+www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
+www.youtube.com##.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
+www.youtube.com###top-level-buttons-computed > yt-button-view-model.ytd-menu-renderer
+www.youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer > .ytd-menu-renderer.style-scope.yt-spec-button-view-model > .yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
+www.youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
+www.youtube.com###expandable-metadata > .ytd-watch-flexy.style-scope
+www.youtube.com##.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled.yt-spec-button-shape-next
+www.youtube.com###teaser-carousel
+www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope
+www.youtube.com###google-cookie-alert
+www.youtube.com###button-shape > .yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
+www.youtube.com###flexible-item-buttons
+www.youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
+www.youtube.com###chat-container
+www.youtube.com###voice-search-button
+www.youtube.com###sponsor-button
+www.youtube.com###content > .ytd-rich-section-renderer.style-scope
+www.youtube.com###offer-module
+www.youtube.com##div.yt-content-metadata-view-model-wiz__metadata-row:nth-of-type(3)
+www.youtube.com###content-section
+www.youtube.com##.ytd-watch-flexy.style-scope > .ytd-info-panel-container-renderer.style-scope
+www.youtube.com##ytd-feed-nudge-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(2)
+www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(1)
+www.youtube.com##.ytLockupAttachmentsViewModelHost
+www.youtube.com##.ytDownloadListItemViewModelHost
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer.style-scope:nth-of-type(6)
+www.youtube.com###panels-full-bleed-container
+www.youtube.com##ytd-watch-flexy[live-chat-present-and-expanded] #columns:style(padding-right: 0 !important;)
+www.youtube.com###chat-container, ytd-watch-flexy[live-chat-present-and-expanded] #panels-full-bleed-container
+www.youtube.com###chat-container
+www.youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-metadata-row-renderer.style-scope
+www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(3)
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has(.badge-style-type-members-only)
+youtube.com###primary > ytd-rich-grid-renderer > #contents > ytd-rich-section-renderer
+www.youtube.com###cinematics.ytd-watch-flexy
+www.youtube.com##.ytp-fullscreen-grid
+youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-items-per-row: 3 !important;)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_grid, false)
+!
+! hide low-view videos - https://www.reddit.com/r/uBlockOrigin/wiki/solutions/youtube/#wiki_low_view_videos
+www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(#video-title-link[aria-label~="views"]:not(:is([aria-label*=",0"],[aria-label*=",1"],[aria-label*=",2"],[aria-label*=",3"],[aria-label*=",4"],[aria-label*=",5"],[aria-label*=",6"],[aria-label*=",7"],[aria-label*=",8"],[aria-label*=",9"])))
+www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:not(:has(#video-title[aria-label~="views"], .yt-lockup-view-model-wiz--collection-stack-2)) :is(#metadata-line>span:first-of-type, .yt-content-metadata-view-model-wiz__metadata-row, .yt-content-metadata-view-model__metadata-row):last-of-type:not(:has-text(/[KMB]\b/)):upward(ytd-rich-item-renderer)
+www.youtube.com##ytd-compact-video-renderer:has(#video-title[aria-label~="views"]:not(:is([aria-label*=",0"],[aria-label*=",1"],[aria-label*=",2"],[aria-label*=",3"],[aria-label*=",4"],[aria-label*=",5"],[aria-label*=",6"],[aria-label*=",7"],[aria-label*=",8"],[aria-label*=",9"])))
+www.youtube.com###related :is(yt-lockup-view-model,ytd-compact-video-renderer):not(:has(#video-title[aria-label~="views"], .yt-lockup-view-model-wiz--collection-stack-2)) :is(#metadata-line>span:first-of-type, .yt-content-metadata-view-model-wiz__metadata-row, .yt-content-metadata-view-model__metadata-row):last-of-type:not(:has-text(/[KMB]\b/)):upward(yt-lockup-view-model,ytd-compact-video-renderer)
+www.youtube.com##.ytp-videowall-still[aria-label~="views"]:not(:is([aria-label*=",0"],[aria-label*=",1"],[aria-label*=",2"],[aria-label*=",3"],[aria-label*=",4"],[aria-label*=",5"],[aria-label*=",6"],[aria-label*=",7"],[aria-label*=",8"],[aria-label*=",9"]))
+!
+! my filters that remove crap from mobile youtube (shorts, games, etc)
+m.youtube.com##.rich-grid-sticky-header.rich-grid-renderer-header
+m.youtube.com##.is-extra-compact.scrollable-shelf
+m.youtube.com##ytm-rich-section-renderer:nth-of-type(3)
+m.youtube.com##.ytm-chips-shelf-view-model--is-inner-chips-shelf.ytm-chips-shelf-view-model > div
+m.youtube.com##.icon-expand.rich-shelf-expand-button
+m.youtube.com##.rich-section-content
+!
+! stolen from yt-neuter nomusic, noshorts, and premium exclusion
+@@||www.youtube.com/s/player/*/player_ias.vflset/*/offline.js$script
+youtube.com###action-menu > .ytd-comment-view-model.style-scope
+youtube.com##.yt-dropdown-menu.style-scope.dropdown-trigger
+youtube.com##.ytd-app.style-scope.with-chipbar
+youtube.com##ytd-engagement-panel-section-list-renderer.ytd-watch-flexy.style-scope:nth-of-type(3)
+youtube.com##ytd-rich-item-renderer:has(.badge-style-type-verified-artist)
+youtube.com##ytd-grid-video-renderer:has(.badge-style-type-verified-artist)
+youtube.com##ytd-video-renderer:has(.badge-style-type-verified-artist)
+youtube.com##ytd-guide-entry-renderer:has-text(Music)
+youtube.com##ytd-mini-guide-entry-renderer:has-text(Music)
+youtube.com#@#ytd-menu-service-item-download-renderer
+youtube.com#@#.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
+youtube.com#@#ytd-download-button-renderer
+youtube.com##ytd-reel-shelf-renderer
+youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
+youtube.com##ytd-mini-guide-entry-renderer:has-text(Shorts)
+youtube.com##ytd-rich-shelf-renderer[is-shorts]
+youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Shorts))
+youtube.com##yt-tab-shape[tab-title="Shorts"]
+youtube.com##ytd-rich-item-renderer:has(a[href^="/shorts/"])
+youtube.com##ytd-grid-video-renderer:has(a[href^="/shorts/"])
+youtube.com##ytd-video-renderer:has(a[href^="/shorts/"])
+youtube.com##ytd-rich-item-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+youtube.com##ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+youtube.com##ytd-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+youtube.com##ytd-rich-item-renderer:has(a#video-title>yt-formatted-string:has-text(#shorts))
+youtube.com##ytd-grid-video-renderer:has(a#video-title>yt-formatted-string:has-text(#shorts))
+youtube.com##ytd-video-renderer:has(a#video-title>yt-formatted-string:has-text(#shorts))
+youtube.com##.ytp-videowall-still:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS])
+m.youtube.com##ytm-reel-shelf-renderer
+m.youtube.com##ytm-chip-cloud-chip-renderer:has-text(Music)
+m.youtube.com##ytm-video-with-context-renderer:has(a[href^="/shorts/"])
+m.youtube.com##ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
+m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-bar-item-title:has-text(Shorts))
+m.youtube.com##ytm-rich-section-renderer:has(>ytm-reel-shelf-renderer)
+
+! some reddit ease of use things, allows viewing nsfw posts without loggin in, blocks some ads and other junk
+reddit.com##[bundlename="nsfw_blocking_modal"]:remove()
+reddit.com##body:has(> shreddit-app > shreddit-async-loader[bundlename="app_selector"]):style(overflow: auto !important; pointer-events: auto !important;)
+reddit.com##shreddit-async-loader[bundlename="app_selector"]
+reddit.com##.promotedlink
+www.reddit.com##+js(trusted-set, HTMLElement.prototype.__blurred, { value: "false" })
+www.reddit.com##+js(trusted-suppress-native-method, Element.prototype.querySelector, '"div[slot="revealed"]"', prevent)
+www.reddit.com##.prompt, .bg-scrim, .overlay, .viewInApp, #blocking-modal, #nsfw-qr-dialog, body > [style*="blur(4px)"]
+www.reddit.com##body:style(pointer-events: auto !important; overflow: auto !important;)
+reddit.com##body > div
+reddit.com##.w-\[448px\].box-border 
+
+! make darkreader.org less ugly
+darkreader.org##darkreader-mobile-side
+darkreader.org##.page-grid-left > .ios__scroll-down.ios__show-up
+darkreader.org##.page-grid-side--visible.page-grid-side > .c-h
+darkreader.org##.page-grid-left > .ios__scroll-up.ios__show-up
+darkreader.org##.page-grid-content > darkreader-pay-tiers
+darkreader.org##.page-grid-inside > darkreader-pay-tiers
+darkreader.org##.v2-help-banners
+darkreader.org##.page-grid-left > .ios__show-up
+darkreader.org##.page-grid-ios > .ios__scroll-down.ios__show-up
+darkreader.org##.page-grid-side
+darkreader.org##.page-grid-ios > .ios__scroll-up.ios__show-up
+darkreader.org##.ios__show-up
+
+! some wikipeida misc element blocking (i do the survey typically, i just don't want to be nagged)
+wikipedia.org##.survey-content.message
+wikipedia.org###frb-inline
+wikipedia.org###frb-nag
+wikipedia.org###siteNotice
+
+! cleans up the merriam-webster website, make it less ugly. Does remove some 'useful' things, but i generally like this look better
+www.merriam-webster.com##.non-sticky.fixed-wrapper
+www.merriam-webster.com##.d-flex.flex-nowrap.flex-md-row.flex-xl-column.sidebar-padder
+www.merriam-webster.com##.p-0.order-lg-1.align-items-lg-center.justify-content-start.flex-lg-row.flex-column.d-flex.navigation-second-half
+www.merriam-webster.com##.additional-content-area
+www.merriam-webster.com##.footer-menu
+www.merriam-webster.com###left-content > .clearfix
+www.merriam-webster.com##.cafemedia-footer-foot.footer-oa.clearfix.footer-foot
+www.merriam-webster.com###definition-fixed-wrapper
+www.merriam-webster.com##.text-center.rounded.font-logo.est
+www.merriam-webster.com##.flex-shrink-0.flex-column.d-flex.sidebar-container
+www.merriam-webster.com##.position-relative.left-sidebar-col.g-0.col-2
+www.merriam-webster.com###related-articles > .content-section-with-header
+www.merriam-webster.com###related-articles
+www.merriam-webster.com###nearby-entries
+www.merriam-webster.com###citations
+www.merriam-webster.com##.more_defs.widget > .content-section-with-header.widget
+www.merriam-webster.com##.content-section-with-header.more-from.widget
+www.merriam-webster.com###anchor-seporator
+www.merriam-webster.com##.on-web
+www.merriam-webster.com##.home-redesign-layout
+www.merriam-webster.com##.fw-bold.home-btn-blue.btn.text-decoration-none.w-100
+www.merriam-webster.com##.flex-nowrap.container-xxl.navbar
+www.merriam-webster.com##.g-0.col-12.col-md-3.col-lg-3.col-xl-3.right-rail.position-relative.fixed-wrapper
+www.merriam-webster.com##.header-placeholder
+
+! removes some element or other
+github.com##div.react-code-size-details-in-header:nth-of-type(2)
+! taken from dandelionSprout's 4k/5k website strecher list, which is then itself adapted from github-wide
+github.com##.file.js-code-editor.container-preview.show-code:style(height: 63vh !important; margin-bottom: 30px !important)
+github.com##.emoji-picker-tab:style(height: 700px !important)
+github.com##.comment-form-textarea:style(max-height: none !important)
+github.com##react-app[app-name="react-code-view"]:style(height: calc(100vh - 350px) !important; min-height: unset !important)
+github.com##.CodeMirror:style(height: calc(100vh - 350px) !important)
+github.com##.container-lg:style(max-width: none !important)
+github.com##.container:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
+github.com##.container-lg:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
+github.com##.file-header::after:style(clear: left !important)
+github.com##.container-xl:style(max-width: none !important)
+github.com##.repository-content:style(width: 100% !important)
+github.com##.repository-with-sidebar:style(padding-right: 60px !important)
+github.com##.repository-with-sidebar > .repository-sidebar:style(margin-right: -60px !important)
+github.com##.summary-stats:style(display: table; width: 100%)
+github.com##.authors-and-code:style(display: table; width: 100%)
+github.com##.summary-stats > li:style(width: 25%)
+github.com##.authors-and-code > .section:style(width: 50%)
+github.com##.with-full-navigation:style(padding-right: 190px !important)
+github.com##.with-full-navigation > .repository-sidebar:style(margin-right: -190px !important)
+github.com##.discussion-sidebar:style(width: 220px !important)
+github.com##.discussion-timeline:style(width: 100% !important)
+github.com##.col-9:style(width: 100% !important)
+github.com###discussion_bucket > .col-12.col-md-9:style(width: calc(100vw - 285px) !important)
+github.com###partial-discussion-sidebar[data-channel^=issue]:style(margin-left: 24px !important)
+github.com##.col-md-3.col-12.flex-shrink-0:style(width: 200px !important)
+github.com##.flex-shrink-0.col-12.col-md-9:style(width: calc(100% - 250px) !important)
+github.com##.js-discussion:style(width: calc(100vw - 370px) !important)
+github.com##.Layout-sidebar:style(max-width:220px!important;padding-left:10px!important)
+github.com##.pull-request-tab-content:style(width: calc(100vw - 275px) !important;)
+github.com##.gutter-condensed > .col-3:style(width: 200px !important)
+github.com###dashboard:style(position: relative !important)
+github.com##.new-issue-form:style(position: relative !important)
+github.com##html[lang] > body:not(.full-width) .dashboard-sidebar:style(position: absolute !important; top: 0 !important; right: 0 !important)
+github.com##.new-issue-form > .discussion-sidebar:style(position: absolute !important; top: 0 !important; right: 0 !important)
+github.com##button.discussion-sidebar-toggle:style(width: 100% !important)
+github.com##.timeline-new-comment:style(max-width: none !important)
+github.com##html[lang] > body:not(.full-width) .news:style(float: none !important; margin-right: 360px !important)
+github.com##.settings-content:style(float: none !important; width: auto !important; overflow: auto !important)
+github.com##.repo-settings-content:style(float: none !important; width: auto !important; overflow: auto !important)
+github.com##.container > .settings-content, .repo-settings-content:style(margin-left: 260px !important)
+github.com###repo-settings > .menu-container:style(width: 240px !important)
+github.com###js-flash-container > .flash-messages:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
+github.com##.u-photo .avatar:style(width: 230px !important)
+github.com##.h-card:style(width: 230px; margin-right: 16px)
+github.com##.commit-desc > .text-small:style(max-width: none !important)
+github.com###comments > .timeline-comment-wrapper:style(width: calc(100vw - 240px) !important)
+github.com##.js-blob-filename:style(width: 400px !important)
+github.com##body.page-profile .flex-shrink-0.col-12.col-md-9:style(margin-left: 40px !important)
+github.com##.Layout--sidebarPosition-flowRow-end:style(width: 96vw !important; --Layout-sidebar-width: 220px !important; --Layout-gutter: -5px !important)
+github.com##div[tabindex] + div > div[class^=Box-sc-][class*=" "]:style(max-width: unset !important)
+github.com##div[data-selector*=repos-split-pane-content i]:style(max-width: unset !important)
+github.com##div.Layout--sidebarPosition-end:style(grid-template-columns: calc(100vw - 275px) 210px !important)
+github.com##.timeline-comment:style(width: calc(100vw - 335px) !important)
+github.com##div[class^=IssueMetadata-] ~ div[class^=Box-]:style(max-width:2000px!important)
+
+! removes donation banner at top of page and random ad thing
+tcec-chess.com##.fastart.fbetween
+tcec-chess.com###body > .fastart.fcenter
+
+! remove ads and junk from homepage of startpage
+www.startpage.com##.css-i4fykg.privacy-extension-and-app-widget
+www.startpage.com###home-below-the-fold-container
+www.startpage.com##.css-1hjmuxl.home-hero-down-arrow
+www.startpage.com##.css-1fnx5c8
+www.startpage.com##.css-waz6w2.navigational-link-text
+www.startpage.com##.css-0.privacy-indicator-container
+www.startpage.com##.css-w1m7lx.blog-menu
+www.startpage.com##.css-c4nico.feedback-widget > .css-18vn6f9.feedback-button-container
+www.startpage.com##.css-1b3gbnx
+
+! clean up open-webui ui
+localhost##.shrink-0.mr-1.space-x-1.flex.self-end > div.flex:nth-of-type(1)
+localhost###d1NztM1oqP > .flex
+
+! clean up random financial site I don't use, specifically for non-paying users (something in my ublock settings breaks the site a little, probably not these, though)
+finviz.com##td:nth-of-type(11)
+finviz.com##td:nth-of-type(12)
+finviz.com##td:nth-of-type(6)
+finviz.com##th.text-left:nth-of-type(6)
+finviz.com##.modal-elite-ad
+
+! clean up new york times
+www.nytimes.com###bottom-sheet-sensor > div
+www.nytimes.com##.bottom-of-article > .css-yomkvi
+www.nytimes.com##.css-1anccaj
+www.nytimes.com##.css-1jmk4jh
+www.nytimes.com###bottom-sheet-sensor
+www.nytimes.com##.bottom-of-article > .css-yomkvi
+www.nytimes.com##.css-1qa4qp6
+www.nytimes.com##.css-6xhk3s
+www.nytimes.com##.css-jxzr5i
+www.nytimes.com##.css-m5rkpj
+www.nytimes.com##.css-ui2i83 > ul
+www.nytimes.com##.css-1kj7lfb
+
+! block ad on top of page
+||www.techpowerup.com/reviyuu/b784/_d67893d3.png$image
+www.techpowerup.com##.gbreb
+
+! remove the 'report ad' button on nitrotype, as well as the prompts to upgrade to nitro gold
+www.nitrotype.com##.ad--side.ad
+www.nitrotype.com##.link--bare.link.goldTeaser
+www.nitrotype.com##.structure-spacer-left
+www.nitrotype.com##.ad--container--side.structure-leaderboard
+
+! removes something, i forgot what it does. i'd guess removes something annoying ¯\_(ツ)_/¯
+www.canyon.com##.js-accordionToggle.serviceSnapIn__trigger
+
+! remove pinarello newsletter overlay modal thing
+pinarello.com###nl-pop
+
+! blocks some annoying ui elements in proton mail
+mail.proton.me##.gap-2.button-promotion--full-gradient.button-promotion--icon-gradient.items-center.flex.max-w-full.text-center.inline-block.button-outline-weak.button-medium.button
+mail.proton.me##.topnav-list--four-elements.empty\:hidden.items-center.flex-nowrap.flex.gap-1.ml-2.my-0.unstyled.topnav-list > div
+
+! blocks log-in dialouge box overlay
+www.pinterest.com##.zI7.p6V.ojN._he.ZZS.Rym.QLY
+www.pinterest.ca##.zI7.p6V.ojN._he.ZZS.Rym.QLY
+
+! clean up the incredibly ugly kijiji
+www.kijiji.ca##.bannerContainer-2041484315
+www.kijiji.ca##.coGfWs.sc-7e40d068-23.kEKNnu.sc-151b1419-0.iFExDj.sc-c8742e84-0
+www.kijiji.ca##.ePBLxg.sc-dc430863-1
+www.kijiji.ca##.cAmHfv.sc-bc9ba973-0
+www.kijiji.ca##.giAOsp.sc-6b119651-2 > .iHQyEX.sc-6677fc-0.jyxDGB.sc-eb45309b-0
+www.kijiji.ca##.eTobXd.sc-1f51e79f-0
+
+! removes various annoying things on the google search site
+www.google.com##.SLPe5b.Kevs9
+www.google.com##dynamic-visibility-control:nth-of-type(2)
+google.com##[data-hveid="CAIQAQ"]:has-text(Gemini, an AI assistant)
+google.com##[data-mcpr]
+google.com##[role="listitem"]:has(a[href*="aep=1&ntc=1"])
+google.com##button:has(path[d^="M17.5 12c0-3.04 2.46-5.5"])
+google.com##li[data-attrid$="Prediction"]:has([aria-description="AI Mode"])
+
+! clean up gmail site
+mail.google.com###google-hats-survey
+mail.google.com##.e5IPTd.r4vW1e
+
+! clean up google support 
+support.google.com##.helpPanelContainerRoot:has-text(Help guide)
+
+! fixes and cleans up google docs a bit
+docs.google.com###docs-sidekick-gen-ai-promo-button-container
+docs.google.com##.gb_y
+
+! hide the silly anubis anti-AI-crawlers catgirl mascot found on certain linux-related webpages i visit
+*anubis/static/img/pensive.webp$image
+*anubis/static/img/reject.webp$image
+*anubis/static/img/happy.webp$image
+
+! remove sponsored, 'you may like', social media, etc from tom's hardware
+www.tomshardware.com##div.hawk-root
+www.tomshardware.com##.border-neutral-300.border-y.border-solid.mb-4.pb-4.pt-3.clear-both
+www.tomshardware.com##.see-more--clipped.see-more
+
+! Remove premium nags for instapaper
+www.instapaper.com##.js_galog.open_modal.instapaper_premium
+
