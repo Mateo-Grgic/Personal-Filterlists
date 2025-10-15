@@ -1,11 +1,75 @@
 ! Title: Mateo's Advertisement Blocklist
-! Description: Blocks & Hides Ads, Ad Placeholders Across The Web - Updated sporadically as I encounter missed Ads. 
-! Expires: 2 Days
+! Description: Blocks & Hides Ads, Ad Placeholders Across The Web - Updated sporadically as I encounter missed Ads
+! Expires: 5 Days
 ! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Mateo's%20Advertisement%20Blocklist
 ! Homepage: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
 
-! Ad Domains - Blocks domains that are used exclusively to serve ads, I try to avoid breakage
-
+! Ad Domains - Blocks domains that are used exclusively to serve ads
+||ad.doubleclick.net^$important
+||adc3-launch.adcolony.com^$important
+||adfox.yandex.ru^$important
+||adfstat.yandex.ru^$important
+||adm.hotjar.com^$important
+||ads-api.tiktok.com^$important
+||ads-api.twitter.com^$important
+||ads-sg.tiktok.com^$important
+||ads.linkedin.com^$important
+||ads.pinterest.com^$important
+||ads.tiktok.com^$important
+||ads.yahoo.com^$important
+||ads.youtube.com^$important
+||ads30.adcolony.com^$important
+||adserver.unityads.unity3d.com^$important
+||adservetx.media.net^$important
+||adservice.google.com^$important
+||adsfs.oppomobile.com^$important
+||adtago.s3.amazonaws.com^$important
+||adtech.yahooinc.com^$important
+||advertising-api-eu.amazon.com^$important
+||advertising.apple.com^$important
+||advice-ads.s3.amazonaws.com^$important
+||adx.ads.oppomobile.com^$important
+||afs.googlesyndication.com^$important
+||api-adservices.apple.com^$important
+||api.ad.xiaomi.com^$important
+||auction.unityads.unity3d.com^$important
+||bdapi-ads.realmemobile.com^$important
+||bdapi-in-ads.realmemobile.com^$important
+||ck.ads.oppomobile.com^$important
+||click-on-this-now.online^$important
+||click.googleanalytics.com^$important
+||click.oneplus.cn^$important
+||config.unityads.unity3d.com^$important
+||data.ads.oppomobile.com^$important
+||doubleclick.net^$important
+||events3alt.adcolony.com^$important
+||googleads.g.doubleclick.net^$important
+||googlesyndication.com^$important
+||iadsdk.apple.com^$important
+||imprezzer.com^$important
+||kickoffo.site^$important
+||lazybumblebee.com^$important
+||m.doubleclick.net^$important
+||magsrv.com^$important
+||mail-ads.google.com^$important
+||marketingcloudapis.com^$important
+||media.net^$important
+||mediavisor.doubleclick.net^$important
+||offerwall.yandex.net^$important
+||pagead2.googleadservices.com^$important
+||pagead2.googlesyndication.com^$important
+||partnerads.ysm.yahoo.com^$important
+||popawa.com^$important
+||samsungads.com^$important
+||sdkconfig.ad.intl.xiaomi.com^$important
+||sdkconfig.ad.xiaomi.com^$important
+||static.ads-twitter.com^$important
+||static.doubleclick.net^$important
+||static.media.net^$important
+||stats.g.doubleclick.net^$important
+||taboola.com^$important
+||wd.adcolony.com^$important
+||webview.unityads.unity3d.com^$important
 
 ! Cosmetic filters - Hides placeholders, adverts, banners, broken stubs, adblock nags, etc
 www.webqc.org##.center > div:nth-of-type(2)
