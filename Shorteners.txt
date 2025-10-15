@@ -1,8 +1,8 @@
 ! Title: Mateo's URL Shortener List
 ! Description: Removes various tracking parameters from URLs
 ! Expires: 14 Days
-! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Shortener.txt
-! Homepage: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
+! URL: https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/refs/heads/main/Shortener.txt
+! Homepage: https://github.com/Mateo-Grgic/Personal-Filterlists/tree/main
 
 ! remove paramaters and link trackers from URLs 
 $removeparam=ceneo_spo, cmpid
