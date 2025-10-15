@@ -4,4 +4,8 @@
 ! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Mateo's%20Unified%20uBlock%20Filterlist
 ! Homepage: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
 
-
+!#include Advertisements.txt
+!#include Hosts.txt
+!#include Personal-Cosmetic-Filterlist.txt
+!#include Trackers.txt
+!#include Shorteners.txt
