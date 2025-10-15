@@ -1,5 +1,26 @@
 ! Title: Mateo's Advertisement Blocklist
 ! Description: Blocks & Hides Ads, Ad Placeholders Across The Web - Updated sporadically as I encounter missed Ads. 
 ! Expires: 5 Days
-! URL: 
+! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Mateo's%20Advertisement%20Blocklist
 ! Homepage: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
+
+! Ad Serving Domains to Block
+
+
+! Cosmetic filters
+! Hides placeholders, adverts, banners, broken stubs, adblock nags, etc
+www.webqc.org##.center > div:nth-of-type(2)
+www.webqc.org##body > .noprint
+www.skechers.ca##.banner-interrumpter.px-lg-3.mb-lg-4.mb-md-1.mb-2.col-12
+www.skechers.com##.banner-interrumpter.px-lg-3.mb-lg-4.mb-md-1.mb-2.col-12
+www.aftonbladet.se##div.advertory-aftonbladet-panorama-wrapper__article:nth-of-type(8)
+www.aftonbladet.se##div.advertory-aftonbladet-panorama-wrapper__article
+www.eatyourbytes.com##div.eyb-amazon-3image
+www.wide-gamut.com###js-banner-eizo
+www.tampermonkey.net##.incontent.searcad > div
+www.seamonkey-project.org###side > div 
+apps.apple.com##.we-arcade-upsell
+mefmobile.org###rk-exit-modal-bg
+www.forbes.com##.red.ribbon
+fosspost.org##.fosspostthing
+fosspost.org##iframe.wp-embedded-content
