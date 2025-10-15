@@ -4,7 +4,7 @@
 ! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/privacy.txt
 ! Homepage: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
 
-!#include Advertisements.txt
-!#include Hosts.txt
-!#include Trackers.txt
-!#include Shorteners.txt
+!#include /filter-resources/Advertisements.txt
+!#include /filter-resources/Hosts.txt
+!#include /filter-resources/Trackers.txt
+!#include /filter-resources/Shorteners.txt
