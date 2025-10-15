@@ -4,11 +4,10 @@
 ! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Mateo's%20Advertisement%20Blocklist
 ! Homepage: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
 
-! Ad Serving Domains to Block
+! Ad Domains - Blocks domains that are used exclusively to serve ads, I try to avoid breakage
 
 
-! Cosmetic filters
-! Hides placeholders, adverts, banners, broken stubs, adblock nags, etc
+! Cosmetic filters - Hides placeholders, adverts, banners, broken stubs, adblock nags, etc
 www.webqc.org##.center > div:nth-of-type(2)
 www.webqc.org##body > .noprint
 www.skechers.ca##.banner-interrumpter.px-lg-3.mb-lg-4.mb-md-1.mb-2.col-12
