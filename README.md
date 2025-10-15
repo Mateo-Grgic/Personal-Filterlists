@@ -50,9 +50,9 @@ My personal filter lists for uBlock Origin, plus one hosts file for UNIX `/etc/h
 5. Click **Apply changes**
 
 **Raw URLs:**  
-https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Advertisements.txt
-https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Personal-Cosmetic-Filterlist.txt
-https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Shorteners.txt
-https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Trackers.txt
-https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Privacy.txt
-https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Unified.txt
+- Advertisements - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Advertisements.txt  
+- Personal Cosmetic Filterlists - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Personal-Cosmetic-Filterlist.txt
+- Shorteners - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Shorteners.txt
+- Trackers - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Trackers.txt
+- Privacy - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Privacy.txt
+- Unified - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Unified.txt
