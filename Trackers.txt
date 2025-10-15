@@ -1,7 +1,7 @@
 ! Title: Mateo's Tracker Block List
 ! Description: Blocks common trackers, popups, web annoyances, and more
 ! Expires: 3 Days
-! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Mateo's%20Misc%20Tracker%20Block%20List
+! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Trackers.txt
 ! Homepage: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
 
 ! https://www.reddit.com/r/firefox/comments/1digcp4/comment/l93oijg/
