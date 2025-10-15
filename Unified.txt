@@ -2,7 +2,7 @@
 ! Description: Incorporates all my filterlists & blocklists into one list 
 ! Expires: 12 hours
 ! URL: https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/refs/heads/main/Unified.txt
-! Homepage: https://github.com/Mateo-Grgic/Personal-Filterlists/tree/main
+! Homepage: https://github.com/Mateo-Grgic/Personal-Filterlists
 
 !#include Advertisements.txt
 !#include Hosts.txt
