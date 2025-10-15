@@ -4,8 +4,8 @@
 ! URL: https://raw.githubusercontent.com/Mateo-Grgic/personal-filter-lists/refs/heads/main/Unified.txt
 ! Homepage: https://github.com/Mateo-Grgic/personal-filter-lists/tree/main
 
-!#include /filter-resources/Advertisements.txt
-!#include /filter-resources/Hosts.txt
-!#include /filter-resources/Personal-Cosmetic-Filterlist.txt
-!#include /filter-resources/Trackers.txt
-!#include /filter-resources/Shorteners.txt
+!#include Advertisements.txt
+!#include Hosts.txt
+!#include Personal-Cosmetic-Filterlist.txt
+!#include Trackers.txt
+!#include Shorteners.txt
