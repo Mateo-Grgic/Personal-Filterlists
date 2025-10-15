@@ -2,7 +2,7 @@
 ! Description: Strict, strictly-cosmetic filterlist. Will break things - Don't use unless you know what this list contains & does.
 ! Expires: 12 hours
 ! URL: https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/refs/heads/main/Personal-Cosmetic-Filterlist.txt
-! Homepage: https://github.com/Mateo-Grgic/Personal-Filterlists/tree/main
+! Homepage: https://github.com/Mateo-Grgic/Personal-Filterlists
 
 ! Note: You need to add this filterlist to your 'trusted filterlists' in uBlock Origin or AdGuard for some of the reddit.com filters to work. 
 ! Caveat: However, as a rule of thumb, do not give random lists on the internet trusted status unless you thourougly trust the author, and know what the list does exactly.
