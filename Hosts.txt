@@ -136,7 +136,6 @@
 0.0.0.0 o2.mouseflow.com
 0.0.0.0 o3.ingest.sentry.io
 0.0.0.0 o4.ingest.sentry.io
-0.0.0.0 oauth.accounts.firefox.com
 0.0.0.0 onyx_tiles.stage.mozaws.net
 0.0.0.0 opensearch-live.mozillamessaging.com
 0.0.0.0 p3a.brave.com
