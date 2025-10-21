@@ -1,6 +1,12 @@
-@@clients1.google.com
-@@clients2.google.com
-@@clients3.google.com
-@@clients4.google.com
-@@clients5.google.com
-@@clients6.google.com
+! Title: Mateo's Unified uBlock Filterlist
+! Description: Whitelist to unbreak things
+! Expires: 12 hours
+! URL: https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/refs/heads/main/Unbreak.txt
+! Homepage: https://github.com/Mateo-Grgic/Personal-Filterlists
+
+@@clients1.google.com^$domain=google.com
+@@clients2.google.com^$domain=google.com
+@@clients3.google.com^$domain=google.com
+@@clients4.google.com^$domain=google.com
+@@clients5.google.com^$domain=google.com
+@@clients6.google.com^$domain=google.com
