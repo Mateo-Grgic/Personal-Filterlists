@@ -143,6 +143,7 @@ searx.org##.engines
 searx.org##.link_on_top_preferences
 
 ! discord visual annoyances filter list, these are probably out of date (I use GoofCord desktop, rarely browser)
+discord.com##.content_d125d2 > li.container_e45859.channel__972a0 > .linkButton__972a0.interactive__972a0.interactive_bf202d > .link__972a0
 discord.com##.scrollerBase_c49869.none_c49869.scroller_fea3ef > div.listItem_c96c45 > .listItemWrapper_dfb2f8
 discord.com##.footer_aa1bff > .listItem_c96c45 > .listItemWrapper_dfb2f8
 discord.com##.guildSeparator_d0c57e
