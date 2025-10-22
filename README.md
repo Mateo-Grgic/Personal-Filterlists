@@ -57,5 +57,5 @@ My personal filter lists for uBlock Origin, plus one hosts file for UNIX `/etc/h
 - Shorteners - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Shorteners.txt
 - Trackers - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Trackers.txt
 - Privacy - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Privacy.txt
-- Unbreak - ttps://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/refs/heads/main/Unbreak.txt
+- Unbreak - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/refs/heads/main/Unbreak.txt
 - Unified - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Unified.txt
