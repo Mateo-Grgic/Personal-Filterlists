@@ -31,6 +31,7 @@ My personal filter lists for uBlock Origin, plus one hosts file for UNIX `/etc/h
 | **Personal-Cosmetic-Filterlist.txt** | Hides 'annoying' UI elements on sites I visit (very aggressive and opinionated) | You want to see what I block cosmetically (not recommended for general use) |
 | **Shorteners.txt** | Bypasses URL shorteners and strips tracking parameters from URLs | You want cleaner URLs and fewer redirects |
 | **Trackers.txt** | Blocks common analytics, trackers, and telemetry | You want tracker blocking beyond default uBlock lists |
+| **Unbreak** | Unbreaks some websites; probably only needs to be used with my lists. | 
 
 ### Unified Lists
 
@@ -50,9 +51,11 @@ My personal filter lists for uBlock Origin, plus one hosts file for UNIX `/etc/h
 5. Click **Apply changes**
 
 **Raw URLs:**  
-- Advertisements - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Advertisements.txt  
+- Advertisements - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Advertisements.txt
+- Hosts - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/refs/heads/main/Hosts.txt
 - Personal Cosmetic Filterlists - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Personal-Cosmetic-Filterlist.txt
 - Shorteners - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Shorteners.txt
 - Trackers - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Trackers.txt
 - Privacy - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Privacy.txt
+- Unbreak - ttps://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/refs/heads/main/Unbreak.txt
 - Unified - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Unified.txt
