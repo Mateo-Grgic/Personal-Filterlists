@@ -88,6 +88,8 @@ kagi.com##.n_ma._0_query_link_item.nav_item
 kagi.com##.--gap-10.--flex.result-comments
 kagi.com##.__sri-rating-stars
 kagi.com##.gap-4.flex.result-comments
+kagi.com##._0_followup_questions.followup_questions
+kagi.com##._0_results_summary_link_to_IA.quick-answer-link-to-IA
 
 ! quick & dirty slight clean up of qwant, not great, needs improvement at a later date
 www.qwant.com##._2p-Ie._396aK.amHBC._23lip._2loWJ
