@@ -152,6 +152,8 @@ discord.com##.guildSeparator_d0c57e
 discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad > .linkButton_c91bad.interactive_c91bad.interactive_f5eb4b > .link_c91bad > .layout_ec8679.avatarWithText_c91bad
 discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad > .linkButton_c91bad.interactive_c91bad.interactive_f5eb4b > .link_c91bad
 discord.com##.content__99f8c > li.container_e45859.channel__972a0 > .linkButton__972a0.interactive__972a0.interactive_bf202d
+discord.com##div:nth-of-type(3) > .container_e45859.channel__972a0
+discord.com##.wrapper_ebee1d > .container_e45859.channel__972a0 > .linkButton__972a0.interactive__972a0.interactive_bf202d > .link__972a0
 
 ! amazon.ca visual annoyances filter list, used in conjuncture with a violentmonkey script that makes amazon look like a traditional search engine
 amazon.ca###nav-subnav
