@@ -1,4 +1,4 @@
-! Title: Mateo's Unified uBlock Filterlist
+! Title: Mateo's Whitelist to Unbreak
 ! Description: Whitelist to unbreak things
 ! Expires: 12 hours
 ! URL: https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/refs/heads/main/Unbreak.txt
