@@ -335,8 +335,13 @@ www.merriam-webster.com##.flex-nowrap.container-xxl.navbar
 www.merriam-webster.com##.g-0.col-12.col-md-3.col-lg-3.col-xl-3.right-rail.position-relative.fixed-wrapper
 www.merriam-webster.com##.header-placeholder
 
+! Hide grades in myblueprint.ca when on courses view
+app.myblueprint.ca##.bold.contrastSuccess
+
 ! removes some element or other
 github.com##div.react-code-size-details-in-header:nth-of-type(2)
+github.com##.global-banner--universe_25_3-visuals-container
+github.com##.text-medium.text-center.px-lg-8.px-md-5.px-4.global-banner--universe_25_3-style-duck.global-banner--universe_25_3.lh-condensed.position-relative.d-block.global-banner
 ! taken from dandelionSprout's 4k/5k website strecher list, which is then itself adapted from github-wide
 github.com##.file.js-code-editor.container-preview.show-code:style(height: 63vh !important; margin-bottom: 30px !important)
 github.com##.emoji-picker-tab:style(height: 700px !important)
