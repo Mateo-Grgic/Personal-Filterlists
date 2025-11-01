@@ -438,10 +438,6 @@ www.nytimes.com##.css-m5rkpj
 www.nytimes.com##.css-ui2i83 > ul
 www.nytimes.com##.css-1kj7lfb
 
-! block ad on top of page
-||www.techpowerup.com/reviyuu/b784/_d67893d3.png$image
-www.techpowerup.com##.gbreb
-
 ! remove the 'report ad' button on nitrotype, as well as the prompts to upgrade to nitro gold
 www.nitrotype.com##.ad--side.ad
 www.nitrotype.com##.link--bare.link.goldTeaser
