@@ -72,6 +72,8 @@
 ||webview.unityads.unity3d.com^$important
 
 ! Cosmetic filters - Hides placeholders, adverts, banners, broken stubs, adblock nags, etc
+||www.techpowerup.com/reviyuu/b784/_d67893d3.png$image
+www.techpowerup.com##.gbreb
 www.webqc.org##.center > div:nth-of-type(2)
 www.webqc.org##body > .noprint
 www.skechers.ca##.banner-interrumpter.px-lg-3.mb-lg-4.mb-md-1.mb-2.col-12
