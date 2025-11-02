@@ -190,6 +190,7 @@ $removeparam=__twitter_impression
 ||youtube.com$removepara=feature
 ||youtube.com$removepara=gclid
 ||youtube.com$removepara=kw
+||youtube.com$removepara=rco
 
 ! Excerpts from https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt
 ||fiverr.com^$removeparam=context_referrer
