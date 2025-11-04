@@ -9,9 +9,6 @@
 
 0.0.0.0 a.nel.cloudfare.com
 0.0.0.0 activations.cdn.mozilla.net
-0.0.0.0 activations.mozilla.com
-0.0.0.0 activations.mozilla.or
-0.0.0.0 activations.mozilla.org
 0.0.0.0 activity-stream-icons.services.mozilla.com
 0.0.0.0 ad.doubleclick.net
 0.0.0.0 ads.google.com
@@ -26,7 +23,6 @@
 0.0.0.0 analyticsengine.s3.amazonaws.com
 0.0.0.0 api-adservices.apple.com
 0.0.0.0 api-adservices.apple.com
-0.0.0.0 api.accounts.firefox.com
 0.0.0.0 api.ad.xiaomi.com
 0.0.0.0 api.bugsnag.com
 0.0.0.0 api.luckyorange.com
@@ -47,7 +43,6 @@
 0.0.0.0 cdn.cookielaw.org
 0.0.0.0 cdn.grainify.com
 0.0.0.0 cdn.luckyorange.com
-0.0.0.0 cdn.mozilla.net
 0.0.0.0 click-on-this-now.online
 0.0.0.0 click.googleanalytics.com
 0.0.0.0 clients1.google.com
@@ -57,17 +52,14 @@
 0.0.0.0 clients5.google.com
 0.0.0.0 clients6.google.com
 0.0.0.0 clientservices.googleapis.com
-0.0.0.0 code.cdn.mozilla.net
 0.0.0.0 content-signature.cdn.mozilla.net
 0.0.0.0 content.cdn.mozilla.net
 0.0.0.0 cookielaw.org
 0.0.0.0 crash-stats.mozilla.com
 0.0.0.0 crash-stats.mozilla.org
-0.0.0.0 data.mozilla.com
 0.0.0.0 dc.services.visualstudio.com
 0.0.0.0 de.malware-error.mozilla.com
 0.0.0.0 de.malware-report.mozilla.com
-0.0.0.0 firefox.settings.services.mozilla.com
 0.0.0.0 firefoxflicks.com
 0.0.0.0 freshmarketer.com
 0.0.0.0 ftp.mozilla.org
@@ -87,7 +79,6 @@
 0.0.0.0 img-getpocket.cdn.mozilla.net
 0.0.0.0 improving.duckduckgo.com
 0.0.0.0 incoming.telemetry.mozilla.org
-0.0.0.0 input.mozilla.org
 0.0.0.0 insights.hotjar.com
 0.0.0.0 intranet.mozilla.org
 0.0.0.0 ioncheck.prod.mozaws.net
@@ -105,9 +96,6 @@
 0.0.0.0 malware-report.mozilla.com
 0.0.0.0 mana.mozilla.org
 0.0.0.0 marketingcloudapis.com
-0.0.0.0 marketplace.firefox.com
-0.0.0.0 mdn.mozilla.net
-0.0.0.0 mdn.mozillademos.org
 0.0.0.0 media.fastclick.net
 0.0.0.0 media.net
 0.0.0.0 mediavisor.doubleclick.net
@@ -115,7 +103,6 @@
 0.0.0.0 metrics.data.hicloud.com
 0.0.0.0 mobile.events.data.microsoft.com
 0.0.0.0 mouseflow.com
-0.0.0.0 mozaws.net
 0.0.0.0 mozilla.dorando.at
 0.0.0.0 news-cdn.site
 0.0.0.0 normandy-admin-bearer.dev.mozaws.net
@@ -180,24 +167,18 @@
 0.0.0.0 search.r53-2.services.mozilla.com
 0.0.0.0 search.services.mozilla.com
 0.0.0.0 self-repair.mozilla.org
-0.0.0.0 services.mozilla.com
 0.0.0.0 services.nofraud.com
 0.0.0.0 sessions.bugsnag.com
-0.0.0.0 setup.services.mozilla.com
 0.0.0.0 shavar.developer-services.mozilla.com
 0.0.0.0 shavar.services.mozilla.com
-0.0.0.0 snippets.cdn.mozilla.net
-0.0.0.0 snippets.mozilla.com
 0.0.0.0 soft-start.loop.services.mozilla.com
 0.0.0.0 static.doubleclick.net
-0.0.0.0 static.mozilla.com
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 stats.wp.com
 0.0.0.0 stun.services.mozilla.com
 0.0.0.0 support.live.mozillamessaging.com
 0.0.0.0 support.mozillamessaging.com
 0.0.0.0 surveys.hotjar.com
-0.0.0.0 symbols.mozilla.org
 0.0.0.0 taboola.com
 0.0.0.0 telemetry-experiment.cdn.mozilla.net
 0.0.0.0 telemetry.mozilla.org
@@ -226,5 +207,4 @@
 0.0.0.0 www.caramail.com
 0.0.0.0 www.firefoxflicks.com
 0.0.0.0 www.google-analytics.com
-0.0.0.0 www.mozilla.com
 0.0.0.0 www.mozilla.org.cdn.cloudflare.net
