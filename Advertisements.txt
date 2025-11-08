@@ -92,3 +92,6 @@ fosspost.org##iframe.wp-embedded-content
 www.nationstates.net##.adidentifier
 www.nationstates.net##.adremover
 www.nationstates.net###paneladbox
+www.nationstates.net##[href="https://maxbarry.com/"]
+www.nationstates.net###createdby
+
