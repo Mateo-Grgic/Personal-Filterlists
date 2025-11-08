@@ -94,4 +94,14 @@ www.nationstates.net##.adremover
 www.nationstates.net###paneladbox
 www.nationstates.net##[href="https://maxbarry.com/"]
 www.nationstates.net###createdby
+www.tomshardware.com##div.hawk-root
+www.tomshardware.com##.border-neutral-300.border-y.border-solid.mb-4.pb-4.pt-3.clear-both
+www.tomshardware.com##.see-more--clipped.see-more
+www.instapaper.com##.js_galog.open_modal.instapaper_premium
+mail.proton.me##.gap-2.button-promotion--full-gradient.button-promotion--icon-gradient.items-center.flex.max-w-full.text-center.inline-block.button-outline-weak.button-medium.button
+mail.proton.me##.topnav-list--four-elements.empty\:hidden.items-center.flex-nowrap.flex.gap-1.ml-2.my-0.unstyled.topnav-list > div
+www.nitrotype.com##.ad--side.ad
+www.nitrotype.com##.link--bare.link.goldTeaser
+www.nitrotype.com##.structure-spacer-left
+www.nitrotype.com##.ad--container--side.structure-leaderboard
 
