@@ -438,21 +438,11 @@ www.nytimes.com##.css-m5rkpj
 www.nytimes.com##.css-ui2i83 > ul
 www.nytimes.com##.css-1kj7lfb
 
-! remove the 'report ad' button on nitrotype, as well as the prompts to upgrade to nitro gold
-www.nitrotype.com##.ad--side.ad
-www.nitrotype.com##.link--bare.link.goldTeaser
-www.nitrotype.com##.structure-spacer-left
-www.nitrotype.com##.ad--container--side.structure-leaderboard
-
 ! removes something, i forgot what it does. i'd guess removes something annoying ¯\_(ツ)_/¯
 www.canyon.com##.js-accordionToggle.serviceSnapIn__trigger
 
 ! remove pinarello newsletter overlay modal thing
 pinarello.com###nl-pop
-
-! blocks some annoying ui elements in proton mail
-mail.proton.me##.gap-2.button-promotion--full-gradient.button-promotion--icon-gradient.items-center.flex.max-w-full.text-center.inline-block.button-outline-weak.button-medium.button
-mail.proton.me##.topnav-list--four-elements.empty\:hidden.items-center.flex-nowrap.flex.gap-1.ml-2.my-0.unstyled.topnav-list > div
 
 ! blocks log-in dialouge box overlay
 www.pinterest.com##.zI7.p6V.ojN._he.ZZS.Rym.QLY
@@ -491,11 +481,5 @@ docs.google.com##.gb_y
 *anubis/static/img/reject.webp$image
 *anubis/static/img/happy.webp$image
 
-! remove sponsored, 'you may like', social media, etc from tom's hardware
-www.tomshardware.com##div.hawk-root
-www.tomshardware.com##.border-neutral-300.border-y.border-solid.mb-4.pb-4.pt-3.clear-both
-www.tomshardware.com##.see-more--clipped.see-more
 
-! Remove premium nags for instapaper
-www.instapaper.com##.js_galog.open_modal.instapaper_premium
 
