@@ -89,3 +89,6 @@ mefmobile.org###rk-exit-modal-bg
 www.forbes.com##.red.ribbon
 fosspost.org##.fosspostthing
 fosspost.org##iframe.wp-embedded-content
+www.nationstates.net##.adidentifier
+www.nationstates.net##.adremover
+www.nationstates.net###paneladbox
