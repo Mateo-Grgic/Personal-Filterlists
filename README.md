@@ -37,7 +37,7 @@ My personal filter lists for uBlock Origin, plus one hosts file for UNIX `/etc/h
 
 | List | Contains | Use This If... |
 |------|----------|----------------|
-| **Privacy.txt** | Advertisements + Hosts + Shorteners + Trackers | You want all my blocking lists without cosmetic filters |
+| **Privacy.txt** | Advertisements + Hosts + Shorteners + Trackers + Unbreak | You want all my blocking lists without cosmetic filters |
 | **Unified.txt** | Everything (all individual lists above) | You want my complete filter setup (includes aggressive cosmetic filters) |
 
 ## Installation
