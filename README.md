@@ -17,8 +17,7 @@ My personal filter lists for uBlock Origin, plus one hosts file for UNIX `/etc/h
 - You want "set it and forget it" blocking
 - You need maximum site compatibility
 - You're new to custom filter lists
-- You're just adding tonnes of lists without thinking much about each
-
+- You're just adding tonnes of lists without thinking much about each  
 
 ## What's Included
 
@@ -40,17 +39,7 @@ My personal filter lists for uBlock Origin, plus one hosts file for UNIX `/etc/h
 | **Privacy.txt** | Advertisements + Hosts + Shorteners + Trackers + Unbreak | You want all my blocking lists without cosmetic filters |
 | **Unified.txt** | Everything (all individual lists above) | You want my complete filter setup (includes aggressive cosmetic filters) |
 
-## Installation
-
-### For uBlock Origin Lists
-
-1. Open uBlock Origin dashboard
-2. Go to **Filter lists** tab
-3. Scroll to **Import** section at bottom
-4. Paste the raw GitHub URL for the list you want
-5. Click **Apply changes**
-
-**Raw URLs:**  
+## Raw URLs
 - Advertisements - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Advertisements.txt
 - Hosts - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/refs/heads/main/Hosts.txt
 - Personal Cosmetic Filterlists - https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/main/Personal-Cosmetic-Filterlist.txt
