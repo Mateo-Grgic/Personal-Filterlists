@@ -288,6 +288,7 @@ www.reddit.com##.prompt, .bg-scrim, .overlay, .viewInApp, #blocking-modal, #nsfw
 www.reddit.com##body:style(pointer-events: auto !important; overflow: auto !important;)
 reddit.com##body > div
 reddit.com##.w-\[448px\].box-border 
+www.reddit.com##reddit-recent-pages
 
 ! make darkreader.org less ugly
 darkreader.org##darkreader-mobile-side
