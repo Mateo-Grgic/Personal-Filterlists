@@ -10,3 +10,4 @@
 @@clients4.google.com^$domain=google.com
 @@clients5.google.com^$domain=google.com
 @@clients6.google.com^$domain=google.com
+perplexity.ai##+js(set,navigator.sendBeacon,trueFunc) 
