@@ -94,6 +94,7 @@ www.nationstates.net##.adremover
 www.nationstates.net###paneladbox
 www.nationstates.net##[href="https://maxbarry.com/"]
 www.nationstates.net###createdby
+www.nationstates.net###dilemmasadboxinner
 www.tomshardware.com##div.hawk-root
 www.tomshardware.com##.border-neutral-300.border-y.border-solid.mb-4.pb-4.pt-3.clear-both
 www.tomshardware.com##.see-more--clipped.see-more
