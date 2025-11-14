@@ -484,5 +484,8 @@ docs.google.com##.gb_y
 *anubis/static/img/reject.webp$image
 *anubis/static/img/happy.webp$image
 
+! hide canva login propmt overlay
+www.canva.com##.AD_uww.FijAlA.Ue5QFA._2Cfibw
+
 
 
