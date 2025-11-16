@@ -45,12 +45,6 @@
 0.0.0.0 cdn.luckyorange.com
 0.0.0.0 click-on-this-now.online
 0.0.0.0 click.googleanalytics.com
-0.0.0.0 clients1.google.com
-0.0.0.0 clients2.google.com
-0.0.0.0 clients3.google.com
-0.0.0.0 clients4.google.com
-0.0.0.0 clients5.google.com
-0.0.0.0 clients6.google.com
 0.0.0.0 clientservices.googleapis.com
 0.0.0.0 content-signature.cdn.mozilla.net
 0.0.0.0 content.cdn.mozilla.net
