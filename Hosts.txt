@@ -45,7 +45,6 @@
 0.0.0.0 cdn.luckyorange.com
 0.0.0.0 click-on-this-now.online
 0.0.0.0 click.googleanalytics.com
-0.0.0.0 clientservices.googleapis.com
 0.0.0.0 content-signature.cdn.mozilla.net
 0.0.0.0 content.cdn.mozilla.net
 0.0.0.0 cookielaw.org
