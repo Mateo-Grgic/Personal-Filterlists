@@ -90,6 +90,9 @@ kagi.com##.__sri-rating-stars
 kagi.com##.gap-4.flex.result-comments
 kagi.com##._0_followup_questions.followup_questions
 kagi.com##._0_results_summary_link_to_IA.quick-answer-link-to-IA
+kagi.com##.mt-9._0_qa_followups_box
+kagi.com###_0_qa_query
+kagi.com##.relative.align-center.flex.qa-form
 
 ! quick & dirty slight clean up of qwant, not great, needs improvement at a later date
 www.qwant.com##._2p-Ie._396aK.amHBC._23lip._2loWJ
@@ -481,5 +484,6 @@ docs.google.com##.gb_y
 ! hide canva login propmt overlay
 www.canva.com##.AD_uww.FijAlA.Ue5QFA._2Cfibw
 
-
+! Remove floating video player that is so annoying
+www.investopedia.com##.mntl-block.article__primary-video-container--jw.comp
 
