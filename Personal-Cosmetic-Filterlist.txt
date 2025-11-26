@@ -75,6 +75,7 @@ start.duckduckgo.com##section.sideMenu_section__qPsAX:nth-of-type(5)
 
 ! clean up the apperance of kagi, one of the nicer looking websites by default
 ! kagi.com##footer
+! kagi.com##.top-panel-box.app-content-box
 kagi.com##.false.new-tooltip.trigger
 kagi.com##a.n_ne._0_query_link_item.nav_item:nth-of-type(5)
 kagi.com##a.n_ne._0_query_link_item.nav_item:nth-of-type(4)
@@ -158,6 +159,7 @@ discord.com##.content__99f8c > li.container_e45859.channel__972a0 > .linkButton_
 discord.com##div:nth-of-type(3) > .container_e45859.channel__972a0
 discord.com##.wrapper_ebee1d > .container_e45859.channel__972a0 > .linkButton__972a0.interactive__972a0.interactive_bf202d > .link__972a0
 discord.com##.colorPremium__6e2b9.colorPremiumTier2__6e2b9.notice__6e2b9
+discord.com##.wrapper__553bf
 
 ! amazon.ca visual annoyances filter list, used in conjuncture with a violentmonkey script that makes amazon look like a traditional search engine
 amazon.ca###nav-subnav
