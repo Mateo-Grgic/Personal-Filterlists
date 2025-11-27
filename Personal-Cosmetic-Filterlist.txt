@@ -489,3 +489,15 @@ www.canva.com##.AD_uww.FijAlA.Ue5QFA._2Cfibw
 ! Remove floating video player that is so annoying
 www.investopedia.com##.mntl-block.article__primary-video-container--jw.comp
 
+! Tidy up the rampant ads & crap from the weather network site
+www.theweathernetwork.com##.czwTAn.sc-ddde7d21-1
+www.theweathernetwork.com##.eSLAjj.sc-lpYOg
+www.theweathernetwork.com##.hJsfVh.sc-lpYOg
+www.theweathernetwork.com###other-locations > div > .jgeahg.sc-jnOGJG
+www.theweathernetwork.com##.eInZSs.sc-lpYOg
+www.theweathernetwork.com##.cBbEeQ.kDqhso.sc-dZxRDy.sc-lpYOg
+www.theweathernetwork.com###seven-day-forecast
+www.theweathernetwork.com##.HxdkO.sc-lpYOg
+www.theweathernetwork.com##.isoIva.dzvDQE.sc-ghzrUh.sc-lpYOg
+www.theweathernetwork.com##.bLNLLN.sc-dIHSXr
+
