@@ -478,6 +478,9 @@ support.google.com##.helpPanelContainerRoot:has-text(Help guide)
 docs.google.com###docs-sidekick-gen-ai-promo-button-container
 docs.google.com##.gb_y
 
+! Hide a few annoying elements in the gemini web ui
+gemini.google.com##.hide-from-message-actions.show-header.tool-attribution
+
 ! hide the silly anubis anti-AI-crawlers catgirl mascot found on certain linux-related webpages i visit
 *anubis/static/img/pensive.webp$image
 *anubis/static/img/reject.webp$image
@@ -501,3 +504,5 @@ www.theweathernetwork.com##.HxdkO.sc-lpYOg
 www.theweathernetwork.com##.isoIva.dzvDQE.sc-ghzrUh.sc-lpYOg
 www.theweathernetwork.com##.bLNLLN.sc-dIHSXr
 
+! hide a few things from my prefered redlib instance
+redlib.cow.rip###links
