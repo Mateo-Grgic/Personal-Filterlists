@@ -506,3 +506,19 @@ www.theweathernetwork.com##.bLNLLN.sc-dIHSXr
 
 ! hide a few things from my prefered redlib instance
 redlib.cow.rip###links
+
+! Remove all the AI upsells and visual noise
+hemingwayapp.com##.flex-grow.flex-col.flex.mt-14
+hemingwayapp.com##.text-sm.dark\:text-sky-200.text-sky-800.dark\:bg-sky-800.bg-sky-200.py-\[0\.5em\].items-center.justify-around.flex-row.w-full.z-\[100\].top-0.fixed.md\:flex.hidden
+hemingwayapp.com##.space-x-2.flex-row.flex > .space-y-2
+hemingwayapp.com##.dark\:bg-lime-800.bg-lime-200.p-2.rounded.group
+hemingwayapp.com##.shadow.rounded.dark\:border-slate-500.border-gray-200.border.dark\:to-slate-700.to-slate-100.dark\:from-slate-600.from-slate-50.bg-gradient-to-br.font-inter.space-x-2.items-center.flex-row.flex.py-1.px-2 > a[href="/hemingway-editor-plus"]
+hemingwayapp.com##div.h-full.dark\:border-slate-500.border-gray-200.border-l:nth-of-type(2)
+hemingwayapp.com##div.h-full.dark\:border-slate-500.border-gray-200.border-l:nth-of-type(1)
+hemingwayapp.com##.space-x-4.items-center.justify-between.flex-row.flex > .hover\:dark\:text-fuchsia-300.hover\:text-fuchsia-700.border.dark\:text-slate-300.text-gray-700.dark\:hover\:bg-gray-900.hover\:bg-gray-200.hover\:dark\:border-gray-300.hover\:border-gray-500.dark\:border-gray-400.border-gray-600.hover\:dark\:text-gray-100.hover\:text-gray-700.dark\:text-gray-200.text-gray-800.cursor-pointer.shadow.rounded.flex.text-sm.py-1.px-2.whitespace-nowrap.focus\:dark\:ring-slate-600.focus\:ring-slate-500.focus\:ring-offset-2.focus\:ring-2.focus\:outline-none.items-center.flex-row
+hemingwayapp.com##div.dark\:text-slate-400.text-gray-600.rounded-sm.py-1.px-2.hover\:underline.cursor-pointer.text-sm:nth-of-type(3)
+hemingwayapp.com##.text-right.mt-4.dark\:text-slate-500.text-gray-400.text-xs
+hemingwayapp.com##.mx-auto.lg\:block.hidden.hover\:dark\:text-fuchsia-300.hover\:text-fuchsia-700.border.dark\:text-slate-300.text-gray-700.dark\:hover\:bg-gray-900.hover\:bg-gray-200.hover\:dark\:border-gray-300.hover\:border-gray-500.dark\:border-gray-400.border-gray-600.hover\:dark\:text-gray-100.hover\:text-gray-700.dark\:text-gray-200.text-gray-800.cursor-pointer.shadow.rounded.flex.text-sm.py-1.px-2.whitespace-nowrap.focus\:dark\:ring-slate-600.focus\:ring-slate-500.focus\:ring-offset-2.focus\:ring-2.focus\:outline-none.items-center.flex-row
+hemingwayapp.com##.hover\:dark\:border-fuchsia-300.hover\:border-fuchsia-700.dark\:border-slate-500.border-gray-200.dark\:to-slate-700.to-slate-100.dark\:from-slate-600.from-slate-50.bg-gradient-to-br.hover\:dark\:text-fuchsia-300.hover\:text-fuchsia-700.border.dark\:text-slate-300.text-gray-700.cursor-pointer.shadow.rounded.flex.text-sm.py-1.px-2.whitespace-nowrap.focus\:dark\:ring-slate-600.focus\:ring-slate-500.focus\:ring-offset-2.focus\:ring-2.focus\:outline-none.items-center.flex-row
+
+
