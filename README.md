@@ -30,7 +30,7 @@ My personal filter lists for uBlock Origin, plus one hosts file for UNIX `/etc/h
 | **Personal-Cosmetic-Filterlist.txt** | Hides 'annoying' UI elements on sites I visit (very aggressive and opinionated) | You want to see what I block cosmetically (not recommended for general use) |
 | **Shorteners.txt** | Bypasses URL shorteners and strips tracking parameters from URLs | You want cleaner URLs and fewer redirects |
 | **Trackers.txt** | Blocks common analytics, trackers, and telemetry | You want tracker blocking beyond default uBlock lists |
-| **Unbreak** | Unbreaks some websites; probably only needs to be used with my lists. | 
+| **Unbreak** | Unbreaks some websites & website features | You probably only need this if you're using my unified/privacy lists | 
 
 ### Unified Lists
 
