@@ -506,6 +506,7 @@ www.theweathernetwork.com##.bLNLLN.sc-dIHSXr
 
 ! hide a few things from my prefered redlib instance
 redlib.cow.rip###links
+redlib.perennialte.ch###links
 
 ! Remove all the AI upsells and visual noise
 hemingwayapp.com##.flex-grow.flex-col.flex.mt-14
