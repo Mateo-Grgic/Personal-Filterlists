@@ -1,5 +1,7 @@
 # My Hosts List: https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/refs/heads/main/Hosts.txt
 
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
 0.0.0.0 a.nel.cloudfare.com
 0.0.0.0 activations.cdn.mozilla.net
 0.0.0.0 activity-stream-icons.services.mozilla.com
