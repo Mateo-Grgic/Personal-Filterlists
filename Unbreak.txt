@@ -1,8 +1,8 @@
 ! Title: Mateo's Whitelist to Unbreak
 ! Description: Whitelist to unbreak things
 ! Expires: 12 hours
-! URL: https://raw.githubusercontent.com/matey0o/Personal-Filterlists/refs/heads/main/Unbreak.txt
-! Homepage: https://github.com/matey0o/Personal-Filterlists
+! URL: https://raw.githubusercontent.com/matey-0/Personal-Filterlists/refs/heads/main/Unbreak.txt
+! Homepage: https://github.com/matey-0/Personal-Filterlists
 
 @@clients1.google.com^$domain=google.com
 @@clients2.google.com^$domain=google.com
