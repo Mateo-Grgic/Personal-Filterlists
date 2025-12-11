@@ -2,7 +2,7 @@
 ! Description: Blocks & Hides Ads, Ad Placeholders Across The Web - Updated sporadically as I encounter missed Ads
 ! Expires: 5 Days
 ! URL: https://raw.githubusercontent.com/Mateo-Grgic/Personal-Filterlists/refs/heads/main/Advertisements.txt
-! Homepage: https://github.com/Mateo-Grgic/Personal-Filterlists
+! Homepage: https://github.com/meojg/Personal-Filterlists
 
 ! Ad Domains - Blocks domains that are used exclusively to serve ads
 ||ad.doubleclick.net^$important
