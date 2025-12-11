@@ -1,4 +1,4 @@
-# My Hosts List: https://raw.githubusercontent.com/meojg/Personal-Filterlists/refs/heads/main/Hosts.txt
+# My Hosts List: https://raw.githubusercontent.com/matey0o/Personal-Filterlists/refs/heads/main/Hosts.txt
 
 127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
 ::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
