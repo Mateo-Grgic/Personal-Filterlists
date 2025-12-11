@@ -38,13 +38,3 @@ My personal filter lists for uBlock Origin, plus one hosts file for UNIX `/etc/h
 |------|----------|----------------|
 | **Privacy.txt** | Advertisements + Hosts + Shorteners + Trackers + Unbreak | You want all my blocking lists without cosmetic filters |
 | **Unified.txt** | Everything (all individual lists above) | You want my complete filter setup (includes aggressive cosmetic filters) |
-
-## Raw URLs
-- Advertisements - https://raw.githubusercontent.com/meojg/Personal-Filterlists/main/Advertisements.txt
-- Hosts - https://raw.githubusercontent.com/meojg/Personal-Filterlists/refs/heads/main/Hosts.txt
-- Personal Cosmetic Filterlists - https://raw.githubusercontent.com/meojg/Personal-Filterlists/main/Personal-Cosmetic-Filterlist.txt
-- Shorteners - https://raw.githubusercontent.com/meojg/Personal-Filterlists/main/Shorteners.txt
-- Trackers - https://raw.githubusercontent.com/meojg/Personal-Filterlists/main/Trackers.txt
-- Privacy - https://raw.githubusercontent.com/meojg/Personal-Filterlists/main/Privacy.txt
-- Unbreak - https://raw.githubusercontent.com/meojg/Personal-Filterlists/refs/heads/main/Unbreak.txt
-- Unified - https://raw.githubusercontent.com/meojg/Personal-Filterlists/main/Unified.txt
