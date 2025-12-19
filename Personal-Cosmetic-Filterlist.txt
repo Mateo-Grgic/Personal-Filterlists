@@ -235,6 +235,7 @@ youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-items-per-row: 3
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_grid, false)
 www.youtube.com##.ytp-chrome-top-buttons > .ytp-button.ytp-watch-later-button > .ytp-watch-later-icon
 www.youtube.com##.ytp-share-button-visible.ytp-share-button.ytp-button > .ytp-share-icon
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(5)
 !
 ! my filters that remove crap from mobile youtube (shorts, games, etc)
 m.youtube.com##.rich-grid-sticky-header.rich-grid-renderer-header
