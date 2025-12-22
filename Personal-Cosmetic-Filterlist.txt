@@ -99,6 +99,8 @@ kagi.com##.mt-9._0_qa_followups_box
 kagi.com###_0_qa_query
 kagi.com##.relative.align-center.flex.qa-form
 kagi.com##.n_vi._0_query_link_item.nav_item
+kagi.com##.wid_stocks_news_w
+kagi.com##div.wid_stocks_link_ext_w:nth-of-type(7)
 
 ! quick & dirty slight clean up of qwant, not great, needs improvement at a later date
 www.qwant.com##._2p-Ie._396aK.amHBC._23lip._2loWJ
